@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.engine/
+test-results/
+playwright-report/

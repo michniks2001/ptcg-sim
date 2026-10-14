@@ -1,0 +1,103 @@
+--- a/src/game/store/state/rules.ts
++++ b/src/game/store/state/rules.ts
+@@ -5,6 +5,9 @@
+   public unlimitedRetreat = false;
+ 
+   public historicalConfusion = false;
++
++  // Ask for each paid retreat and validate Energy in the chosen discard order.
++  public historicalRetreatPayment = false;
+ 
+   public mulliganDrawMultiplier = 1;
+ 
+--- a/src/game/store/effect-reducers/retreat-effect.ts
++++ b/src/game/store/effect-reducers/retreat-effect.ts
+@@ -118,13 +118,13 @@
+       throw new GameError(GameMessage.NOT_ENOUGH_ENERGY);
+     }
+ 
+-    if (StateUtils.checkExactEnergy(checkProvidedEnergy.energyMap, checkRetreatCost.cost)) {
++    if (!state.rules.historicalRetreatPayment && StateUtils.checkExactEnergy(checkProvidedEnergy.energyMap, checkRetreatCost.cost)) {
+       const cards = flatMap(checkProvidedEnergy.energyMap, e => Array.from({ length: StateUtils.getProvidesUnitCount(e.provides) }, () => e.card));
+       player.active.moveCardsTo(cards, player.discard);
+       return promptBenchAndRetreat(store, state, player);
+     }
+ 
+-    if (StateUtils.allEnergyProvidesIdentical(checkProvidedEnergy.energyMap)) {
++    if (!state.rules.historicalRetreatPayment && StateUtils.allEnergyProvidesIdentical(checkProvidedEnergy.energyMap)) {
+       const selection = StateUtils.selectMinimalEnergyForCost(
+         checkProvidedEnergy.energyMap, checkRetreatCost.cost
+       );
+@@ -139,7 +139,8 @@
+       player.id,
+       GameMessage.CHOOSE_ENERGY_TO_PAY_RETREAT_COST,
+       checkProvidedEnergy.energyMap,
+-      checkRetreatCost.cost
++      checkRetreatCost.cost,
++      { payInOrder: state.rules.historicalRetreatPayment }
+     ), energy => {
+       if (energy === null) {
+         return;
+@@ -186,7 +187,7 @@
+     }
+ 
+     // If the player has the exact energy cost, automatically discard the energy and retreat
+-    if (StateUtils.checkExactEnergy(checkProvidedEnergy.energyMap, checkRetreatCost.cost)) {
++    if (!state.rules.historicalRetreatPayment && StateUtils.checkExactEnergy(checkProvidedEnergy.energyMap, checkRetreatCost.cost)) {
+       const cards = flatMap(checkProvidedEnergy.energyMap, e => Array.from({ length: StateUtils.getProvidesUnitCount(e.provides) }, () => e.card));
+       player.active.moveCardsTo(cards, effect.moveRetreatCostTo);
+       retreatPokemon(store, state, effect);
+@@ -194,7 +195,7 @@
+     }
+ 
+     // If all attached energy is identical, no meaningful choice - auto-select minimal and retreat
+-    if (StateUtils.allEnergyProvidesIdentical(checkProvidedEnergy.energyMap)) {
++    if (!state.rules.historicalRetreatPayment && StateUtils.allEnergyProvidesIdentical(checkProvidedEnergy.energyMap)) {
+       const selection = StateUtils.selectMinimalEnergyForCost(
+         checkProvidedEnergy.energyMap, checkRetreatCost.cost
+       );
+@@ -210,7 +211,8 @@
+       player.id,
+       GameMessage.CHOOSE_ENERGY_TO_PAY_RETREAT_COST,
+       checkProvidedEnergy.energyMap,
+-      checkRetreatCost.cost
++      checkRetreatCost.cost,
++      { payInOrder: state.rules.historicalRetreatPayment }
+     ), energy => {
+       if (energy === null) {
+         return; // operation cancelled
+--- a/src/game/store/prompts/choose-energy-prompt.ts
++++ b/src/game/store/prompts/choose-energy-prompt.ts
+@@ -8,6 +8,7 @@
+ 
+ export interface ChooseEnergyOptions {
+   allowCancel: boolean;
++  payInOrder: boolean;
+ }
+ 
+ export type EnergyMap = { card: Card, provides: CardType[] }
+@@ -29,7 +30,8 @@
+ 
+     // Default options
+     this.options = Object.assign({}, {
+-      allowCancel: true
++      allowCancel: true,
++      payInOrder: false
+     }, options);
+ 
+     if (this.options.allowCancel === false) {
+@@ -48,6 +50,14 @@
+   public validate(result: EnergyMap[] | null): boolean {
+     if (result === null) {
+       return this.options.allowCancel;
++    }
++    if (this.options.payInOrder) {
++      // Historical retreat: discard in the chosen order, stopping as soon as
++      // the cost is met. The final whole card may supply excess Energy.
++      if (this.cost.length === 0) return result.length === 0;
++      if (new Set(result.map(entry => entry.card)).size !== result.length) return false;
++      return StateUtils.checkEnoughEnergy(result, this.cost)
++        && !StateUtils.checkEnoughEnergy(result.slice(0, -1), this.cost);
+     }
+     if (!StateUtils.checkExactEnergy(result, this.cost)) {
+       return false;

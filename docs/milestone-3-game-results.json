@@ -1,0 +1,58 @@
+[
+  {
+    "seed": 19,
+    "deck": "Ember · Beginner",
+    "turns": 16,
+    "decisions": 65,
+    "winner": 1
+  },
+  {
+    "seed": 73,
+    "deck": "Ember · Beginner",
+    "turns": 1,
+    "decisions": 8,
+    "winner": 1
+  },
+  {
+    "seed": 20,
+    "deck": "Haymaker",
+    "turns": 47,
+    "decisions": 157,
+    "winner": 1
+  },
+  {
+    "seed": 74,
+    "deck": "Haymaker",
+    "turns": 14,
+    "decisions": 56,
+    "winner": 1
+  },
+  {
+    "seed": 21,
+    "deck": "Rain Dance · Blastoise",
+    "turns": 7,
+    "decisions": 34,
+    "winner": 1
+  },
+  {
+    "seed": 75,
+    "deck": "Rain Dance · Blastoise",
+    "turns": 23,
+    "decisions": 72,
+    "winner": 1
+  },
+  {
+    "seed": 22,
+    "deck": "Wigglytuff · Do the Wave",
+    "turns": 43,
+    "decisions": 166,
+    "winner": 0
+  },
+  {
+    "seed": 76,
+    "deck": "Wigglytuff · Do the Wave",
+    "turns": 44,
+    "decisions": 169,
+    "winner": 0
+  }
+]

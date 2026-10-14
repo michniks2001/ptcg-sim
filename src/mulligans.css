@@ -1,0 +1,24 @@
+/* Setup-only presentation; the finalized playmat styles remain unchanged. */
+.mulligan-hands h3 { margin:0 0 6px; font-size:16px; color:var(--gold); }
+.mulligan-hands > section + section { margin-top:24px; padding-top:20px; border-top:1px solid var(--line); }
+.mulligan-hands .muted { font-size:12px; line-height:1.5; }
+.mulligan-hand { margin-top:18px; }
+.mulligan-hand h4 { margin:0 0 8px; font-size:13px; font-weight:500; }
+.mulligan-cards { display:flex; gap:9px; overflow-x:auto; padding:4px 3px 8px; overscroll-behavior:contain; }
+.mulligan-cards .card { flex:0 0 94px; width:94px; height:129px; border-radius:5px; }
+.mulligan-draw { width:100%; min-width:0; }
+.mulligan-draw > p { margin:0 0 12px; font-size:13px; line-height:1.5; }
+.mulligan-draw-controls { display:flex; align-items:center; flex-wrap:wrap; gap:12px; }
+.mulligan-draw-controls label { font-size:13px; }
+.mulligan-quantity { display:flex; align-items:center; gap:6px; }
+.mulligan-quantity button { width:40px; height:40px; padding:0; font-size:20px; }
+.mulligan-quantity select { width:64px; height:40px; padding:5px; font:inherit; text-align:center; color:var(--gold); background:#15281e; border:1px solid var(--line); border-radius:5px; }
+.mulligan-draw-controls > .primary { margin-left:auto; min-height:44px; }
+.mulligan-inspection { max-width:320px; margin:auto; }
+.mulligan-log button { margin-top:8px; font-size:12px; }
+@media(max-width:600px) {
+  .mulligan-cards .card { flex-basis:78px; width:78px; height:107px; }
+  .mulligan-draw-controls { gap:8px; }
+  .mulligan-draw-controls label { flex:1; }
+  .mulligan-draw-controls > .primary { width:100%; margin-left:0; }
+}

@@ -1,0 +1,2 @@
+import { defineConfig } from '@playwright/test';
+export default defineConfig({ testDir: './tests/browser', timeout: 240000, use: { baseURL: 'http://127.0.0.1:5174', viewport: { width: 1440, height: 1000 }, trace: 'retain-on-failure', screenshot: 'only-on-failure' }, workers: 1, webServer: { command: 'npm run engine:build && concurrently -k "tsx tests/browser/fixture-server.ts" "TABLE_TEST_SERVER=http://127.0.0.1:3002 vite --host 127.0.0.1 --port 5174"', url: 'http://127.0.0.1:5174', reuseExistingServer: false, timeout: 30000 } });

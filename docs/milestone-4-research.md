@@ -1,0 +1,63 @@
+# Milestone 4 architecture review
+
+**Latest layout:** the physical-table correction supersedes the later side-by-side experiment described in this history. See [milestone-4-layout-correction.md](milestone-4-layout-correction.md) for the final centered layout, geometry tests and screenshots. The authoritative gameplay architecture below is unchanged.
+
+## Baseline and boundaries
+
+Reviewed README, original research, Milestone 3 research/testing, PATCHES, Match/actions/prompts/views/socket, protocol, tabletop/Card/dialogs/CSS, browser fixtures and integration tests before implementation. No AGENTS.md applies. This workspace has no .git directory; preserve existing files and patches in place. Twinleaf stays at `a8b6fe9075f982f7722e3c9ee2ce5e39cea1f1ca`.
+
+Baseline: `npm run build` passed; `npm test` passed 71/71 (54.17s). Browser baseline passed 16/16 (1.1m). Playwright's first sandboxed server launch failed; rerun with permission to bind isolated ports 5174/3002.
+
+## Safe integration plan
+
+- Legal offers already clone Stores, dispatch candidates, drain Wait prompts and precheck attack Energy. Add public board addresses to successful offers, never calculate legality in React. Keep opaque offer IDs, revision checks and synchronous submission lock.
+- ChoosePokemon choices already validate individual targets and decode the complete result server-side. Add public absolute player/slot/index addresses to choices. Use inline selection only when every choice maps to a visible Pokémon. Starting Pokémon, deck/hand/discard, prizes, ordering, payments and text choices stay in dialogs.
+- AttachEnergy/MoveEnergy/MoveDamage prompts contain complete transfer choices behind opaque keys. Add source/destination addresses and attachment identity. Single-transfer Powers can use source/attachment selection followed by a destination click; multi-assignment prompts keep their full gallery to preserve combination semantics. Venusaur permits multiple transfers but also validates one; offer one-at-a-time interaction with an explicit full-selection fallback, without changing the engine contract.
+- Mandatory decisions are derived from the current snapshot, not optimistic local state. Optional unsubmitted offers may be abandoned. Committed prompts can cancel only through allowCancel. Reconnect baselines transient events but restores mandatory decisions.
+- Pokémon layers: square art area reserves rotated dimensions, only art rotates; HP/damage, attachment buttons, condition buttons and effect badges remain upright. Attachments come from the actual main card stack plus live Tool membership, not calculated Energy values. `energies` is a redundant engine index and can retain moved references; do not treat it as authoritative ownership. Exclude evolution stack and Trainer-as-Pokémon from attachment classification.
+
+## Effects are not one collection
+
+`PokemonCardList` has explicit numeric/boolean fields, pending/current next-turn structures, Special Conditions, boardEffect presentation enums, marker collections, tools and cards. Players have separate markers. Card reduceEffect methods implement passive restrictions. A Power existing on a card does not establish an active effect.
+
+Project audited flags into human-readable DTOs on the server. Project PlusPower only while physically attached. Pending and active next-turn values must be distinguished, and descriptions must not invent a source when a flag lacks provenance. Duration follows field lifecycle in game-phase reducer and clearEffects/switch/evolve/KO; snapshots naturally remove badges. Never infer persistent state from log messages.
+
+Muk checks in-play presence, Asleep/Confused/Paralyzed and CAN_APPLY_LOCKER_ABILITY; Aerodactyl checks the same conditions and a PowerEffect suppression probe before blocking EvolveEffect. Use isolated cloned Store PowerEffect probes to reflect those gates without mutating live state. Project these restrictions into Field Effects and affected Pokémon. Explicitly audited passive effects can be projected with their implemented gates; activated Powers are actions, not permanent badges. Unknown future effects need new audited projectors, not a generic assertion that every marker is active.
+
+Found upstream limitation: Defender sets a DEFENDER_MARKER but does not move itself onto its target; its damage reducer requires actual attachment, and cleanup searches the wrong player's Pokémon. Do not claim protection based on that marker. Document instead of expanding this presentation milestone into engine repairs. Historical PlusPower is an Item attachment, not a Tool. Burn and Tools need isolated display fixtures, not production format changes.
+
+## Events and privacy
+
+Existing public log templates identify Trainer plays, attacks and coins; generic choice messages can contain hidden data and must remain redacted. Attack logs omit the attacking Pokémon, so capture public identities at the Store.log boundary. Wrap only the live adapter Store, and publish captured events only after successful dispatch. Compare actual public attachment ownership before/after dispatch to observe movements/attachments, including Powers that bypass ordinary attachment logging. Never infer damage or coin results. Stable monotonic event IDs and a bounded recent event window allow de-duplication; resume sets a new cursor. UI presentation queues/groups events without blocking state updates or prompts. Keep original match logs and AI diagnostics.
+
+## Conditions and layout
+
+Authoritative specialConditions selects poison/burn counters and ASLEEP -90°, PARALYZED +90°, CONFUSED 180° art transforms. Engine handles compatibility and removal. Condition help is server-projected using current format/rules and poisonDamage. Historical confusion description must mention paid retreat flip and 20 self-damage, with existing attack-discard timing gap retained. Burn is display-only in Base–Fossil.
+
+Compact toolbar, wider field, narrow independently scrolling log, larger cards, horizontal scrolling confined to mobile Bench/hand lanes. Remove tutorial headings/footer from matches; retain existing menu/deck builder identity. Reduced-motion removes transforms' transitions and animation but keeps event text/results.
+
+## Implemented projection boundaries
+
+- `shared/protocol.ts` adds BoardTarget, AttachmentView, EffectView and GameplayEvent; no Store serialization. `targeting.tsx` derives mandatory targeting from prompt DTOs. Full multi-transfer selection remains available for Energy Trans; the one-transfer path preserves the same validated key, and Damage Swap remains one real counter transfer per activation.
+- `Battlefield.tsx` reserves a square for each card's rotated footprint. Basic Energy uses individually inspectable type symbols; DCE uses one thumbnail/name badge. Historical PlusPower uses an attached-card badge. Modern Tools are deduplicated from the canonical `tools` collection (the Tool reducer explicitly removes them from `cards`). Redundant `energies` entries never establish attachment ownership.
+- `conditions.ts` supplies condition descriptions; React only maps supplied condition names to orientation/counters. Burn remains an explicitly labelled display-only fixture, without Base–Fossil mechanics. Damage and all attachment/condition/effect controls stay outside the transformed art element.
+- `effects.ts` handles attack-coin checks, attack damage reduction, incoming damage reduction, attack/retreat/evolution/attachment restrictions, supported damage/effect protection filters, Swords Dance, named attack disabling, Leek Slap's card-level lifetime, and attached PlusPower. Player-level hand-play locks (including Psyduck Headache) become scoped Field Effects and survive Pokémon switching. Field source identities are public only; hidden opponent stacks are excluded.
+- Audited passive candidates are Toxic Gas, Prehistoric Power, Invisible Wall, Transparency, Strikes Back and Retreat Aid. Isolated PowerEffect checks gate their projection. Activated Powers do not get passive badges merely by existing. Toxic Gas creates suppression badges on other Pokémon with Powers; disabled Prehistoric Power is omitted. Pending/current flag values are projected each snapshot, with no frontend expiration clock.
+- The effect adapter intentionally does not claim exhaustive coverage of every marker/card-property effect. Generic flags often lack source attribution; inspectors say the source was not recorded rather than guessing. Unreviewed complex future protection filters are omitted. Future Stadium/card mechanics need audited effect projectors; no Stadium is legal in this format.
+- Additional upstream discrepancies discovered while auditing: Dodrio's reducer checks in-play presence instead of requiring the Bench; its inspector reports implemented scope and the printed-text difference. Haunter's Transparency implementation is gated on positive attack damage, so the inspector describes that limited implementation. Snorlax, Ditto-copy edge cases, Charizard Energy Burn and Venomoth Shift are not certified by this effect indicator work. Defender remains the precise known attachment defect described above. No vendored source was modified for this milestone.
+
+## Events and interaction behavior
+
+`GameplayEvents` wraps successful dispatch on the live Match Store. Public Trainer/attack/coin log calls capture observed text and identity; Trainer identity is retained from the actual PlayCardAction, published only when its public play log occurs. Attachments are observed by comparing actual public ownership before and after dispatch (including tools and transferred Energy). Evolution and switching do not falsely reannounce unchanged attachments. Event IDs are monotonic and retained in a 256-event rolling window. The client baselines start/resume, deduplicates repeated snapshots, clears feedback on disconnect/navigation, and groups bursts in order. Presentation is 700ms per ordinary batch or 950ms for coins; growing batches drain faster without delaying server actions. A 256-event client cap bounds suspended/background backlog; this is transient feedback, not archival delivery. The match log remains the historical record. Normal multi-coin attacks preserve every flip in order; more than 256 unseen events are not replayable.
+
+Callouts have no pointer interaction and never gate prompts. A noninteractive native popover keeps feedback visible above modal backdrops without stealing focus; mandatory selections remain immediately usable. Reduced-motion removes movement while keeping the confirmed text/results. No client randomness, predicted damage, client effect application or new AI policy was introduced.
+
+## Verification interpretation
+
+The original 71 tests remain, plus Milestone 4 engine/DTO tests. Browser tests retain all 16 prior workflows with selectors adapted to the new UI and add battlefield, effect, condition, event and viewport coverage. Real card actions are used for attachment, transfer, damage swap, Trainer/attack/coin, restrictions, evolution and KO scenarios. The display fixture uses an actual PokemonCardList and TrainerCard Tool metadata but supplies no Tool behavior or legal deck registration. Burn states are engine-enum display fixtures. They demonstrate rendering, not legal 1999 matches.
+
+Desktop cards are larger than the previous 60px width at 1280×800; larger desktop viewports scale up further. Bench and hand lanes scroll horizontally within their own containers on narrow screens. The mobile match log is collapsed by default. Following manual feedback, dense boards can require internal mat scrolling while the hand stays within the viewport; the targeting instruction stays accessible and no modal covers the field. Focused screenshot checks caught and fixed repeated-targeting focus loss and Active-label alignment.
+
+Final verification: build PASS, 108/108 unit/integration tests PASS, 29/29 browser tests PASS. Real attacks additionally verify Sleep, Paralysis, Confusion and Poison application, with Sleep/Paralysis recovery. See [testing.md](testing.md) for measured results, screenshots, display-only fixture boundaries and the manual checkpoint.
+
+Manual-feedback layout follow-up: Active and Bench now share a row per player, with compact zone strips and a viewport-reserved hand. Field/hand art shares one desktop size variable; small screens retain readable card sizes and scroll the field internally. Target focus reveals the Pokémon inside that field. Basic Energy symbols are SVG viewport crops of existing local Base Set artwork rather than emoji. No gameplay DTOs or engine code changed. Final follow-up results are in testing.md.

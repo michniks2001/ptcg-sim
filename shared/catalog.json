@@ -1,0 +1,7938 @@
+[
+  {
+    "playable": true,
+    "cardId": "base1-1",
+    "name": "Alakazam",
+    "fullName": "Alakazam BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 1,
+    "image": "/cards/base1/1.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "PSYCHIC"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Confuse Ray",
+        "damage": 30,
+        "cost": [
+          "PSYCHIC",
+          "PSYCHIC",
+          "PSYCHIC"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    ],
+    "powers": [
+      {
+        "name": "Damage Swap",
+        "text": "As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon to another as long as you don't Knock Out that Pokémon. This power can't be used if Alakazam is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base1-2",
+    "name": "Blastoise",
+    "fullName": "Blastoise BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 2,
+    "image": "/cards/base1/2.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "WATER"
+    ],
+    "hp": 100,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Hydro Pump",
+        "damage": 40,
+        "cost": [
+          "WATER",
+          "WATER",
+          "WATER"
+        ],
+        "text": "Does 40 damage plus 10 more damage for each [W] Energy attached to Blastoise but not used to pay for this attack's Energy cost. Extra [W] Energy after the 2nd doesn't count."
+      }
+    ],
+    "powers": [
+      {
+        "name": "Rain Dance",
+        "text": "As often as you like during your turn (before your attack), you may attach 1 [W] Energy card to 1 of your [W] Pokémon. (This doesn't use up your 1 Energy card attachment for the turn.) This power can't be used if Blastoise is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base1-3",
+    "name": "Chansey",
+    "fullName": "Chansey BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 3,
+    "image": "/cards/base1/3.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 120,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Scrunch",
+        "damage": 0,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, prevent all damage done to Chansey during your opponent's next turn. (Any other effects of attacks still happen.)"
+      },
+      {
+        "name": "Double-edge",
+        "damage": 80,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Chansey does 80 damage to itself."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-4",
+    "name": "Charizard",
+    "fullName": "Charizard BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 4,
+    "image": "/cards/base1/4.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "FIRE"
+    ],
+    "hp": 120,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Fire Spin",
+        "damage": 100,
+        "cost": [
+          "FIRE",
+          "FIRE",
+          "FIRE",
+          "FIRE"
+        ],
+        "text": "Discard 2 Energy cards attached to Charizard in order to use this attack."
+      }
+    ],
+    "powers": [
+      {
+        "name": "Energy Burn",
+        "text": "As often as you like during your turn (before your attack), you may turn all [R] Energy attached to Charizard into [R] Energy for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base1-5",
+    "name": "Clefairy",
+    "fullName": "Clefairy BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 5,
+    "image": "/cards/base1/5.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Sing",
+        "damage": 0,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+      },
+      {
+        "name": "Metronome",
+        "damage": 0,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding Energy cards. (No matter what type the Defending Pokémon is, Clefairy's type is still Colorless.)"
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-6",
+    "name": "Gyarados",
+    "fullName": "Gyarados BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 6,
+    "image": "/cards/base1/6.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "WATER"
+    ],
+    "hp": 100,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Dragon Rage",
+        "damage": 50,
+        "cost": [
+          "WATER",
+          "WATER",
+          "WATER"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Bubblebeam",
+        "damage": 40,
+        "cost": [
+          "WATER",
+          "WATER",
+          "WATER",
+          "WATER"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-7",
+    "name": "Hitmonchan",
+    "fullName": "Hitmonchan BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 7,
+    "image": "/cards/base1/7.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Jab",
+        "damage": 20,
+        "cost": [
+          "FIGHTING"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Special Punch",
+        "damage": 40,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-8",
+    "name": "Machamp",
+    "fullName": "Machamp BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 8,
+    "image": "/cards/base1/8.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 100,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Seismic Toss",
+        "damage": 60,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING",
+          "FIGHTING",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": [
+      {
+        "name": "Strikes Back",
+        "text": "Whenever your opponent's attack damages Machamp (even if Machamp is Knocked Out), this power does 10 damage to the attacking Pokémon. (Don't apply Weakness and Resistance.) This power can't be used if Machamp is Asleep, Confused, or Paralyzed when your opponent attacks."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base1-9",
+    "name": "Magneton",
+    "fullName": "Magneton BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 9,
+    "image": "/cards/base1/9.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "LIGHTNING"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Thunder Wave",
+        "damage": 30,
+        "cost": [
+          "LIGHTNING",
+          "LIGHTNING",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Selfdestruct",
+        "damage": 80,
+        "cost": [
+          "LIGHTNING",
+          "LIGHTNING",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magneton does 80 damage to itself."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-10",
+    "name": "Mewtwo",
+    "fullName": "Mewtwo BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 10,
+    "image": "/cards/base1/10.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "PSYCHIC"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Psychic",
+        "damage": 10,
+        "cost": [
+          "PSYCHIC",
+          "COLORLESS"
+        ],
+        "text": "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
+      },
+      {
+        "name": "Barrier",
+        "damage": 0,
+        "cost": [
+          "PSYCHIC",
+          "PSYCHIC"
+        ],
+        "text": "Discard 1 [P] Energy card attached to Mewtwo in order to prevent all effects of attacks, including damage, done to Mewtwo during your opponent's next turn."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-11",
+    "name": "Nidoking",
+    "fullName": "Nidoking BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 11,
+    "image": "/cards/base1/11.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 90,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Thrash",
+        "damage": 30,
+        "cost": [
+          "GRASS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage plus Nidoking does 10 damage to itself."
+      },
+      {
+        "name": "Toxic",
+        "damage": 20,
+        "cost": [
+          "GRASS",
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "The Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player's turn (even if it was already Poisoned)."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-12",
+    "name": "Ninetales",
+    "fullName": "Ninetales BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 12,
+    "image": "/cards/base1/12.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "FIRE"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Lure",
+        "damage": 0,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "If your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon."
+      },
+      {
+        "name": "Fire Blast",
+        "damage": 80,
+        "cost": [
+          "FIRE",
+          "FIRE",
+          "FIRE",
+          "FIRE"
+        ],
+        "text": "Discard 1 [R] Energy card attached to Ninetales in order to use this attack."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-13",
+    "name": "Poliwrath",
+    "fullName": "Poliwrath BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 13,
+    "image": "/cards/base1/13.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "WATER"
+    ],
+    "hp": 90,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Water Gun",
+        "damage": 30,
+        "cost": [
+          "WATER",
+          "WATER",
+          "COLORLESS"
+        ],
+        "text": "Does 30 damage plus 10 more damage for each [W] Energy attached to Poliwrath but not used to pay for this attack's Energy cost. Extra [W] Energy after the 2nd doesn't count."
+      },
+      {
+        "name": "Whirlpool",
+        "damage": 40,
+        "cost": [
+          "WATER",
+          "WATER",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-14",
+    "name": "Raichu",
+    "fullName": "Raichu BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 14,
+    "image": "/cards/base1/14.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "LIGHTNING"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Agility",
+        "damage": 20,
+        "cost": [
+          "LIGHTNING",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Raichu."
+      },
+      {
+        "name": "Thunder",
+        "damage": 60,
+        "cost": [
+          "LIGHTNING",
+          "LIGHTNING",
+          "LIGHTNING",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If tails, Raichu does 30 damage to itself."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-15",
+    "name": "Venusaur",
+    "fullName": "Venusaur BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 15,
+    "image": "/cards/base1/15.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 100,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Solarbeam",
+        "damage": 60,
+        "cost": [
+          "GRASS",
+          "GRASS",
+          "GRASS",
+          "GRASS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": [
+      {
+        "name": "Energy Trans",
+        "text": "As often as you like during your turn (before your attack), you may take 1 [G] Energy card attached to 1 of your Pokémon and attach it to a different one. This power can't be used if Venusaur is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base1-16",
+    "name": "Zapdos",
+    "fullName": "Zapdos BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 16,
+    "image": "/cards/base1/16.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "LIGHTNING"
+    ],
+    "hp": 90,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Thunder",
+        "damage": 60,
+        "cost": [
+          "LIGHTNING",
+          "LIGHTNING",
+          "LIGHTNING",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If tails, Zapdos does 30 damage to itself."
+      },
+      {
+        "name": "Thunderbolt",
+        "damage": 100,
+        "cost": [
+          "LIGHTNING",
+          "LIGHTNING",
+          "LIGHTNING",
+          "LIGHTNING"
+        ],
+        "text": "Discard all Energy cards attached to Zapdos in order to use this attack."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-17",
+    "name": "Beedrill",
+    "fullName": "Beedrill BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 17,
+    "image": "/cards/base1/17.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Twineedle",
+        "damage": 30,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+      },
+      {
+        "name": "Poison Sting",
+        "damage": 40,
+        "cost": [
+          "GRASS",
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-18",
+    "name": "Dragonair",
+    "fullName": "Dragonair BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 18,
+    "image": "/cards/base1/18.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Slam",
+        "damage": 30,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+      },
+      {
+        "name": "Hyper Beam",
+        "damage": 20,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-19",
+    "name": "Dugtrio",
+    "fullName": "Dugtrio BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 19,
+    "image": "/cards/base1/19.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Slash",
+        "damage": 40,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING",
+          "COLORLESS"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Earthquake",
+        "damage": 70,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING",
+          "FIGHTING",
+          "FIGHTING"
+        ],
+        "text": "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-20",
+    "name": "Electabuzz",
+    "fullName": "Electabuzz BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 20,
+    "image": "/cards/base1/20.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "LIGHTNING"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Thundershock",
+        "damage": 10,
+        "cost": [
+          "LIGHTNING"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Thunderpunch",
+        "damage": 30,
+        "cost": [
+          "LIGHTNING",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage plus Electabuzz does 10 damage to itself."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-21",
+    "name": "Electrode",
+    "fullName": "Electrode BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 21,
+    "image": "/cards/base1/21.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "LIGHTNING"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Electric Shock",
+        "damage": 50,
+        "cost": [
+          "LIGHTNING",
+          "LIGHTNING",
+          "LIGHTNING"
+        ],
+        "text": "Flip a coin. If tails, Electrode does 10 damage to itself."
+      }
+    ],
+    "powers": [
+      {
+        "name": "Buzzap",
+        "text": "At any time during your turn (before your attack), you may Knock Out Electrode and attach it to 1 of your other Pokémon. If you do, choose a type of Energy. Electrode is now an Energy card (instead of a Pokémon) that provides 2 energy of that type. You can't use this power if Electrode is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base1-22",
+    "name": "Pidgeotto",
+    "fullName": "Pidgeotto BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 22,
+    "image": "/cards/base1/22.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Whirlwind",
+        "damage": 20,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)"
+      },
+      {
+        "name": "Mirror Move",
+        "damage": 0,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "If Pidgeotto was attacked last turn, do the final result of that attack on Pidgeotto to the Defending Pokémon."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-23",
+    "name": "Arcanine",
+    "fullName": "Arcanine BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 23,
+    "image": "/cards/base1/23.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "FIRE"
+    ],
+    "hp": 100,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Flamethrower",
+        "damage": 50,
+        "cost": [
+          "FIRE",
+          "FIRE",
+          "COLORLESS"
+        ],
+        "text": "Discard 1 [R] Energy attached to Arcanine in order to use this attack."
+      },
+      {
+        "name": "Take Down",
+        "damage": 80,
+        "cost": [
+          "FIRE",
+          "FIRE",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Arcanine does 30 damage to itself."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-24",
+    "name": "Charmeleon",
+    "fullName": "Charmeleon BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 24,
+    "image": "/cards/base1/24.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "FIRE"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Slash",
+        "damage": 30,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Flamethrower",
+        "damage": 50,
+        "cost": [
+          "FIRE",
+          "FIRE",
+          "COLORLESS"
+        ],
+        "text": "Discard 1 [R] Energy card attached to Charmeleon in order to use this attack."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-25",
+    "name": "Dewgong",
+    "fullName": "Dewgong BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 25,
+    "image": "/cards/base1/25.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "WATER"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Aurora Beam",
+        "damage": 50,
+        "cost": [
+          "WATER",
+          "WATER",
+          "COLORLESS"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Ice Beam",
+        "damage": 30,
+        "cost": [
+          "WATER",
+          "WATER",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-26",
+    "name": "Dratini",
+    "fullName": "Dratini BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 26,
+    "image": "/cards/base1/26.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Pound",
+        "damage": 10,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-27",
+    "name": "Farfetch'd",
+    "fullName": "Farfetch'd BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 27,
+    "image": "/cards/base1/27.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Leek Slap",
+        "damage": 30,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If tails, this attack does nothing. Either way, you can't use this attack again as long as Farfetch'd stays in play (even putting Farfetch'd on the Bench won't let you use it again)."
+      },
+      {
+        "name": "Pot Smash",
+        "damage": 30,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-28",
+    "name": "Growlithe",
+    "fullName": "Growlithe BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 28,
+    "image": "/cards/base1/28.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "FIRE"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Flare",
+        "damage": 20,
+        "cost": [
+          "FIRE",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-29",
+    "name": "Haunter",
+    "fullName": "Haunter BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 29,
+    "image": "/cards/base1/29.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "PSYCHIC"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Hypnosis",
+        "damage": 0,
+        "cost": [
+          "PSYCHIC"
+        ],
+        "text": "The Defending Pokémon is now Asleep."
+      },
+      {
+        "name": "Dream Eater",
+        "damage": 50,
+        "cost": [
+          "PSYCHIC",
+          "PSYCHIC"
+        ],
+        "text": "You can't use this attack unless the Defending Pokémon is Asleep."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-30",
+    "name": "Ivysaur",
+    "fullName": "Ivysaur BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 30,
+    "image": "/cards/base1/30.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Vine Whip",
+        "damage": 30,
+        "cost": [
+          "GRASS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Poisonpowder",
+        "damage": 20,
+        "cost": [
+          "GRASS",
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "The Defending Pokémon is now Poisoned."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-31",
+    "name": "Jynx",
+    "fullName": "Jynx BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 31,
+    "image": "/cards/base1/31.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "PSYCHIC"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Doubleslap",
+        "damage": 10,
+        "cost": [
+          "PSYCHIC"
+        ],
+        "text": "Flip 2 coins. This attack does 10 damage times the number of heads."
+      },
+      {
+        "name": "Meditate",
+        "damage": 20,
+        "cost": [
+          "PSYCHIC",
+          "PSYCHIC",
+          "COLORLESS"
+        ],
+        "text": "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-32",
+    "name": "Kadabra",
+    "fullName": "Kadabra BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 32,
+    "image": "/cards/base1/32.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "PSYCHIC"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Recover",
+        "damage": 0,
+        "cost": [
+          "PSYCHIC",
+          "PSYCHIC"
+        ],
+        "text": "Discard 1 [P] Energy attached to Kadabra in order to use this attack. Remove all damage counters from Kadabra."
+      },
+      {
+        "name": "Super Psy",
+        "damage": 50,
+        "cost": [
+          "PSYCHIC",
+          "PSYCHIC",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-33",
+    "name": "Kakuna",
+    "fullName": "Kakuna BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 33,
+    "image": "/cards/base1/33.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Stiffen",
+        "damage": 0,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, prevent all damage done to Kakuna during your opponent's next turn. (Any other effects of attacks still happen.)"
+      },
+      {
+        "name": "Poisonpowder",
+        "damage": 20,
+        "cost": [
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-34",
+    "name": "Machoke",
+    "fullName": "Machoke BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 34,
+    "image": "/cards/base1/34.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Karate Chop",
+        "damage": 50,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING",
+          "COLORLESS"
+        ],
+        "text": "Does 50 damage minus 10 damage for each damage counter on Machoke."
+      },
+      {
+        "name": "Submission",
+        "damage": 60,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Machoke does 20 damage to itself."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-35",
+    "name": "Magikarp",
+    "fullName": "Magikarp BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 35,
+    "image": "/cards/base1/35.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "WATER"
+    ],
+    "hp": 30,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": 10,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Flail",
+        "damage": 10,
+        "cost": [
+          "WATER"
+        ],
+        "text": "Does 10 damage times the number of damage counters on Magikarp."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-36",
+    "name": "Magmar",
+    "fullName": "Magmar BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 36,
+    "image": "/cards/base1/36.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "FIRE"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Fire Punch",
+        "damage": 30,
+        "cost": [
+          "FIRE",
+          "FIRE"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Flamethrower",
+        "damage": 50,
+        "cost": [
+          "FIRE",
+          "FIRE",
+          "COLORLESS"
+        ],
+        "text": "Discard 1 [R] Energy attached to Magmar in order to use this attack."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-37",
+    "name": "Nidorino",
+    "fullName": "Nidorino BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 37,
+    "image": "/cards/base1/37.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Double Kick",
+        "damage": 30,
+        "cost": [
+          "GRASS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+      },
+      {
+        "name": "Horn Drill",
+        "damage": 50,
+        "cost": [
+          "GRASS",
+          "GRASS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-38",
+    "name": "Poliwhirl",
+    "fullName": "Poliwhirl BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 38,
+    "image": "/cards/base1/38.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "WATER"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Amnesia",
+        "damage": 0,
+        "cost": [
+          "WATER",
+          "WATER"
+        ],
+        "text": "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
+      },
+      {
+        "name": "Doubleslap",
+        "damage": 30,
+        "cost": [
+          "WATER",
+          "WATER",
+          "COLORLESS"
+        ],
+        "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-39",
+    "name": "Porygon",
+    "fullName": "Porygon BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 39,
+    "image": "/cards/base1/39.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 30,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Conversion 1",
+        "damage": 0,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": "If the Defending Pokémon has a Weakness, you may change it to a type of your choice other than Colorless."
+      },
+      {
+        "name": "Conversion 2",
+        "damage": 0,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Change Porygon's Resistance to a type of your choice other than Colorless."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-40",
+    "name": "Raticate",
+    "fullName": "Raticate BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 40,
+    "image": "/cards/base1/40.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Bite",
+        "damage": 20,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Super Fang",
+        "damage": 0,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Does damage to the Defending Pokémon equal to half the Defending Pokémon's remaining HP (rounded up to the nearest 10)."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-41",
+    "name": "Seel",
+    "fullName": "Seel BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 41,
+    "image": "/cards/base1/41.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "WATER"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Headbutt",
+        "damage": 10,
+        "cost": [
+          "WATER"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-42",
+    "name": "Wartortle",
+    "fullName": "Wartortle BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 42,
+    "image": "/cards/base1/42.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "WATER"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Withdraw",
+        "damage": 0,
+        "cost": [
+          "WATER",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, prevent all damage done to Wartortle during your opponent's next turn. (Any other effects of attacks still happen.)"
+      },
+      {
+        "name": "Bite",
+        "damage": 40,
+        "cost": [
+          "WATER",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-43",
+    "name": "Abra",
+    "fullName": "Abra BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 43,
+    "image": "/cards/base1/43.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "PSYCHIC"
+    ],
+    "hp": 30,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Psyshock",
+        "damage": 10,
+        "cost": [
+          "PSYCHIC"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-44",
+    "name": "Bulbasaur",
+    "fullName": "Bulbasaur BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 44,
+    "image": "/cards/base1/44.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Leech Seed",
+        "damage": 20,
+        "cost": [
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "Unless all damage from this attack is prevented, you may remove 1 damage counter from Bulbasaur."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-45",
+    "name": "Caterpie",
+    "fullName": "Caterpie BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 45,
+    "image": "/cards/base1/45.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "String Shot",
+        "damage": 10,
+        "cost": [
+          "GRASS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-46",
+    "name": "Charmander",
+    "fullName": "Charmander BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 46,
+    "image": "/cards/base1/46.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "FIRE"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Scratch",
+        "damage": 10,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Ember",
+        "damage": 30,
+        "cost": [
+          "FIRE",
+          "COLORLESS"
+        ],
+        "text": "Discard 1 [R] Energy card attached to Charmander in order to use this attack."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-47",
+    "name": "Diglett",
+    "fullName": "Diglett BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 47,
+    "image": "/cards/base1/47.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 30,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Dig",
+        "damage": 10,
+        "cost": [
+          "FIGHTING"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Mud Slap",
+        "damage": 30,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-48",
+    "name": "Doduo",
+    "fullName": "Doduo BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 48,
+    "image": "/cards/base1/48.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Fury Attack",
+        "damage": 10,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": "Flip 2 coins. This attack does 10 damage times the number of heads."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-49",
+    "name": "Drowzee",
+    "fullName": "Drowzee BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 49,
+    "image": "/cards/base1/49.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "PSYCHIC"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Pound",
+        "damage": 10,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Confuse Ray",
+        "damage": 10,
+        "cost": [
+          "PSYCHIC",
+          "PSYCHIC"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-51",
+    "name": "Koffing",
+    "fullName": "Koffing BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 51,
+    "image": "/cards/base1/51.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Foul Gas",
+        "damage": 10,
+        "cost": [
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned; if tails, it is now Confused."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-52",
+    "name": "Machop",
+    "fullName": "Machop BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 52,
+    "image": "/cards/base1/52.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Low Kick",
+        "damage": 20,
+        "cost": [
+          "FIGHTING"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-53",
+    "name": "Magnemite",
+    "fullName": "Magnemite BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 53,
+    "image": "/cards/base1/53.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "LIGHTNING"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Thunder Wave",
+        "damage": 10,
+        "cost": [
+          "LIGHTNING"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Selfdestruct",
+        "damage": 40,
+        "cost": [
+          "LIGHTNING",
+          "COLORLESS"
+        ],
+        "text": "Does 10 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magnemite does 40 damage to itself."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-54",
+    "name": "Metapod",
+    "fullName": "Metapod BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 54,
+    "image": "/cards/base1/54.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Stiffen",
+        "damage": 0,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, prevent all damage done to Metapod during your opponent's next turn. (Any other effects of attacks still happen.)"
+      },
+      {
+        "name": "Stun Spore",
+        "damage": 20,
+        "cost": [
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-55",
+    "name": "Nidoran ♂",
+    "fullName": "Nidoran M BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 55,
+    "image": "/cards/base1/55.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Horn Hazard",
+        "damage": 30,
+        "cost": [
+          "GRASS"
+        ],
+        "text": "Flip a coin. If tails, this attack does nothing."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-56",
+    "name": "Onix",
+    "fullName": "Onix BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 56,
+    "image": "/cards/base1/56.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 90,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Rock Throw",
+        "damage": 10,
+        "cost": [
+          "FIGHTING"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Harden",
+        "damage": 0,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING"
+        ],
+        "text": "During your opponent's next turn, whenever 30 or less damage is done to Onix (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)"
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-57",
+    "name": "Pidgey",
+    "fullName": "Pidgey BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 57,
+    "image": "/cards/base1/57.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Whirlwind",
+        "damage": 10,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)"
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-58",
+    "name": "Pikachu",
+    "fullName": "Pikachu BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 58,
+    "image": "/cards/base1/58.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "LIGHTNING"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Gnaw",
+        "damage": 10,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Thunder Jolt",
+        "damage": 30,
+        "cost": [
+          "LIGHTNING",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If tails, Pikachu does 10 damage to itself."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-59",
+    "name": "Poliwag",
+    "fullName": "Poliwag BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 59,
+    "image": "/cards/base1/59.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "WATER"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Water Gun",
+        "damage": 10,
+        "cost": [
+          "WATER"
+        ],
+        "text": "Does 10 damage plus 10 more damage for each [W] Energy attached to Poliwag but not used to pay for this attack's Energy cost. Extra [W] Energy after the 2nd don't count."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-60",
+    "name": "Ponyta",
+    "fullName": "Ponyta BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 60,
+    "image": "/cards/base1/60.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "FIRE"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Smash Kick",
+        "damage": 20,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Flame Tail",
+        "damage": 30,
+        "cost": [
+          "FIRE",
+          "FIRE"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-61",
+    "name": "Rattata",
+    "fullName": "Rattata BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 61,
+    "image": "/cards/base1/61.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 30,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Bite",
+        "damage": 20,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-62",
+    "name": "Sandshrew",
+    "fullName": "Sandshrew BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 62,
+    "image": "/cards/base1/62.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Sand-attack",
+        "damage": 10,
+        "cost": [
+          "FIGHTING"
+        ],
+        "text": "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-63",
+    "name": "Squirtle",
+    "fullName": "Squirtle BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 63,
+    "image": "/cards/base1/63.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "WATER"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Bubble",
+        "damage": 10,
+        "cost": [
+          "WATER"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Withdraw",
+        "damage": 0,
+        "cost": [
+          "WATER",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, prevent all damage done to Squirtle during your opponent's next turn. (Any other effects of attacks still happen.)"
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-64",
+    "name": "Starmie",
+    "fullName": "Starmie",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 64,
+    "image": "/cards/base1/64.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "WATER"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Recover",
+        "damage": 0,
+        "cost": [
+          "WATER",
+          "WATER"
+        ],
+        "text": "Discard 1 [W] Energy card attached to Starmie in order to use this attack. Remove all damage counters from Starmie."
+      },
+      {
+        "name": "Star Freeze",
+        "damage": 20,
+        "cost": [
+          "WATER",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-65",
+    "name": "Staryu",
+    "fullName": "Staryu BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 65,
+    "image": "/cards/base1/65.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "WATER"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Slap",
+        "damage": 20,
+        "cost": [
+          "WATER"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-66",
+    "name": "Tangela",
+    "fullName": "Tangela",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 66,
+    "image": "/cards/base1/66.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Bind",
+        "damage": 20,
+        "cost": [
+          "GRASS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Poisonpowder",
+        "damage": 20,
+        "cost": [
+          "GRASS",
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "The Defending Pokémon is now Poisoned."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-67",
+    "name": "Voltorb",
+    "fullName": "Voltorb BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 67,
+    "image": "/cards/base1/67.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "LIGHTNING"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": 10,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-68",
+    "name": "Vulpix",
+    "fullName": "Vulpix BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 68,
+    "image": "/cards/base1/68.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "FIRE"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Confuse Ray",
+        "damage": 10,
+        "cost": [
+          "FIRE",
+          "FIRE"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-69",
+    "name": "Weedle",
+    "fullName": "Weedle BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 69,
+    "image": "/cards/base1/69.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Poison Sting",
+        "damage": 10,
+        "cost": [
+          "GRASS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-70",
+    "name": "Clefairy Doll",
+    "fullName": "Clefairy Doll BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 70,
+    "image": "/cards/base1/70.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 10,
+    "text": "",
+    "attacks": [],
+    "powers": [
+      {
+        "name": "Clefairy Doll",
+        "text": "Play Clefairy Doll as if it were a Basic Pokémon. While in play, Clefairy Doll counts a a Pokémon (instead of a Trainer card). Clefairy Doll has no attacks, can't retreat, and can't be Asleep, Confused, Paralyzed, or Poisoned. If Clefairy Doll is Knocked Out, it doesn't count as a Knocked Out Pokémon. At any time during your turn before your attack, you may discard Clefairy Doll."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base1-71",
+    "name": "Computer Search",
+    "fullName": "Computer Search BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 71,
+    "image": "/cards/base1/71.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Discard 2 of the other cards from your hand in order to search your deck for any card and put it into your hand. Shuffle your deck afterward.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-72",
+    "name": "Devolution Spray",
+    "fullName": "Devolution Spray BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 72,
+    "image": "/cards/base1/72.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [
+      "NONE"
+    ],
+    "hp": 0,
+    "text": "Devolve 1 of your evolved Pokémon and put the highest Stage Evolution card on it into your hand. (That Pokémon can't evolve this turn.)",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-73",
+    "name": "Impostor Professor Oak",
+    "fullName": "Impostor Professor Oak BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 73,
+    "image": "/cards/base1/73.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-74",
+    "name": "Item Finder",
+    "fullName": "Item Finder BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 74,
+    "image": "/cards/base1/74.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Discard 2 of the other cards from your hand in order to put a Trainer card from your discard pile into your hand.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-75",
+    "name": "Lass",
+    "fullName": "Lass BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 75,
+    "image": "/cards/base1/75.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "You and your opponent show each other your hands, then shuffle all the Trainer cards from your hands into your decks.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-76",
+    "name": "Pokémon Breeder",
+    "fullName": "Pokémon Breeder BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 76,
+    "image": "/cards/base1/76.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Put a Stage 2 Evolution card from your hand on the matching Basic Pokémon. You can only play this card when you would be allowed to evolve that Pokémon anyway.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-77",
+    "name": "Pokémon Trader",
+    "fullName": "Pokémon Trader BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 77,
+    "image": "/cards/base1/77.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Trade 1 of the Basic Pokémon or Evolution cards in your hand for 1 of the Basic Pokémon or Evolution cards from your deck. Show both cards to your opponent. Shuffle your deck afterward.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-78",
+    "name": "Scoop Up",
+    "fullName": "Scoop Up BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 78,
+    "image": "/cards/base1/78.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Choose 1 of your Pokémon in play and return its Basic Pokémon card to your hand. (Discard all cards attached to that card.)",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-79",
+    "name": "Super Energy Removal",
+    "fullName": "Super Energy Removal BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 79,
+    "image": "/cards/base1/79.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Discard 1 Energy card attached to 1 of your Pokémon in order to choose 1 of your opponent's Pokémon and up to 2 Energy cards attached to it. Discard those Energy cards.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-80",
+    "name": "Defender",
+    "fullName": "Defender BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 80,
+    "image": "/cards/base1/80.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Attach Defender to 1 of your Pokémon. At the end of your opponent's next turn, discard Defender. Damage done to that Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-81",
+    "name": "Energy Retrieval",
+    "fullName": "Energy Retrieval BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 81,
+    "image": "/cards/base1/81.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Trade 1 of the other cards in your hand for up to 2 basic Energy cards from your discard pile.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-82",
+    "name": "Full Heal",
+    "fullName": "Full Heal BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 82,
+    "image": "/cards/base1/82.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Your Active Pokémon is no longer Asleep, Confused, Paralyzed, or Poisoned.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-83",
+    "name": "Maintenance",
+    "fullName": "Maintenance BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 83,
+    "image": "/cards/base1/83.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Shuffle 2 of the other cards from your hand into your deck in order to draw a card.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-84",
+    "name": "PlusPower",
+    "fullName": "PlusPower BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 84,
+    "image": "/cards/base1/84.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Attach PlusPower to your Active Pokémon. At the end of your turn, discard PlusPower. If this Pokémon's attack does damage to the Defending Pokémon (after applying Weakness and Resistance), the attack does 10 more damage to the Defending Pokémon.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-85",
+    "name": "Pokémon Center",
+    "fullName": "Pokémon Center BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 85,
+    "image": "/cards/base1/85.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Remove all damage counters from all of your own Pokémon with damage counters on them, then discard all Energy cards attached to those Pokémon.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-86",
+    "name": "Pokémon Flute",
+    "fullName": "Pokemon Flute BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 86,
+    "image": "/cards/base1/86.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Choose 1 Basic Pokémon card from your opponent's discard pile and put it onto his or her Bench. (You can't play Pokémon Flute if your opponent's Bench is full.)",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-87",
+    "name": "Pokédex",
+    "fullName": "Pokedex BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 87,
+    "image": "/cards/base1/87.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Look at up to 5 cards from the top of your deck and rearrange them as you like.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-88",
+    "name": "Professor Oak",
+    "fullName": "Professor Oak BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 88,
+    "image": "/cards/base1/88.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Discard your hand, then draw 7 cards.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-89",
+    "name": "Revive",
+    "fullName": "Revive BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 89,
+    "image": "/cards/base1/89.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Put 1 Basic Pokémon card from your discard pile onto your Bench. Put damage counters on that Pokémon equal to half its HP (rounded down to the nearest 10). (You can't play Revive if your Bench is full.)",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-90",
+    "name": "Super Potion",
+    "fullName": "Super Potion BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 90,
+    "image": "/cards/base1/90.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Discard 1 Energy card attached to 1 of your own Pokémon in order to remove up to 4 damage counters from that Pokémon.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-91",
+    "name": "Bill",
+    "fullName": "Bill BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 91,
+    "image": "/cards/base1/91.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Draw 2 cards.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-92",
+    "name": "Energy Removal",
+    "fullName": "Energy Removal BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 92,
+    "image": "/cards/base1/92.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-93",
+    "name": "Gust of Wind",
+    "fullName": "Gust of Wind BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 93,
+    "image": "/cards/base1/93.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Switch 1 of your opponent's Benched Pokemon with his or her Active Pokemon.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-94",
+    "name": "Potion",
+    "fullName": "Potion BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 94,
+    "image": "/cards/base1/94.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Remove up to 2 damage counters from 1 of your Pokémon.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-95",
+    "name": "Switch",
+    "fullName": "Switch BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 95,
+    "image": "/cards/base1/95.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Switch your Active Pokemon with 1 of your Benched Pokemon.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-96",
+    "name": "Double Colorless Energy",
+    "fullName": "Double Colorless Energy BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 96,
+    "image": "/cards/base1/96.png",
+    "kind": "energy",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Double Colorless Energy provides [C][C] Energy.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-97",
+    "name": "Fighting Energy",
+    "fullName": "Fighting Energy BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 97,
+    "image": "/cards/base1/97.png",
+    "kind": "energy",
+    "basicEnergy": true,
+    "setupEligible": false,
+    "types": [],
+    "text": "",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-98",
+    "name": "Fire Energy",
+    "fullName": "Fire Energy BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 98,
+    "image": "/cards/base1/98.png",
+    "kind": "energy",
+    "basicEnergy": true,
+    "setupEligible": false,
+    "types": [],
+    "text": "",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-99",
+    "name": "Grass Energy",
+    "fullName": "Grass Energy BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 99,
+    "image": "/cards/base1/99.png",
+    "kind": "energy",
+    "basicEnergy": true,
+    "setupEligible": false,
+    "types": [],
+    "text": "",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-100",
+    "name": "Lightning Energy",
+    "fullName": "Lightning Energy BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 100,
+    "image": "/cards/base1/100.png",
+    "kind": "energy",
+    "basicEnergy": true,
+    "setupEligible": false,
+    "types": [],
+    "text": "",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-101",
+    "name": "Psychic Energy",
+    "fullName": "Psychic Energy BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 101,
+    "image": "/cards/base1/101.png",
+    "kind": "energy",
+    "basicEnergy": true,
+    "setupEligible": false,
+    "types": [],
+    "text": "",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base1-102",
+    "name": "Water Energy",
+    "fullName": "Water Energy BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 102,
+    "image": "/cards/base1/102.png",
+    "kind": "energy",
+    "basicEnergy": true,
+    "setupEligible": false,
+    "types": [],
+    "text": "",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-1",
+    "name": "Clefable",
+    "fullName": "Clefable JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 1,
+    "image": "/cards/base2/1.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Metronome",
+        "damage": 0,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": "Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding Energy cards. (No matter what type the Defending Pokémon is, Clefable's type is still Colorless.)"
+      },
+      {
+        "name": "Minimize",
+        "damage": 0,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "All damage done by attacks to Clefable during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance)."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-2",
+    "name": "Electrode",
+    "fullName": "Electrode JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 2,
+    "image": "/cards/base2/2.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "LIGHTNING"
+    ],
+    "hp": 90,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": 20,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Chain Lightning",
+        "damage": 20,
+        "cost": [
+          "LIGHTNING",
+          "LIGHTNING",
+          "LIGHTNING"
+        ],
+        "text": "If the Defending Pokémon isn't Colorless, this attack does 10 damage to each Benched Pokémon of the same type as the Defending Pokémon (including your own)."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-3",
+    "name": "Flareon",
+    "fullName": "Flareon JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 3,
+    "image": "/cards/base2/3.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "FIRE"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Quick Attack",
+        "damage": 10,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      },
+      {
+        "name": "Flamethrower",
+        "damage": 60,
+        "cost": [
+          "FIRE",
+          "FIRE",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Discard 1 [R] Energy card attached to Flareon in order to use this attack."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-4",
+    "name": "Jolteon",
+    "fullName": "Jolteon JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 4,
+    "image": "/cards/base2/4.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "LIGHTNING"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Quick Attack",
+        "damage": 10,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      },
+      {
+        "name": "Pin Missile",
+        "damage": 20,
+        "cost": [
+          "LIGHTNING",
+          "LIGHTNING",
+          "COLORLESS"
+        ],
+        "text": "Flip 4 coins. This attack does 20 damage times the number of heads."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-5",
+    "name": "Kangaskhan",
+    "fullName": "Kangaskhan JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 5,
+    "image": "/cards/base2/5.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 90,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Fetch",
+        "damage": 0,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": "Draw a card."
+      },
+      {
+        "name": "Comet Punch",
+        "damage": 20,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip 4 coins. This attack does 20 damage times the number of heads."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-6",
+    "name": "Mr. Mime",
+    "fullName": "Mr Mime JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 6,
+    "image": "/cards/base2/6.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "PSYCHIC"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Meditate",
+        "damage": 10,
+        "cost": [
+          "PSYCHIC",
+          "COLORLESS"
+        ],
+        "text": "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+      }
+    ],
+    "powers": [
+      {
+        "name": "Invisible Wall",
+        "text": "Whenever an attack (including your own) does 30 or more damage to Mr. Mime (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.) This power can't be used if Mr. Mime is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base2-7",
+    "name": "Nidoqueen",
+    "fullName": "Nidoqueen JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 7,
+    "image": "/cards/base2/7.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 90,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Boyfriends",
+        "damage": 20,
+        "cost": [
+          "GRASS",
+          "COLORLESS"
+        ],
+        "text": "Does 20 damage plus 20 more damage for each Nidoking you have in play."
+      },
+      {
+        "name": "Mega Punch",
+        "damage": 50,
+        "cost": [
+          "GRASS",
+          "GRASS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-8",
+    "name": "Pidgeot",
+    "fullName": "Pidgeot JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 8,
+    "image": "/cards/base2/8.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Wing Attack",
+        "damage": 20,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Hurricane",
+        "damage": 30,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Unless this attack Knocks Out the Defending Pokémon, return the Defending Pokémon and all cards attached to it to your opponent's hand."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-9",
+    "name": "Pinsir",
+    "fullName": "Pinsir JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 9,
+    "image": "/cards/base2/9.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Irongrip",
+        "damage": 20,
+        "cost": [
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Guillotine",
+        "damage": 50,
+        "cost": [
+          "GRASS",
+          "GRASS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-10",
+    "name": "Scyther",
+    "fullName": "Scyther JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 10,
+    "image": "/cards/base2/10.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Swords Dance",
+        "damage": 0,
+        "cost": [
+          "GRASS"
+        ],
+        "text": "During your next turn, Scyther's Slash attack's base damage is 60 instead of 30."
+      },
+      {
+        "name": "Slash",
+        "damage": 30,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-11",
+    "name": "Snorlax",
+    "fullName": "Snorlax JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 11,
+    "image": "/cards/base2/11.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 90,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Body Slam",
+        "damage": 30,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    ],
+    "powers": [
+      {
+        "name": "Thick Skinned",
+        "text": "Snorlax can't become Asleep, Confused, Paralyzed, or Poisoned. This power can't be used if Snorlax is already Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base2-12",
+    "name": "Vaporeon",
+    "fullName": "Vaporeon JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 12,
+    "image": "/cards/base2/12.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "WATER"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Quick Attack",
+        "damage": 10,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      },
+      {
+        "name": "Water Gun",
+        "damage": 30,
+        "cost": [
+          "WATER",
+          "WATER",
+          "COLORLESS"
+        ],
+        "text": "Does 30 damage plus 10 more damage for each [W] Energy attached to Vaporeon but not used to pay for this attack's Energy cost. Extra [W] Energy after the 2nd doesn't count."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-13",
+    "name": "Venomoth",
+    "fullName": "Venomoth JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 13,
+    "image": "/cards/base2/13.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Venom Powder",
+        "damage": 10,
+        "cost": [
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned."
+      }
+    ],
+    "powers": [
+      {
+        "name": "Shift",
+        "text": "Once during your turn (before your attack), you may change the type of Venomoth to the type of any other Pokémon in play other than Colorless. This power can't be used if Venomoth is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base2-14",
+    "name": "Victreebel",
+    "fullName": "Victreebel JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 14,
+    "image": "/cards/base2/14.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Lure",
+        "damage": 0,
+        "cost": [
+          "GRASS"
+        ],
+        "text": "If your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon."
+      },
+      {
+        "name": "Acid",
+        "damage": 20,
+        "cost": [
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon can't retreat during your opponent's next turn."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-15",
+    "name": "Vileplume",
+    "fullName": "Vileplume JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 15,
+    "image": "/cards/base2/15.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Petal Dance",
+        "damage": 40,
+        "cost": [
+          "GRASS",
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "Flip 3 coins. This attack does 40 damage times the number of heads. Vileplume is now Confused (after doing damage)."
+      }
+    ],
+    "powers": [
+      {
+        "name": "Heal",
+        "text": "Once during your turn (before your attack), you may flip a coin. If heads, remove 1 damage counter from 1 of your Pokémon. This power can't be used if Vileplume is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base2-16",
+    "name": "Wigglytuff",
+    "fullName": "Wigglytuff JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 16,
+    "image": "/cards/base2/16.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Lullaby",
+        "damage": 0,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": "The Defending Pokémon is now Asleep."
+      },
+      {
+        "name": "Do the Wave",
+        "damage": 10,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Does 10 damage plus 10 more damage for each of your Benched Pokémon."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-17",
+    "name": "Clefable",
+    "fullName": "Clefable JU17",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 17,
+    "image": "/cards/base2/17.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Metronome",
+        "damage": 0,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": "Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding Energy cards. (No matter what type the Defending Pokémon is, Clefable's type is still Colorless.)"
+      },
+      {
+        "name": "Minimize",
+        "damage": 0,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "All damage done by attacks to Clefable during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance)."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-18",
+    "name": "Electrode",
+    "fullName": "Electrode JU18",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 18,
+    "image": "/cards/base2/18.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "LIGHTNING"
+    ],
+    "hp": 90,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": 20,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Chain Lightning",
+        "damage": 20,
+        "cost": [
+          "LIGHTNING",
+          "LIGHTNING",
+          "LIGHTNING"
+        ],
+        "text": "If the Defending Pokémon isn't Colorless, this attack does 10 damage to each Benched Pokémon of the same type as the Defending Pokémon (including your own)."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-19",
+    "name": "Flareon",
+    "fullName": "Flareon JU19",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 19,
+    "image": "/cards/base2/19.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "FIRE"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Quick Attack",
+        "damage": 10,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      },
+      {
+        "name": "Flamethrower",
+        "damage": 60,
+        "cost": [
+          "FIRE",
+          "FIRE",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Discard 1 [R] Energy card attached to Flareon in order to use this attack."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-20",
+    "name": "Jolteon",
+    "fullName": "Jolteon JU20",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 20,
+    "image": "/cards/base2/20.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "LIGHTNING"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Quick Attack",
+        "damage": 10,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      },
+      {
+        "name": "Pin Missile",
+        "damage": 20,
+        "cost": [
+          "LIGHTNING",
+          "LIGHTNING",
+          "COLORLESS"
+        ],
+        "text": "Flip 4 coins. This attack does 20 damage times the number of heads."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-21",
+    "name": "Kangaskhan",
+    "fullName": "Kangaskhan JU21",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 21,
+    "image": "/cards/base2/21.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 90,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Fetch",
+        "damage": 0,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": "Draw a card."
+      },
+      {
+        "name": "Comet Punch",
+        "damage": 20,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip 4 coins. This attack does 20 damage times the number of heads."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-22",
+    "name": "Mr. Mime",
+    "fullName": "Mr. Mime JU22",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 22,
+    "image": "/cards/base2/22.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "PSYCHIC"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Meditate",
+        "damage": 10,
+        "cost": [
+          "PSYCHIC",
+          "COLORLESS"
+        ],
+        "text": "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+      }
+    ],
+    "powers": [
+      {
+        "name": "Invisible Wall",
+        "text": "Whenever an attack (including your own) does 30 or more damage to Mr. Mime (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.) This power can't be used if Mr. Mime is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base2-23",
+    "name": "Nidoqueen",
+    "fullName": "Nidoqueen JU23",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 23,
+    "image": "/cards/base2/23.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 90,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Boyfriends",
+        "damage": 20,
+        "cost": [
+          "GRASS",
+          "COLORLESS"
+        ],
+        "text": "Does 20 damage plus 20 more damage for each Nidoking you have in play."
+      },
+      {
+        "name": "Mega Punch",
+        "damage": 50,
+        "cost": [
+          "GRASS",
+          "GRASS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-24",
+    "name": "Pidgeot",
+    "fullName": "Pidgeot JU24",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 24,
+    "image": "/cards/base2/24.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Wing Attack",
+        "damage": 20,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Hurricane",
+        "damage": 30,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Unless this attack Knocks Out the Defending Pokémon, return the Defending Pokémon and all cards attached to it to your opponent's hand."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-25",
+    "name": "Pinsir",
+    "fullName": "Pinsir JU25",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 25,
+    "image": "/cards/base2/25.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Irongrip",
+        "damage": 20,
+        "cost": [
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Guillotine",
+        "damage": 50,
+        "cost": [
+          "GRASS",
+          "GRASS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-26",
+    "name": "Scyther",
+    "fullName": "Scyther JU26",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 26,
+    "image": "/cards/base2/26.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Swords Dance",
+        "damage": 0,
+        "cost": [
+          "GRASS"
+        ],
+        "text": "During your next turn, Scyther's Slash attack's base damage is 60 instead of 30."
+      },
+      {
+        "name": "Slash",
+        "damage": 30,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-27",
+    "name": "Snorlax",
+    "fullName": "Snorlax JU27",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 27,
+    "image": "/cards/base2/27.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 90,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Body Slam",
+        "damage": 30,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    ],
+    "powers": [
+      {
+        "name": "Thick Skinned",
+        "text": "Snorlax can't become Asleep, Confused, Paralyzed, or Poisoned. This power can't be used if Snorlax is already Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base2-28",
+    "name": "Vaporeon",
+    "fullName": "Vaporeon JU28",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 28,
+    "image": "/cards/base2/28.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "WATER"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Quick Attack",
+        "damage": 10,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      },
+      {
+        "name": "Water Gun",
+        "damage": 30,
+        "cost": [
+          "WATER",
+          "WATER",
+          "COLORLESS"
+        ],
+        "text": "Does 30 damage plus 10 more damage for each [W] Energy attached to Vaporeon but not used to pay for this attack's Energy cost. Extra [W] Energy after the 2nd doesn't count."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-29",
+    "name": "Venomoth",
+    "fullName": "Venomoth JU29",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 29,
+    "image": "/cards/base2/29.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Venom Powder",
+        "damage": 10,
+        "cost": [
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned."
+      }
+    ],
+    "powers": [
+      {
+        "name": "Shift",
+        "text": "Once during your turn (before your attack), you may change the type of Venomoth to the type of any other Pokémon in play other than Colorless. This power can't be used if Venomoth is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base2-30",
+    "name": "Victreebel",
+    "fullName": "Victreebel JU30",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 30,
+    "image": "/cards/base2/30.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Lure",
+        "damage": 0,
+        "cost": [
+          "GRASS"
+        ],
+        "text": "If your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon."
+      },
+      {
+        "name": "Acid",
+        "damage": 20,
+        "cost": [
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon can't retreat during your opponent's next turn."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-31",
+    "name": "Vileplume",
+    "fullName": "Vileplume JU31",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 31,
+    "image": "/cards/base2/31.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Petal Dance",
+        "damage": 40,
+        "cost": [
+          "GRASS",
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "Flip 3 coins. This attack does 40 damage times the number of heads. Vileplume is now Confused (after doing damage)."
+      }
+    ],
+    "powers": [
+      {
+        "name": "Heal",
+        "text": "Once during your turn (before your attack), you may flip a coin. If heads, remove 1 damage counter from 1 of your Pokémon. This power can't be used if Vileplume is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base2-32",
+    "name": "Wigglytuff",
+    "fullName": "Wigglytuff JU32",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 32,
+    "image": "/cards/base2/32.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Lullaby",
+        "damage": 0,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": "The Defending Pokémon is now Asleep."
+      },
+      {
+        "name": "Do the Wave",
+        "damage": 10,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Does 10 damage plus 10 more damage for each of your Benched Pokémon."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-33",
+    "name": "Butterfree",
+    "fullName": "Butterfree JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 33,
+    "image": "/cards/base2/33.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Whirlwind",
+        "damage": 20,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)"
+      },
+      {
+        "name": "Mega Drain",
+        "damage": 40,
+        "cost": [
+          "GRASS",
+          "GRASS",
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "Remove a number of damage counters from Butterfree equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10)."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-34",
+    "name": "Dodrio",
+    "fullName": "Dodrio JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 34,
+    "image": "/cards/base2/34.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Rage",
+        "damage": 10,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Does 10 damage plus 10 more damage for each damage counter on Dodrio."
+      }
+    ],
+    "powers": [
+      {
+        "name": "Retreat Aid",
+        "text": "As long as Dodrio is Benched, pay C less to retreat your Active Pokémon."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base2-35",
+    "name": "Exeggutor",
+    "fullName": "Exeggutor JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 35,
+    "image": "/cards/base2/35.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Teleport",
+        "damage": 0,
+        "cost": [
+          "PSYCHIC"
+        ],
+        "text": "Switch Exeggutor with 1 of your Benched Pokémon."
+      },
+      {
+        "name": "Big Eggsplosion",
+        "damage": 20,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": "Flip a number of coins equal to the number of Energy attached to Exeggutor. This attack does 20 damage times the number of heads."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-36",
+    "name": "Fearow",
+    "fullName": "Fearow JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 36,
+    "image": "/cards/base2/36.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Agility",
+        "damage": 20,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Fearow."
+      },
+      {
+        "name": "Drill Peck",
+        "damage": 40,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-37",
+    "name": "Gloom",
+    "fullName": "Gloom JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 37,
+    "image": "/cards/base2/37.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Poisonpowder",
+        "damage": 0,
+        "cost": [
+          "GRASS"
+        ],
+        "text": "The Defending Pokémon is now Poisoned."
+      },
+      {
+        "name": "Foul Odor",
+        "damage": 20,
+        "cost": [
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "Both the Defending Pokémon and Gloom are now Confused (after doing damage)."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-38",
+    "name": "Lickitung",
+    "fullName": "Lickitung JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 38,
+    "image": "/cards/base2/38.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 90,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Tongue Wrap",
+        "damage": 10,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Supersonic",
+        "damage": 0,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-39",
+    "name": "Marowak",
+    "fullName": "Marowak JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 39,
+    "image": "/cards/base2/39.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Bonemerang",
+        "damage": 30,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING"
+        ],
+        "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+      },
+      {
+        "name": "Call for Friend",
+        "damage": 0,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING",
+          "COLORLESS"
+        ],
+        "text": "Search your deck for a [F] Basic Pokémon card and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-40",
+    "name": "Nidorina",
+    "fullName": "Nidorina JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 40,
+    "image": "/cards/base2/40.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Supersonic",
+        "damage": 0,
+        "cost": [
+          "GRASS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      },
+      {
+        "name": "Double Kick",
+        "damage": 30,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-41",
+    "name": "Parasect",
+    "fullName": "Parasect JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 41,
+    "image": "/cards/base2/41.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Spore",
+        "damage": 0,
+        "cost": [
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "The Defending Pokémon is now Asleep."
+      },
+      {
+        "name": "Slash",
+        "damage": 30,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-42",
+    "name": "Persian",
+    "fullName": "Persian JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 42,
+    "image": "/cards/base2/42.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Scratch",
+        "damage": 20,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Pounce",
+        "damage": 30,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "If the Defending Pokémon attacks Persian during your opponent's next turn, any damage done by the attack is reduced by 10 (after applying Weakness and Resistance). (Benching either Pokémon ends this effect.)"
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-43",
+    "name": "Primeape",
+    "fullName": "Primeape JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 43,
+    "image": "/cards/base2/43.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Fury Swipes",
+        "damage": 20,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING"
+        ],
+        "text": "Flip 3 coins. This attack does 20 damage times the number of heads."
+      },
+      {
+        "name": "Tantrum",
+        "damage": 50,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If tails, Primeape is now Confused (after doing damage)."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-44",
+    "name": "Rapidash",
+    "fullName": "Rapidash JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 44,
+    "image": "/cards/base2/44.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "FIRE"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Stomp",
+        "damage": 20,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage."
+      },
+      {
+        "name": "Agility",
+        "damage": 30,
+        "cost": [
+          "FIRE",
+          "FIRE",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Rapidash."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-45",
+    "name": "Rhydon",
+    "fullName": "Rhydon JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 45,
+    "image": "/cards/base2/45.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 100,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Horn Attack",
+        "damage": 30,
+        "cost": [
+          "FIGHTING",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Ram",
+        "damage": 50,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING",
+          "FIGHTING",
+          "FIGHTING"
+        ],
+        "text": "Rhydon does 20 damage to itself. If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon. Switch the Pokémon even if Rhydon is knocked out.)"
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-46",
+    "name": "Seaking",
+    "fullName": "Seaking JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 46,
+    "image": "/cards/base2/46.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "WATER"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Horn Attack",
+        "damage": 10,
+        "cost": [
+          "WATER"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Waterfall",
+        "damage": 30,
+        "cost": [
+          "WATER",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-47",
+    "name": "Tauros",
+    "fullName": "Tauros JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 47,
+    "image": "/cards/base2/47.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Stomp",
+        "damage": 20,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage."
+      },
+      {
+        "name": "Rampage",
+        "damage": 20,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Does 20 damage plus 10 more damage for each damage counter on Tauros. Flip a coin. If tails, Tauros is now Confused (after doing damage)."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-48",
+    "name": "Weepinbell",
+    "fullName": "Weepinbell JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 48,
+    "image": "/cards/base2/48.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Poisonpowder",
+        "damage": 10,
+        "cost": [
+          "GRASS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      },
+      {
+        "name": "Razor Leaf",
+        "damage": 30,
+        "cost": [
+          "GRASS",
+          "GRASS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-49",
+    "name": "Bellsprout",
+    "fullName": "Bellsprout JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 49,
+    "image": "/cards/base2/49.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Vine Whip",
+        "damage": 10,
+        "cost": [
+          "GRASS"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Call for Family",
+        "damage": 0,
+        "cost": [
+          "GRASS"
+        ],
+        "text": "Search your deck for a Basic Pokémon named Bellsprout and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-50",
+    "name": "Cubone",
+    "fullName": "Cubone JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 50,
+    "image": "/cards/base2/50.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Snivel",
+        "damage": 0,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": "If the Defending Pokémon attacks Cubone during your opponent's next turn, any damage done by the attack is reduced by 20 (after applying Weakness and Resistance). (Benching either Pokémon ends this effect.)"
+      },
+      {
+        "name": "Rage",
+        "damage": 10,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING"
+        ],
+        "text": "Does 10 damage plus 10 more damage for each damage counter on Cubone."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-51",
+    "name": "Eevee",
+    "fullName": "Eevee JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 51,
+    "image": "/cards/base2/51.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Tail Wag",
+        "damage": 0,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon can't attack Eevee during your opponent's next turn. (Benching either Pokémon ends this effect.)"
+      },
+      {
+        "name": "Quick Attack",
+        "damage": 10,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-52",
+    "name": "Exeggcute",
+    "fullName": "Exeggcute JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 52,
+    "image": "/cards/base2/52.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Hypnosis",
+        "damage": 0,
+        "cost": [
+          "PSYCHIC"
+        ],
+        "text": "The Defending Pokémon is now Asleep."
+      },
+      {
+        "name": "Leech Seed",
+        "damage": 20,
+        "cost": [
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "Unless all damage from this attack is prevented, you may remove 1 damage counter from Exeggcute."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-53",
+    "name": "Goldeen",
+    "fullName": "Goldeen JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 53,
+    "image": "/cards/base2/53.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "WATER"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Horn Attack",
+        "damage": 10,
+        "cost": [
+          "WATER"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-54",
+    "name": "Jigglypuff",
+    "fullName": "Jigglypuff JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 54,
+    "image": "/cards/base2/54.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Lullaby",
+        "damage": 0,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": "The Defending Pokémon is now Asleep."
+      },
+      {
+        "name": "Pound",
+        "damage": 20,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-55",
+    "name": "Mankey",
+    "fullName": "Mankey JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 55,
+    "image": "/cards/base2/55.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 30,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Scratch",
+        "damage": 10,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": [
+      {
+        "name": "Peek",
+        "text": "Once during your turn (before your attack), you may look at one of the following: the top card of either player's deck, a random card from your opponent's hand, or one of either player's Prizes. This power can't be used if Mankey is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base2-56",
+    "name": "Meowth",
+    "fullName": "Meowth JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 56,
+    "image": "/cards/base2/56.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Pay Day",
+        "damage": 10,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, draw a card."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-57",
+    "name": "Nidoran ♀",
+    "fullName": "Nidoran F JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 57,
+    "image": "/cards/base2/57.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Fury Swipes",
+        "damage": 10,
+        "cost": [
+          "GRASS"
+        ],
+        "text": "Flip 3 coins. This attack does 10 damage times the number of heads."
+      },
+      {
+        "name": "Call for Family",
+        "damage": 0,
+        "cost": [
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "Search your deck for a Basic Pokémon named Nidoran ♂ or Nidoran ♀ and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-58",
+    "name": "Oddish",
+    "fullName": "Oddish JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 58,
+    "image": "/cards/base2/58.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Stun Spore",
+        "damage": 10,
+        "cost": [
+          "GRASS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Sprout",
+        "damage": 0,
+        "cost": [
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "The Defending Pokémon is now Asleep."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-59",
+    "name": "Paras",
+    "fullName": "Paras JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 59,
+    "image": "/cards/base2/59.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Scratch",
+        "damage": 20,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Spore",
+        "damage": 0,
+        "cost": [
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "The Defending Pokémon is now Asleep."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-60",
+    "name": "Pikachu",
+    "fullName": "Pikachu JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 60,
+    "image": "/cards/base2/60.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "LIGHTNING"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Spark",
+        "damage": 20,
+        "cost": [
+          "LIGHTNING",
+          "LIGHTNING"
+        ],
+        "text": "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-61",
+    "name": "Rhyhorn",
+    "fullName": "Rhyhorn JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 61,
+    "image": "/cards/base2/61.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Leer",
+        "damage": 0,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon can't attack Rhyhorn during your opponent's next turn. (Benching either Pokémon ends this effect.)"
+      },
+      {
+        "name": "Horn Attack",
+        "damage": 30,
+        "cost": [
+          "FIGHTING",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-62",
+    "name": "Spearow",
+    "fullName": "Spearow JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 62,
+    "image": "/cards/base2/62.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Peck",
+        "damage": 10,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Mirror Move",
+        "damage": 0,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "If Spearow was attacked last turn, do the final result of that attack on Spearow to the Defending Pokémon."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-63",
+    "name": "Venonat",
+    "fullName": "Venonat JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 63,
+    "image": "/cards/base2/63.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Stun Spore",
+        "damage": 10,
+        "cost": [
+          "GRASS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Leech Life",
+        "damage": 10,
+        "cost": [
+          "GRASS",
+          "COLORLESS"
+        ],
+        "text": "Remove a number of damage counters from Venonat equal to the damage done to the Defending Pokémon (after applying Weakness and Resistance)."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base2-64",
+    "name": "Poké Ball",
+    "fullName": "Poké Ball JU",
+    "expansion": "Jungle",
+    "set": "JU",
+    "number": 64,
+    "image": "/cards/base2/64.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Flip a coin. If heads, you may search your deck for any Basic Pokémon or Evolution card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-1",
+    "name": "Aerodactyl",
+    "fullName": "Aerodactyl FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 1,
+    "image": "/cards/base3/1.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Wing Attack",
+        "damage": 30,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": [
+      {
+        "name": "Prehistoric Power",
+        "text": "No more Evolution cards can be played. This power stops working while Aerodactyl is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base3-2",
+    "name": "Articuno",
+    "fullName": "Articuno FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 2,
+    "image": "/cards/base3/2.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "WATER"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Freeze Dry",
+        "damage": 30,
+        "cost": [
+          "WATER",
+          "WATER",
+          "WATER"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Blizzard",
+        "damage": 50,
+        "cost": [
+          "WATER",
+          "WATER",
+          "WATER",
+          "WATER"
+        ],
+        "text": "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-3",
+    "name": "Ditto",
+    "fullName": "Ditto FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 3,
+    "image": "/cards/base3/3.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [],
+    "powers": [
+      {
+        "name": "Transform",
+        "text": "If Ditto is your Active Pokémon, treat it as if it were the same card as the Defending Pokémon, including type, Hit Points, Weakness, and so on, except Ditto can't evolve, always has this Pokémon Power, and you may treat any Energy attached to Ditto as Energy of any type. Ditto isn't a copy of any other Pokémon while Ditto is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base3-4",
+    "name": "Dragonite",
+    "fullName": "Dragonite FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 4,
+    "image": "/cards/base3/4.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 100,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Slam",
+        "damage": 40,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip 2 coins. This attack does 40 damage times the number of heads."
+      }
+    ],
+    "powers": [
+      {
+        "name": "Step In",
+        "text": "Once during your turn (before your attack), if Dragonite is on your Bench, you may switch it with your Active Pokémon."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base3-5",
+    "name": "Gengar",
+    "fullName": "Gengar FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 5,
+    "image": "/cards/base3/5.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "PSYCHIC"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Dark Mind",
+        "damage": 30,
+        "cost": [
+          "PSYCHIC",
+          "PSYCHIC",
+          "PSYCHIC"
+        ],
+        "text": "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "powers": [
+      {
+        "name": "Curse",
+        "text": "Once during your turn (before your attack), you may move 1 damage counter from 1 of your opponent's Pokémon to another(even if it would Knock Out the other Pokémon).This power can't be used if Gengar is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base3-6",
+    "name": "Haunter",
+    "fullName": "Haunter FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 6,
+    "image": "/cards/base3/6.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "PSYCHIC"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Nightmare",
+        "damage": 10,
+        "cost": [
+          "PSYCHIC",
+          "COLORLESS"
+        ],
+        "text": "The Defending Pokémon is now Asleep."
+      }
+    ],
+    "powers": [
+      {
+        "name": "Transparency",
+        "text": "Whenever an attack does anything to Haunter, flip a coin. If heads, prevent all effects of that attack, including damage, done to Haunter. This power stops working while Haunter is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base3-7",
+    "name": "Hitmonlee",
+    "fullName": "Hitmonlee FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 7,
+    "image": "/cards/base3/7.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Stretch Kick",
+        "damage": 0,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING"
+        ],
+        "text": "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      },
+      {
+        "name": "High Jump Kick",
+        "damage": 50,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING",
+          "FIGHTING"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-8",
+    "name": "Hypno",
+    "fullName": "Hypno FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 8,
+    "image": "/cards/base3/8.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "PSYCHIC"
+    ],
+    "hp": 90,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Prophecy",
+        "damage": 0,
+        "cost": [
+          "PSYCHIC"
+        ],
+        "text": "Look at up to 3 cards from the top of either player's deck and rearrange them as you like."
+      },
+      {
+        "name": "Dark Mind",
+        "damage": 30,
+        "cost": [
+          "PSYCHIC",
+          "PSYCHIC",
+          "PSYCHIC"
+        ],
+        "text": "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-9",
+    "name": "Kabutops",
+    "fullName": "Kabutops FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 9,
+    "image": "/cards/base3/9.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Sharp Sickle",
+        "damage": 30,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Absorb",
+        "damage": 40,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING",
+          "FIGHTING",
+          "FIGHTING"
+        ],
+        "text": "Remove a number of damage counters from Kabutops equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Kabutops has fewer damage counters than that, remove all of them."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-10",
+    "name": "Lapras",
+    "fullName": "Lapras FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 10,
+    "image": "/cards/base3/10.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "WATER"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Water Gun",
+        "damage": 10,
+        "cost": [
+          "WATER"
+        ],
+        "text": "Does 10 damage plus 10 more damage for each [W] Energy attached to Lapras but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+      },
+      {
+        "name": "Confuse Ray",
+        "damage": 10,
+        "cost": [
+          "WATER",
+          "WATER"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-11",
+    "name": "Magneton",
+    "fullName": "Magneton FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 11,
+    "image": "/cards/base3/11.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "LIGHTNING"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Sonicboom",
+        "damage": 20,
+        "cost": [
+          "LIGHTNING",
+          "COLORLESS"
+        ],
+        "text": "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+      },
+      {
+        "name": "Selfdestruct",
+        "damage": 100,
+        "cost": [
+          "LIGHTNING",
+          "LIGHTNING",
+          "LIGHTNING",
+          "LIGHTNING"
+        ],
+        "text": "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magneton does 100 damage to itself."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-12",
+    "name": "Moltres",
+    "fullName": "Moltres FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 12,
+    "image": "/cards/base3/12.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "FIRE"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Wildfire",
+        "damage": 0,
+        "cost": [
+          "FIRE"
+        ],
+        "text": "You may discard any number of [R] Energy cards attached to Moltres when you use this attack. If you do, discard that many cards from the top of your opponent's deck."
+      },
+      {
+        "name": "Dive Bomb",
+        "damage": 80,
+        "cost": [
+          "FIRE",
+          "FIRE",
+          "FIRE",
+          "FIRE"
+        ],
+        "text": "Flip a coin. If tails, this attack does nothing."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-13",
+    "name": "Muk",
+    "fullName": "Muk FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 13,
+    "image": "/cards/base3/13.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Sludge",
+        "damage": 30,
+        "cost": [
+          "GRASS",
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      }
+    ],
+    "powers": [
+      {
+        "name": "Toxic Gas",
+        "text": "Ignore all Pokémon Powers other than Toxic Gases. This power stops working while Muk is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base3-14",
+    "name": "Raichu",
+    "fullName": "Raichu FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 14,
+    "image": "/cards/base3/14.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "LIGHTNING"
+    ],
+    "hp": 90,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Gigashock",
+        "damage": 30,
+        "cost": [
+          "LIGHTNING",
+          "LIGHTNING",
+          "LIGHTNING",
+          "LIGHTNING"
+        ],
+        "text": "Choose 3 of your opponent's Benched Pokémon and this attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) If your opponent has fewer than 3 Benched Pokémon, do the damage to each of them."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-15",
+    "name": "Zapdos",
+    "fullName": "Zapdos FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 15,
+    "image": "/cards/base3/15.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "LIGHTNING"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Thunderstorm",
+        "damage": 40,
+        "cost": [
+          "LIGHTNING",
+          "LIGHTNING",
+          "LIGHTNING",
+          "LIGHTNING"
+        ],
+        "text": "For each of your opponent's Benched Pokémon, flip a coin. If heads, this attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Then, Zapdos does 10 damage times the number of tails to itself."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-16",
+    "name": "Aerodactyl",
+    "fullName": "Aerodactyl FO16",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 16,
+    "image": "/cards/base3/16.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Wing Attack",
+        "damage": 30,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": [
+      {
+        "name": "Prehistoric Power",
+        "text": "No more Evolution cards can be played. This power stops working while Aerodactyl is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base3-17",
+    "name": "Articuno",
+    "fullName": "Articuno FO17",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 17,
+    "image": "/cards/base3/17.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "WATER"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Freeze Dry",
+        "damage": 30,
+        "cost": [
+          "WATER",
+          "WATER",
+          "WATER"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Blizzard",
+        "damage": 50,
+        "cost": [
+          "WATER",
+          "WATER",
+          "WATER",
+          "WATER"
+        ],
+        "text": "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-18",
+    "name": "Ditto",
+    "fullName": "Ditto FO18",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 18,
+    "image": "/cards/base3/18.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [],
+    "powers": [
+      {
+        "name": "Transform",
+        "text": "If Ditto is your Active Pokémon, treat it as if it were the same card as the Defending Pokémon, including type, Hit Points, Weakness, and so on, except Ditto can't evolve, always has this Pokémon Power, and you may treat any Energy attached to Ditto as Energy of any type. Ditto isn't a copy of any other Pokémon while Ditto is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base3-19",
+    "name": "Dragonite",
+    "fullName": "Dragonite FO19",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 19,
+    "image": "/cards/base3/19.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 100,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Slam",
+        "damage": 40,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip 2 coins. This attack does 40 damage times the number of heads."
+      }
+    ],
+    "powers": [
+      {
+        "name": "Step In",
+        "text": "Once during your turn (before your attack), if Dragonite is on your Bench, you may switch it with your Active Pokémon."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base3-20",
+    "name": "Gengar",
+    "fullName": "Gengar FO20",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 20,
+    "image": "/cards/base3/20.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "PSYCHIC"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Dark Mind",
+        "damage": 30,
+        "cost": [
+          "PSYCHIC",
+          "PSYCHIC",
+          "PSYCHIC"
+        ],
+        "text": "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "powers": [
+      {
+        "name": "Curse",
+        "text": "Once during your turn (before your attack), you may move 1 damage counter from 1 of your opponent's Pokémon to another(even if it would Knock Out the other Pokémon).This power can't be used if Gengar is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base3-21",
+    "name": "Haunter",
+    "fullName": "Haunter FO21",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 21,
+    "image": "/cards/base3/21.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "PSYCHIC"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Nightmare",
+        "damage": 10,
+        "cost": [
+          "PSYCHIC",
+          "COLORLESS"
+        ],
+        "text": "The Defending Pokémon is now Asleep."
+      }
+    ],
+    "powers": [
+      {
+        "name": "Transparency",
+        "text": "Whenever an attack does anything to Haunter, flip a coin. If heads, prevent all effects of that attack, including damage, done to Haunter. This power stops working while Haunter is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base3-22",
+    "name": "Hitmonlee",
+    "fullName": "Hitmonlee FO22",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 22,
+    "image": "/cards/base3/22.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Stretch Kick",
+        "damage": 0,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING"
+        ],
+        "text": "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      },
+      {
+        "name": "High Jump Kick",
+        "damage": 50,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING",
+          "FIGHTING"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-23",
+    "name": "Hypno",
+    "fullName": "Hypno FO23",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 23,
+    "image": "/cards/base3/23.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "PSYCHIC"
+    ],
+    "hp": 90,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Prophecy",
+        "damage": 0,
+        "cost": [
+          "PSYCHIC"
+        ],
+        "text": "Look at up to 3 cards from the top of either player's deck and rearrange them as you like."
+      },
+      {
+        "name": "Dark Mind",
+        "damage": 30,
+        "cost": [
+          "PSYCHIC",
+          "PSYCHIC",
+          "PSYCHIC"
+        ],
+        "text": "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-24",
+    "name": "Kabutops",
+    "fullName": "Kabutops FO24",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 24,
+    "image": "/cards/base3/24.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Sharp Sickle",
+        "damage": 30,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Absorb",
+        "damage": 40,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING",
+          "FIGHTING",
+          "FIGHTING"
+        ],
+        "text": "Remove a number of damage counters from Kabutops equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Kabutops has fewer damage counters than that, remove all of them."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-25",
+    "name": "Lapras",
+    "fullName": "Lapras FO25",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 25,
+    "image": "/cards/base3/25.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "WATER"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Water Gun",
+        "damage": 10,
+        "cost": [
+          "WATER"
+        ],
+        "text": "Does 10 damage plus 10 more damage for each [W] Energy attached to Lapras but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+      },
+      {
+        "name": "Confuse Ray",
+        "damage": 10,
+        "cost": [
+          "WATER",
+          "WATER"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-26",
+    "name": "Magneton",
+    "fullName": "Magneton FO26",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 26,
+    "image": "/cards/base3/26.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "LIGHTNING"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Sonicboom",
+        "damage": 20,
+        "cost": [
+          "LIGHTNING",
+          "COLORLESS"
+        ],
+        "text": "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+      },
+      {
+        "name": "Selfdestruct",
+        "damage": 100,
+        "cost": [
+          "LIGHTNING",
+          "LIGHTNING",
+          "LIGHTNING",
+          "LIGHTNING"
+        ],
+        "text": "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magneton does 100 damage to itself."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-27",
+    "name": "Moltres",
+    "fullName": "Moltres FO27",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 27,
+    "image": "/cards/base3/27.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "FIRE"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Wildfire",
+        "damage": 0,
+        "cost": [
+          "FIRE"
+        ],
+        "text": "You may discard any number of [R] Energy cards attached to Moltres when you use this attack. If you do, discard that many cards from the top of your opponent's deck."
+      },
+      {
+        "name": "Dive Bomb",
+        "damage": 80,
+        "cost": [
+          "FIRE",
+          "FIRE",
+          "FIRE",
+          "FIRE"
+        ],
+        "text": "Flip a coin. If tails, this attack does nothing."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-28",
+    "name": "Muk",
+    "fullName": "Muk FO28",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 28,
+    "image": "/cards/base3/28.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Sludge",
+        "damage": 30,
+        "cost": [
+          "GRASS",
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      }
+    ],
+    "powers": [
+      {
+        "name": "Toxic Gas",
+        "text": "Ignore all Pokémon Powers other than Toxic Gases. This power stops working while Muk is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base3-29",
+    "name": "Raichu",
+    "fullName": "Raichu FO29",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 29,
+    "image": "/cards/base3/29.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "LIGHTNING"
+    ],
+    "hp": 90,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Gigashock",
+        "damage": 30,
+        "cost": [
+          "LIGHTNING",
+          "LIGHTNING",
+          "LIGHTNING",
+          "LIGHTNING"
+        ],
+        "text": "Choose 3 of your opponent's Benched Pokémon and this attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) If your opponent has fewer than 3 Benched Pokémon, do the damage to each of them."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-30",
+    "name": "Zapdos",
+    "fullName": "Zapdos FO30",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 30,
+    "image": "/cards/base3/30.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "LIGHTNING"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Thunderstorm",
+        "damage": 40,
+        "cost": [
+          "LIGHTNING",
+          "LIGHTNING",
+          "LIGHTNING",
+          "LIGHTNING"
+        ],
+        "text": "For each of your opponent's Benched Pokémon, flip a coin. If heads, this attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Then, Zapdos does 10 damage times the number of tails to itself."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-31",
+    "name": "Arbok",
+    "fullName": "Arbok FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 31,
+    "image": "/cards/base3/31.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Terror Strike",
+        "damage": 10,
+        "cost": [
+          "GRASS"
+        ],
+        "text": "Flip a coin. If heads and if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)"
+      },
+      {
+        "name": "Poison Fang",
+        "damage": 20,
+        "cost": [
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "The Defending Pokémon is now Poisoned."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-32",
+    "name": "Cloyster",
+    "fullName": "Cloyster FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 32,
+    "image": "/cards/base3/32.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "WATER"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Clamp",
+        "damage": 30,
+        "cost": [
+          "WATER",
+          "WATER"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing (not even damage)."
+      },
+      {
+        "name": "Spike Cannon",
+        "damage": 30,
+        "cost": [
+          "WATER",
+          "WATER"
+        ],
+        "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-33",
+    "name": "Gastly",
+    "fullName": "Gastly FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 33,
+    "image": "/cards/base3/33.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "PSYCHIC"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Lick",
+        "damage": 10,
+        "cost": [
+          "PSYCHIC"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed"
+      },
+      {
+        "name": "Energy Conversion",
+        "damage": 0,
+        "cost": [
+          "PSYCHIC",
+          "PSYCHIC"
+        ],
+        "text": "Put up to 2 Energy cards from your discard pile into your hand. Gastly does 10 damage to itself."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-34",
+    "name": "Golbat",
+    "fullName": "Golbat FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 34,
+    "image": "/cards/base3/34.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Wing Attack",
+        "damage": 30,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Leech Life",
+        "damage": 20,
+        "cost": [
+          "GRASS",
+          "GRASS",
+          "COLORLESS"
+        ],
+        "text": "Remove a number of damage counters from Golbat equal to the damage done to the Defending Pokémon (after applying Weakness and Resistance). If Golbat has fewer damage counters than that, remove all of them."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-35",
+    "name": "Golduck",
+    "fullName": "Golduck FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 35,
+    "image": "/cards/base3/35.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "WATER"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Psyshock",
+        "damage": 10,
+        "cost": [
+          "PSYCHIC"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Hyper Beam",
+        "damage": 20,
+        "cost": [
+          "WATER",
+          "WATER",
+          "COLORLESS"
+        ],
+        "text": "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-36",
+    "name": "Golem",
+    "fullName": "Golem FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 36,
+    "image": "/cards/base3/36.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 80,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Avalanche",
+        "damage": 60,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING",
+          "FIGHTING",
+          "COLORLESS"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Selfdestruct",
+        "damage": 100,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING",
+          "FIGHTING",
+          "FIGHTING"
+        ],
+        "text": "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Golem does 100 damage to itself."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-37",
+    "name": "Graveler",
+    "fullName": "Graveler FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 37,
+    "image": "/cards/base3/37.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Harden",
+        "damage": 0,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING"
+        ],
+        "text": "During your opponent's next turn, whenever 30 or less damage is done to Graveler (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)"
+      },
+      {
+        "name": "Rock Throw",
+        "damage": 40,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-38",
+    "name": "Kingler",
+    "fullName": "Kingler FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 38,
+    "image": "/cards/base3/38.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "WATER"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Flail",
+        "damage": 10,
+        "cost": [
+          "WATER"
+        ],
+        "text": "Does 10 damage times the number of damage counters on Kingler."
+      },
+      {
+        "name": "Crabhammer",
+        "damage": 40,
+        "cost": [
+          "WATER",
+          "WATER",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-39",
+    "name": "Magmar",
+    "fullName": "Magmar FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 39,
+    "image": "/cards/base3/39.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "FIRE"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Smokescreen",
+        "damage": 10,
+        "cost": [
+          "FIRE"
+        ],
+        "text": "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+      },
+      {
+        "name": "Smog",
+        "damage": 20,
+        "cost": [
+          "FIRE",
+          "FIRE"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-40",
+    "name": "Omastar",
+    "fullName": "Omastar FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 40,
+    "image": "/cards/base3/40.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 2",
+    "types": [
+      "WATER"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Water Gun",
+        "damage": 20,
+        "cost": [
+          "WATER",
+          "COLORLESS"
+        ],
+        "text": "Does 20 damage plus 10 more damage for each [W] Energy attached to Omastar but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+      },
+      {
+        "name": "Spike Cannon",
+        "damage": 30,
+        "cost": [
+          "WATER",
+          "WATER"
+        ],
+        "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-41",
+    "name": "Sandslash",
+    "fullName": "Sandslash FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 41,
+    "image": "/cards/base3/41.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 70,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Slash",
+        "damage": 20,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": ""
+      },
+      {
+        "name": "Fury Swipes",
+        "damage": 20,
+        "cost": [
+          "FIGHTING",
+          "FIGHTING"
+        ],
+        "text": "Flip 3 coins. This attack does 20 damage times the number of heads."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-42",
+    "name": "Seadra",
+    "fullName": "Seadra FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 42,
+    "image": "/cards/base3/42.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "WATER"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Water Gun",
+        "damage": 20,
+        "cost": [
+          "WATER",
+          "COLORLESS"
+        ],
+        "text": "Does 20 damage plus 10 more damage for each [W] Energy attached to Seadra but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+      },
+      {
+        "name": "Agility",
+        "damage": 20,
+        "cost": [
+          "WATER",
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Seadra."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-43",
+    "name": "Slowbro",
+    "fullName": "Slowbro FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 43,
+    "image": "/cards/base3/43.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "PSYCHIC"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Psyshock",
+        "damage": 20,
+        "cost": [
+          "PSYCHIC",
+          "PSYCHIC"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    ],
+    "powers": [
+      {
+        "name": "Strange Behavior",
+        "text": "As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon to Slowbro as long as you don't Knock Out Slowbro. This power can't be used if Slowbro is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base3-44",
+    "name": "Tentacruel",
+    "fullName": "Tentacruel FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 44,
+    "image": "/cards/base3/44.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "WATER"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Supersonic",
+        "damage": 0,
+        "cost": [
+          "WATER"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      },
+      {
+        "name": "Jellyfish Sting",
+        "damage": 10,
+        "cost": [
+          "WATER",
+          "WATER"
+        ],
+        "text": "The Defending Pokémon is now Poisoned."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-45",
+    "name": "Weezing",
+    "fullName": "Weezing FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 45,
+    "image": "/cards/base3/45.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 60,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Smog",
+        "damage": 20,
+        "cost": [
+          "GRASS",
+          "GRASS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      },
+      {
+        "name": "Selfdestruct",
+        "damage": 60,
+        "cost": [
+          "GRASS",
+          "GRASS",
+          "COLORLESS"
+        ],
+        "text": "Does 10 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Weezing does 60 damage to itself."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-46",
+    "name": "Ekans",
+    "fullName": "Ekans FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 46,
+    "image": "/cards/base3/46.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Spit Poison",
+        "damage": 0,
+        "cost": [
+          "GRASS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      },
+      {
+        "name": "Wrap",
+        "damage": 20,
+        "cost": [
+          "GRASS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-47",
+    "name": "Geodude",
+    "fullName": "Geodude FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 47,
+    "image": "/cards/base3/47.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Stone Barrage",
+        "damage": 10,
+        "cost": [
+          "FIGHTING",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin until you get tails. This attack does 10 damage times the number of heads."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-48",
+    "name": "Grimer",
+    "fullName": "Grimer FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 48,
+    "image": "/cards/base3/48.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Nasty Goo",
+        "damage": 10,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Minimize",
+        "damage": 0,
+        "cost": [
+          "GRASS"
+        ],
+        "text": "All damage done by attacks to Grimer during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance)."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-49",
+    "name": "Horsea",
+    "fullName": "Horsea FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 49,
+    "image": "/cards/base3/49.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "WATER"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Smokescreen",
+        "damage": 10,
+        "cost": [
+          "WATER"
+        ],
+        "text": "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-50",
+    "name": "Kabuto",
+    "fullName": "Kabuto FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 50,
+    "image": "/cards/base3/50.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "FIGHTING"
+    ],
+    "hp": 30,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Scratch",
+        "damage": 10,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": [
+      {
+        "name": "Kabuto Armor",
+        "text": "Whenever an attack (even your own) does damage to Kabuto (after applying Weakness and Resistance), that attack does half the damage to Kabuto (rounded down to the nearest 10). (Any other effects of attacks still happen.) This power stops working while Kabuto is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base3-51",
+    "name": "Krabby",
+    "fullName": "Krabby FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 51,
+    "image": "/cards/base3/51.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "WATER"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Call for Family",
+        "damage": 0,
+        "cost": [
+          "WATER"
+        ],
+        "text": "Search your deck for a Basic Pokémon named Krabby and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench if full.)"
+      },
+      {
+        "name": "Irongrip",
+        "damage": 20,
+        "cost": [
+          "WATER",
+          "COLORLESS"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-52",
+    "name": "Omanyte",
+    "fullName": "Omanyte FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 52,
+    "image": "/cards/base3/52.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "stage": "Stage 1",
+    "types": [
+      "WATER"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Water Gun",
+        "damage": 10,
+        "cost": [
+          "WATER"
+        ],
+        "text": "Does 10 damage plus 10 more damage for each Water Energy attached to Omanyte but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+      }
+    ],
+    "powers": [
+      {
+        "name": "Clairvoyance",
+        "text": "Your opponent plays with his or her hand face up. This power stops working while Omanyte is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base3-53",
+    "name": "Psyduck",
+    "fullName": "Psyduck FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 53,
+    "image": "/cards/base3/53.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "WATER"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Headache",
+        "damage": 0,
+        "cost": [
+          "PSYCHIC"
+        ],
+        "text": "Your opponent can't play Trainer cards during his or her next turn."
+      },
+      {
+        "name": "Fury Swipes",
+        "damage": 10,
+        "cost": [
+          "WATER"
+        ],
+        "text": "Flip 3 coins. This attack does 10 damage times the number of heads."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-54",
+    "name": "Shellder",
+    "fullName": "Shellder FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 54,
+    "image": "/cards/base3/54.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "WATER"
+    ],
+    "hp": 30,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Supersonic",
+        "damage": 0,
+        "cost": [
+          "WATER"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      },
+      {
+        "name": "Hide in Shell",
+        "damage": 0,
+        "cost": [
+          "WATER"
+        ],
+        "text": "Flip a coin. If heads, prevent all damage done to Shellder during your opponent's next turn. (Any other effects of attacks still happen.)"
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-55",
+    "name": "Slowpoke",
+    "fullName": "Slowpoke FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 55,
+    "image": "/cards/base3/55.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "PSYCHIC"
+    ],
+    "hp": 50,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Spacing Out",
+        "damage": 0,
+        "cost": [
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, remove a damage counter from Slowpoke. This attack can't be used if Slowpoke has no damage counters on it."
+      },
+      {
+        "name": "Scavenge",
+        "damage": 0,
+        "cost": [
+          "PSYCHIC",
+          "PSYCHIC"
+        ],
+        "text": "Discard 1 [P] Energy card attached to Slowpoke in order to use this attack. Put a Trainer card from your discard pile into your hand."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-56",
+    "name": "Tentacool",
+    "fullName": "Tentacool FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 56,
+    "image": "/cards/base3/56.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "WATER"
+    ],
+    "hp": 30,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Acid",
+        "damage": 10,
+        "cost": [
+          "WATER"
+        ],
+        "text": ""
+      }
+    ],
+    "powers": [
+      {
+        "name": "Cowardice",
+        "text": "At any time during your turn (before your attack), you may return Tentacool to your hand. (Discard all cards attached to Tentacool.) This power can't be used the turn you put Tentacool into play or if Tentacool is Asleep, Confused, or Paralyzed."
+      }
+    ]
+  },
+  {
+    "playable": true,
+    "cardId": "base3-57",
+    "name": "Zubat",
+    "fullName": "Zubat FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 57,
+    "image": "/cards/base3/57.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "GRASS"
+    ],
+    "hp": 40,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Supersonic",
+        "damage": 0,
+        "cost": [
+          "COLORLESS",
+          "COLORLESS"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      },
+      {
+        "name": "Leech Life",
+        "damage": 10,
+        "cost": [
+          "GRASS",
+          "COLORLESS"
+        ],
+        "text": "Remove a number of damage counters from Zubat equal to the damage done to the Defending Pokémon (after applying Weakness and Resistance). If Zubat has fewer damage counters than that, remove all of them."
+      }
+    ],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-58",
+    "name": "Mr. Fuji",
+    "fullName": "Mr. Fuji FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 58,
+    "image": "/cards/base3/58.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Choose a Pokémon on your Bench. Shuffle it and any cards attached to it into your deck.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-59",
+    "name": "Energy Search",
+    "fullName": "Energy Search FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 59,
+    "image": "/cards/base3/59.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Search your deck for a basic Energy card and put it into your hand. Shuffle your deck afterward.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-60",
+    "name": "Gambler",
+    "fullName": "Gambler FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 60,
+    "image": "/cards/base3/60.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Shuffle your hand into your deck. Flip a coin. If heads, draw 8 cards. If tails, draw 1 card.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-61",
+    "name": "Recycle",
+    "fullName": "Recycle FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 61,
+    "image": "/cards/base3/61.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [],
+    "text": "Flip a coin. If heads, put a card in your discard pile on top of your deck.",
+    "attacks": [],
+    "powers": []
+  },
+  {
+    "playable": true,
+    "cardId": "base3-62",
+    "name": "Mysterious Fossil",
+    "fullName": "Mysterious Fossil FO",
+    "expansion": "Fossil",
+    "set": "FO",
+    "number": 62,
+    "image": "/cards/base3/62.png",
+    "kind": "trainer",
+    "basicEnergy": false,
+    "setupEligible": false,
+    "types": [
+      "COLORLESS"
+    ],
+    "hp": 10,
+    "text": "",
+    "attacks": [],
+    "powers": [
+      {
+        "name": "Mysterious Fossil",
+        "text": "Play Mysterious Fossil as if it were a Basic Pokémon. While in play, Mysterious Fossil counts as a Pokémon (instead of a Trainer card). Mysterious Fossil has no attacks, can't retreat, and can't be Asleep, Confused, Paralyzed, or Poisoned. If Mysterious Fossil is Knocked Out, it doesn't count as a Knocked Out Pokémon. (Discard it anyway.) At any time during your turn before your attack, you may discard Mysterious Fossil from play."
+      }
+    ]
+  },
+  {
+    "cardId": "base1-50",
+    "name": "Gastly",
+    "fullName": "Gastly BS",
+    "expansion": "Base Set",
+    "set": "BS",
+    "number": 50,
+    "image": "/cards/base1/50.png",
+    "kind": "pokemon",
+    "basicEnergy": false,
+    "setupEligible": true,
+    "stage": "Basic",
+    "types": [
+      "PSYCHIC"
+    ],
+    "hp": 30,
+    "text": "",
+    "attacks": [
+      {
+        "name": "Sleeping Gas",
+        "damage": 0,
+        "cost": [
+          "PSYCHIC"
+        ],
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+      },
+      {
+        "name": "Destiny Bond",
+        "damage": 0,
+        "cost": [
+          "PSYCHIC",
+          "COLORLESS"
+        ],
+        "text": "Discard 1 Psychic Energy card attached to Gastly in order to use this attack. If a Pokémon Knocks Out Gastly during your opponent's next turn, Knock Out that Pokémon."
+      }
+    ],
+    "powers": [],
+    "playable": false,
+    "unavailableReason": "Base Set Gastly #50 has no executable definition in the pinned Twinleaf revision."
+  }
+]

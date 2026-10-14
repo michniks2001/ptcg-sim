@@ -1,0 +1,449 @@
+{
+  "captured_at": "2026-10-14 06:12 UTC",
+  "screenshots": [
+    {
+      "file": "card-actions-mobile.png",
+      "width": 390,
+      "height": 800,
+      "sha256": "691c2bdd721257654781fdde000618e470620801249b9e54844c95a7d2e722a4"
+    },
+    {
+      "file": "card-actions.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "4e2accc3f91a9ad014b419cd73c3ae4088be24a3ec6292f75b9829a6660da56d"
+    },
+    {
+      "file": "deck-builder-desktop.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "80c794c410995edcdfa326d0a86416e8369e90fde30e5b1683bc708024680850"
+    },
+    {
+      "file": "deck-builder-mobile-deck.png",
+      "width": 390,
+      "height": 2151,
+      "sha256": "c667321f740851c68072b66ed4725892bc1b56d662174094e93d4d5779d4f85c"
+    },
+    {
+      "file": "deck-builder-mobile.png",
+      "width": 390,
+      "height": 1297,
+      "sha256": "b557ccee8d04e8f6803047968d9cb21fbb60a72e90252e9fdd3bd1e2b080a325"
+    },
+    {
+      "file": "deck-search.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "42b84b11855dd58999432007de52c796bf550e200a4015ca5e2a171fb511c4f9"
+    },
+    {
+      "file": "discard-selection.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "bb21264235f0017de1d1d04283333eebaaea15f8eeb156fc754b7141172ebb88"
+    },
+    {
+      "file": "layout-correction/deck-discard-320.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "c4b9517af4fb22c81ed63f28efb2d3b67b570293898888f2c453de0f8b422c6b"
+    },
+    {
+      "file": "layout-correction/deck-discard-390.png",
+      "width": 390,
+      "height": 800,
+      "sha256": "ab374a7a34a86e06d4efda046b1ee27a898d22ad2fe8a62898a71bf18f7b41ec"
+    },
+    {
+      "file": "layout-correction/finished-empty-active-1280.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "158a726b8df02f81e2bb84ffe968cd68f86d3179b642ddcc588abb1151bf3d9e"
+    },
+    {
+      "file": "layout-correction/finished-empty-active-1650.png",
+      "width": 1650,
+      "height": 930,
+      "sha256": "a050e66d82a76489199fc12e5fae09e262962e9d204a5eb1ce38ce04bc8d2c0d"
+    },
+    {
+      "file": "layout-correction/finished-empty-active-320.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "b0834fcb49b9d475fce8df9238c8e33165d1b401726a8e59b12866f64c5f3dce"
+    },
+    {
+      "file": "layout-correction/finished-empty-active-390.png",
+      "width": 390,
+      "height": 800,
+      "sha256": "8c1e7f32a65fdede472c442cb647b42236dc04c4938769dd808d0ec5ae0f9725"
+    },
+    {
+      "file": "layout-correction/finished-empty-active-760.png",
+      "width": 760,
+      "height": 800,
+      "sha256": "01a0efd36c5d974e31872822daddde2fcdbd261fb03b8cdc3589f760b2be11b7"
+    },
+    {
+      "file": "layout-correction/knockout-replacement-1280.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "5d1276ef16da4850f573e3a77f7eed20fd042673157518c104af041cbf9f095a"
+    },
+    {
+      "file": "layout-correction/prizes-320.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "96e1c64dc8565ac8c0ebad18ab2d1a3382f427c1e2328d75b3a1d8b52f671a20"
+    },
+    {
+      "file": "layout-correction/prizes-390.png",
+      "width": 390,
+      "height": 800,
+      "sha256": "520a0eeb3ae27890ecbfc7e3ed7a0d560bb20676ce8cd1e6932b8f6eac5c0db1"
+    },
+    {
+      "file": "layout-correction/rotated-resources-1280.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "425cd73034e3155c1e4ca7e3eea20106af94f910a0977459f2ea26ffdd08c9a1"
+    },
+    {
+      "file": "layout-correction/rotated-resources-1650.png",
+      "width": 1650,
+      "height": 930,
+      "sha256": "48dcc07c8a56888f0b440f8172cd303c165e34a2e8fa516d2ca37502c3a09541"
+    },
+    {
+      "file": "layout-correction/rotated-resources-320.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "23771c3e7eb1b44cb3e71daaf6a676041f8e8c325ab5f3f69ba43f70157c5466"
+    },
+    {
+      "file": "layout-correction/rotated-resources-390.png",
+      "width": 390,
+      "height": 800,
+      "sha256": "39aa647278ca3576bc5c8ae5214eea10bfb3f760fe8727b05554b5a45ef508fd"
+    },
+    {
+      "file": "layout-correction/rotated-resources-760.png",
+      "width": 760,
+      "height": 800,
+      "sha256": "81c83d6c345424507d8cd065f453d7c5caeb74d604092727412afad1361770ce"
+    },
+    {
+      "file": "layout-correction/table-1-bench-1280.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "0263fc4c112664472b36be10ff6b88e89e1f93e37c75f90da274aaade9aeb1e1"
+    },
+    {
+      "file": "layout-correction/table-1-bench-1650.png",
+      "width": 1650,
+      "height": 930,
+      "sha256": "c20933b5fa191b84f75704d4bb10ecf7909c60c684513a518d5ba4e813942c9a"
+    },
+    {
+      "file": "layout-correction/table-1-bench-760.png",
+      "width": 760,
+      "height": 800,
+      "sha256": "165b9591312364b06f711c44f799e291ec72bf05756abe8a9a55046f5669d837"
+    },
+    {
+      "file": "layout-correction/table-3-bench-1280.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "963ed2bf2226dcd2963c4f1601d4461d18d1dfe69856aa194639c6c6b911ba36"
+    },
+    {
+      "file": "layout-correction/table-3-bench-1650.png",
+      "width": 1650,
+      "height": 930,
+      "sha256": "68a1e55101d5e92a95e61970deae8833ef67ee32bcb89d8fbcc438e4ab172fbe"
+    },
+    {
+      "file": "layout-correction/table-3-bench-760.png",
+      "width": 760,
+      "height": 800,
+      "sha256": "ba74fa63ff96079c91280ad58673aa64496dfa1a2b98343e86a2611f28f0e011"
+    },
+    {
+      "file": "layout-correction/table-5-bench-1280.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "d9818e0af55cc801253770c3e6d4dcaecab5050589a3ffcafa0426218ed27c55"
+    },
+    {
+      "file": "layout-correction/table-5-bench-1650.png",
+      "width": 1650,
+      "height": 930,
+      "sha256": "4c1a980d605618c3519b364a5d3548a0b40de6bea1bf4f7b2ea7213c9534d451"
+    },
+    {
+      "file": "layout-correction/table-5-bench-320.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "ba9442111eddeb1ffe704eadfe22a44e97b43e8fe669b884abb5fb7913b5dbc6"
+    },
+    {
+      "file": "layout-correction/table-5-bench-390.png",
+      "width": 390,
+      "height": 800,
+      "sha256": "9f08f0d663da337eec8549d1f8e48c106acfb8bc021e5c5bc69c857862cbf54b"
+    },
+    {
+      "file": "layout-correction/table-5-bench-760.png",
+      "width": 760,
+      "height": 800,
+      "sha256": "918a7e2d6a83a4837aec02b1c490aa2b5b335e8eeb0d5e8e215a68249f20aba2"
+    },
+    {
+      "file": "m4-asleep-1280.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "00caf717815253342686dfbfec6990a7a39f1e27139aa2d3483135974a861d6a"
+    },
+    {
+      "file": "m4-asleep-320.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "eb29502f8aa61ccf40597ebbb0ecd2f4885023f5e569adcef3da5185b9d8c4f8"
+    },
+    {
+      "file": "m4-asleep-390.png",
+      "width": 390,
+      "height": 800,
+      "sha256": "2fc8b45399a0e5fd01fec5818e7ab7a9a9045c33f92ffac49701c2255a88346c"
+    },
+    {
+      "file": "m4-asleep-760.png",
+      "width": 760,
+      "height": 800,
+      "sha256": "29f88b3fc1d8bf2a0f62058468f2911c0357cecdd95a327aaf71e86f165df577"
+    },
+    {
+      "file": "m4-attachment-callout.png",
+      "width": 1680,
+      "height": 1050,
+      "sha256": "e81f894ee83aef855a7036f8b97981450ef47447dbfccb236eb50ceee49e9a76"
+    },
+    {
+      "file": "m4-attack-callout.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "d424bc82b03bafcc126cd78b0f5c8ab2ce0f98c1361b7cfff09cefcdb9411f19"
+    },
+    {
+      "file": "m4-burn-tool-display-fixture.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "4d52cf75d01621200bfbb65889d13a2391d8f32baa59f420190b61d6295f9586"
+    },
+    {
+      "file": "m4-burn-tool-mobile-display-fixture.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "b40a01d646b215ea7debfe489d048935562a69eea93f589d05ecbe92c958021a"
+    },
+    {
+      "file": "m4-coin-callout.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "effa77fb40c323d036135a782a78d8e2d42f271a90a1d5f6dae5905652ec2850"
+    },
+    {
+      "file": "m4-coin-reveal.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "a0613913f6382949814852f3d1d9b877815cfd2300bf8d7ebbc19c5b77d12fcf"
+    },
+    {
+      "file": "m4-confused-1280.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "496c718986e80e5be5bed04e2ce02a340dabb4502a5a7e3f8164e8d527ab540d"
+    },
+    {
+      "file": "m4-confused-320.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "02edab69f7d4bebf3d3ac1b1a5c15392a39f4862a626324d8959c3294fe9296b"
+    },
+    {
+      "file": "m4-confused-390.png",
+      "width": 390,
+      "height": 800,
+      "sha256": "2287e04741b1f5249ddc158178938abdca497079eacce7eff600e2b7b15c983c"
+    },
+    {
+      "file": "m4-confused-760.png",
+      "width": 760,
+      "height": 800,
+      "sha256": "d86cde86d4d7b27171d61ae61a03e98609e50b47f4e6b9f9bdbb61a2fdd2fcd0"
+    },
+    {
+      "file": "m4-field-effects.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "3f64eeb0b20df76c54070dbe0627fa5bf1880c5e01640d99b8736988015b7ed7"
+    },
+    {
+      "file": "m4-paralyzed-1280.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "6fa237de388c21bd9b603aad1e001cee2d7034809a747de27964d83ec51c13a0"
+    },
+    {
+      "file": "m4-paralyzed-320.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "5dc1b2bc4a45e26809b450fc9c54ecfabf600ce102e9def62209fc5bebe9688a"
+    },
+    {
+      "file": "m4-paralyzed-390.png",
+      "width": 390,
+      "height": 800,
+      "sha256": "3813fb5d950ed8339fdc4a92aef590dd8b5fd19e81a9d483ed205e511af3ab0a"
+    },
+    {
+      "file": "m4-paralyzed-760.png",
+      "width": 760,
+      "height": 800,
+      "sha256": "0c20f7633b3b7c7b568cba461468a05179bcc2ca3c11bddcb67ab1bd59efa755"
+    },
+    {
+      "file": "m4-pokemon-effects.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "adb9c92dc85965de00cbccf04e29fa5c90a600ae5892231fb97737d98c47d9c5"
+    },
+    {
+      "file": "m4-tabletop-1280.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "4c81abce33292d5e7c3925134066aeeaf9691ba03fb9cf1e18c3b2e6e0af733f"
+    },
+    {
+      "file": "m4-targeting-1280-720.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "c3148904e64c7da7161d0f4dea0fa5ecc495d032c14b277d334ed92ced8cc92d"
+    },
+    {
+      "file": "m4-targeting-1280.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "1964627b5bf1916a9e942cfa3e66e3f0c6316618dfcd092fa9c2f8eb193b1464"
+    },
+    {
+      "file": "m4-targeting-1680.png",
+      "width": 1680,
+      "height": 1050,
+      "sha256": "7ddf9336b7e23095419d78791ebbb916496618cac5f5dacc2f19c041170c745f"
+    },
+    {
+      "file": "m4-targeting-320.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "a172d045582683088ea4e65d4bbb8b07d6f464fee49f9045845be2ea7143a8ae"
+    },
+    {
+      "file": "m4-targeting-390-667.png",
+      "width": 390,
+      "height": 667,
+      "sha256": "33573f717512132480d9b93b7a3532abd09c035b29eac0a449d5d18d28474948"
+    },
+    {
+      "file": "m4-targeting-390.png",
+      "width": 390,
+      "height": 800,
+      "sha256": "02757a5b5768dc87dca4729745820fcf9113d24266ec56f699860c46f0398cf5"
+    },
+    {
+      "file": "m4-targeting-760.png",
+      "width": 760,
+      "height": 800,
+      "sha256": "296c983c4b7d9cd00086ca8c9241f706054efbc937ef0ce599ea577d787164e5"
+    },
+    {
+      "file": "m4-trainer-callout.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "7a4afd7253ce89f54dd492a52e55a3a887b8af4b561ce63c2a3a03088e0dcb9e"
+    },
+    {
+      "file": "mulligan-both-players.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "2ac04f996047d9b95ac0c711b18a79f1927e1ea1de3594637c48a867cfc680c4"
+    },
+    {
+      "file": "mulligan-multiple-320.png",
+      "width": 320,
+      "height": 650,
+      "sha256": "ac964265d499121e11ac977bf5fa427891adcbfc0443bbddab53e0b1759ffc2b"
+    },
+    {
+      "file": "mulligan-multiple-390.png",
+      "width": 390,
+      "height": 650,
+      "sha256": "5c8ece616b4c3c43fe74870cefbed2edcb079a562abc0a6b47ee51adf0fc2499"
+    },
+    {
+      "file": "mulligan-multiple-760.png",
+      "width": 760,
+      "height": 650,
+      "sha256": "79ab1100587577ca7ee226e99286a3ea90cce69007f20f78e3898a99b381e441"
+    },
+    {
+      "file": "mulligan-multiple-desktop.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "6f12a3d5a25618d4589b432ef6ac670adb0ca3054c23bc03462dbfe807b8ae23"
+    },
+    {
+      "file": "mulligan-single-desktop.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "b53c4ccb35c8bb1a7da44f928d94baabc88522744a50e2e99e861ea5be95cc71"
+    },
+    {
+      "file": "prize-selection.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "dd4e42e38391cf1f6905486e11677a48ad4c83bda9343ffd111d889618e15b93"
+    },
+    {
+      "file": "rain-dance-actions.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "bdabca2ea814528d19ecab6672217c123cb6cddb78976e20d02b12e4c7b4d996"
+    },
+    {
+      "file": "retreat-energy-1280.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "de196ae1a78800adadeb7c390f450bbd3c3dd84603edba1377733fd85c386f0e"
+    },
+    {
+      "file": "retreat-energy-320.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "1a4f2bdb348aad3a243710ede7f33acb10ad8a3f42ff0ff448c93ea9d88902ea"
+    },
+    {
+      "file": "tabletop-1280.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "3846c280acf797b483632a414682b8fe7c5ca5d790c342975b81d08066a1298f"
+    },
+    {
+      "file": "tabletop.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "e3abedb7b611cefb9d5e62344016db59de36cab8fa0a95485f8a24ba89bf8cf2"
+    }
+  ]
+}
