@@ -8,7 +8,7 @@ import type {MatchView} from '../../shared/protocol';
 test('catalog, filters, previews, deck CRUD, persistence and lossless import/export',async({page})=>{
  page.setDefaultTimeout(15000);
  await page.setViewportSize({width:1280,height:800});await page.goto('/');await page.getByRole('button',{name:'Deck Builder',exact:true}).click();
- await expect(page.locator('.catalog-card')).toHaveCount(228);
+ await expect(page.locator('.catalog-card')).toHaveCount(96);await page.getByRole('button',{name:'Show 96 more cards'}).click();await page.getByRole('button',{name:'Show 96 more cards'}).click();await expect(page.locator('.catalog-card')).toHaveCount(228);
  await page.getByLabel('Search cards').fill('Scyther');await expect(page.locator('.catalog-card')).toHaveCount(2);
  await page.getByRole('combobox',{name:'Expansion',exact:true}).selectOption('FO');await expect(page.locator('.catalog-card')).toHaveCount(0);
  await page.getByRole('combobox',{name:'Expansion',exact:true}).selectOption('JU');await page.getByRole('button',{name:'Inspect Scyther JU 10',exact:true}).click();
@@ -31,7 +31,9 @@ test('catalog, filters, previews, deck CRUD, persistence and lossless import/exp
 
 test('Rain Dance source dialog and battlefield attach three Water Energy then offers Hydro Pump',async({page})=>{
  await page.context().addCookies([{name:'table-fixture',value:'rain-dance',url:'http://127.0.0.1:5174'}]);await page.goto('/');await page.getByRole('button',{name:'Play vs AI'}).click();
- for(let i=0;i<3;i++){await page.getByRole('region',{name:'Your battlefield',exact:true}).getByRole('button',{name:'Blastoise',exact:true}).click();await page.getByRole('button',{name:'Use Ability: Rain Dance'}).click();await expect(page.getByRole('dialog')).toContainText('Choose attached or hand Energy');await page.locator('.selection-option').first().click();await page.locator('.legal-target .card').click();await expect(page.getByRole('dialog')).toHaveCount(0);}
+ await page.getByRole('region',{name:'Your battlefield',exact:true}).getByRole('button',{name:'Blastoise',exact:true}).click();await page.getByRole('button',{name:'Use Ability: Rain Dance'}).click();
+ for(let i=0;i<3;i++){await expect(page.getByRole('dialog')).toHaveCount(0);await page.getByRole('region',{name:'Your hand'}).getByRole('button',{name:'Water Energy',exact:true}).first().click();await page.locator('.legal-target .card').click();await expect(page.locator('.target-bar')).toContainText('Rain Dance mode');}
+ await page.getByRole('button',{name:'Done',exact:true}).click();
  await page.getByRole('region',{name:'Your battlefield',exact:true}).getByRole('button',{name:'Blastoise',exact:true}).click();await expect(page.getByRole('button',{name:'Attack: Hydro Pump'})).toBeVisible();await page.screenshot({path:'docs/screenshots/rain-dance-actions.png'});
 });
 

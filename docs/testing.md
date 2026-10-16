@@ -1,3 +1,50 @@
+# Milestone 5 verification checkpoint — October 16, 2026
+
+The unchanged baseline passed build, 141 unit/integration cases and 58 Chromium browser cases. Chromium was installed into the default Playwright cache; the previous `/tmp/ptcg-browsers` path was absent. The first non-isolated browser baseline had one general-play timeout; the isolated unchanged checkpoint passed all 58.
+
+Current executed results:
+
+- `npm test`: **180/180 passing**, 11 files, **80.65 seconds** in the final full run. All original 141 cases remain.
+- `npm run test:e2e`: **65/65 passing**, **2.4 minutes** in the final full run.
+- Focused Ability/catalog/Worlds-menu suite: **7/7 passing**. Final card/format follow-up after adding disabled format entries: **10/10 passing**.
+- Final `npm run build`: **PASS**, **8.78 seconds** wall time; Vite portion **1.72 seconds**. The optional expanded metadata chunk still emits Vite's large-chunk warning.
+- New behavioral suites cover 14 historical-profile cases, 12 persistent-session cases, 10 card/legality cases, six seeded legacy/laboratory games and three seeded Worlds 2024 games. Game evidence: [JSON results](milestone-5-game-results.json).
+- New browser cases cover mobile bulk transfers, source changes/Escape, Done/re-entry/reload, physical Energy identity, three later accelerators, lazy catalog bounds and format/deck/opponent selection.
+
+One intervening 65-case browser run passed 64 and failed when its geometry helper read the hand before React rendered it. The helper now waits for visibility before the same geometry assertions; the final complete rerun passed all 65. Builds and browser checks were run sequentially for that final run.
+
+Screenshots were opened and visually inspected: the original tabletop, the mobile Damage Swap controls, and the structural Worlds 2024 capture. The session bar was tightened after visual review without changing the tabletop layout.
+
+All enabled formats are experimental. Passing representative games does not certify all imported cards, event legality or era mechanics. The new Worlds screenshot uses stubbed artwork to avoid external image/network dependence; it is a structural capture, not evidence of correct artwork. Original Base–Fossil screenshots use the local artwork.
+
+## Reproduce and manually review
+
+```sh
+npm ci
+npx playwright install chromium
+npm run build
+npm test
+npm run test:e2e
+npm run dev
+```
+
+Open http://127.0.0.1:5173/. The normal backend is 127.0.0.1:3001; tests use 5174/3002. Do not expose the test fixture server as the production entrypoint.
+
+1. Select Base–Fossil, load an existing saved deck and play against Haymaker. Confirm setup, grouped mulligans, normal Energy, retreat payment, searches, attacks, KOs/Prizes and an engine-confirmed game ending.
+2. Open Deck Builder. Confirm old printing IDs and quantities survive save/reload and text/JSON round trips. Change a duplicate's format and confirm illegal cards remain listed with errors.
+3. Build an Alakazam deck. Evolve Abra → Kadabra → Alakazam legally, accumulate damage, activate Damage Swap once and move counters between several Pokémon. Change **Counters to move** to three before choosing a destination. Try exceeding the destination's safe capacity; confirm partial completion stops before a KO.
+4. Change sources/destinations; use Escape/Change source before committing. Click Done, confirm the turn does not end, and reactivate later. A disabled Power must not appear as a legal activation.
+5. Use the Rain Dance example. Evolve Blastoise, activate Rain Dance, click Water Energy in hand and an eligible Water Pokémon. Repeat without reopening the inspector. Done preserves any unused ordinary attachment.
+6. Use Venusaur in a custom deck. Activate Energy Trans, click actual attached Grass Energy and a destination. Repeat from another Pokémon, verify attachment identities and try DCE/non-Grass restrictions.
+7. Choose the card laboratory and construct a deck around Frosmoth or Baxcalibur. Ice Dance restricts destinations to eligible Water Bench Pokémon. Super Cold retains its different targets and requires Continue between completed mandatory activations. Test Oricorio ex with a Fire Mega Evolution Pokémon ex on the Bench as well as Active; Fire Energy goes to eligible Fire Bench Pokémon.
+8. Return to the menu, choose Worlds 2024, wait for catalog loading and choose one of the three contemporary example decks. Select Iron Thorns, Roaring Moon or Miraidon as opponent. Confirm the match identifies the selected snapshot and uses modern opening restrictions.
+9. Inspect Tools, public Stadium/Lost Zone details, attachments and GX/VSTAR usage when present. Complete all mandatory strategic prompts. Imported mechanics beyond representative tests may still expose upstream defects; record the exact card and choice sequence.
+10. Complete the game, check callouts and logs, then repeat at 1280px, 760px, 390px and 320px. Reduced motion should preserve results without elaborate animation.
+
+Historical Worlds 2004/2006/2010/2013/2016/2019/2022/2025/2026, Expanded, GLC and RSPK cannot currently be manually reviewed as verified playable formats. Their missing coverage is documented, not silently mapped to modern rules.
+
+---
+
 # Retreat Energy selection — latest verification
 
 Paid Base–Fossil retreats now always offer the attached Energy chooser. Historical payment order is validated by Twinleaf, including Basic Energy followed by Double Colorless where the last card overpays. Free retreats skip payment. See [rules research, implementation and manual checklist](retreat-payment.md).

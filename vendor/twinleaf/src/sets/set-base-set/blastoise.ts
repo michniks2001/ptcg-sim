@@ -77,7 +77,7 @@ export class Blastoise extends PokemonCard {
     if (WAS_POWER_USED(effect, 0, this)) {
       const player = effect.player;
 
-      BLOCK_IF_ASLEEP_CONFUSED_PARALYZED(player, this);
+      BLOCK_IF_ASLEEP_CONFUSED_PARALYZED(player, this, state);
 
       const hasEnergyInHand = player.hand.cards.some(c => {
         return c instanceof EnergyCard

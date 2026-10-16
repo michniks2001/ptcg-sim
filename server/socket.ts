@@ -44,6 +44,18 @@ io.on('connection', socket => {
     if (!Number.isInteger(data?.revision) || !Number.isInteger(data?.id)) throw Error('Invalid prompt payload.');
     current().resolve(1, data.revision, data.id, data.keys); return { ok: true };
   }));
+  socket.on('match:ability-done', handle(data => {
+    if (!Number.isInteger(data?.revision)) throw Error('Invalid session payload.');
+    current().finishAbility(1, data.revision); return { ok: true };
+  }));
+  socket.on('match:ability-continue', handle(data => {
+    if (!Number.isInteger(data?.revision)) throw Error('Invalid session payload.');
+    current().continueAbility(1,data.revision);return {ok:true};
+  }));
+  socket.on('match:move-counters', handle(data => {
+    if (!Number.isInteger(data?.revision) || !Number.isInteger(data?.id) || typeof data?.key !== 'string') throw Error('Invalid damage payload.');
+    current().moveCounters(1, data.revision, data.id, data.key, data.count); return { ok: true };
+  }));
 });
 setInterval(() => { for (const [token, s] of sessions) if (Date.now() - s.touched > 2 * 60 * 60 * 1000 && !io.sockets.adapter.rooms.has(token)) { if (s.timer) clearTimeout(s.timer); sessions.delete(token); } }, 60000).unref();
 return http;

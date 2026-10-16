@@ -1,0 +1,322 @@
+import * as s0 from '../vendor/twinleaf/src/sets/set-base-set';
+import * as s1 from '../vendor/twinleaf/src/sets/set-fossil';
+import * as s2 from '../vendor/twinleaf/src/sets/set-jungle';
+import * as s3 from '../vendor/twinleaf/src/sets/set-team-rocket';
+import * as s4 from '../vendor/twinleaf/src/sets/set-vending-series';
+import * as s5 from '../vendor/twinleaf/src/sets/set-wotc-promos';
+import * as s6 from '../vendor/twinleaf/src/sets/set-gym-heros';
+import * as s7 from '../vendor/twinleaf/src/sets/set-gym-challenge';
+import * as s8 from '../vendor/twinleaf/src/sets/set-base-set-energy';
+import * as s9 from '../vendor/twinleaf/src/sets/set-neo-genesis';
+import * as s10 from '../vendor/twinleaf/src/sets/set-neo-discovery';
+import * as s11 from '../vendor/twinleaf/src/sets/set-neo-revelation';
+import * as s12 from '../vendor/twinleaf/src/sets/set-neo-destiny';
+import * as s13 from '../vendor/twinleaf/src/sets/set-southern-islands';
+import * as s14 from '../vendor/twinleaf/src/sets/set-expedition';
+import * as s15 from '../vendor/twinleaf/src/sets/set-aquapolis';
+import * as s16 from '../vendor/twinleaf/src/sets/set-skyridge';
+import * as s17 from '../vendor/twinleaf/src/sets/set-best-of-game';
+import * as s18 from '../vendor/twinleaf/src/sets/03-ex-ruby-and-sapphire/set-ex-ruby-and-sapphire';
+import * as s19 from '../vendor/twinleaf/src/sets/03-ex-ruby-and-sapphire/set-ex-sandstorm';
+import * as s20 from '../vendor/twinleaf/src/sets/03-ex-ruby-and-sapphire/set-ex-holon-phantoms';
+import * as s21 from '../vendor/twinleaf/src/sets/03-ex-ruby-and-sapphire/set-ex-hidden-legends';
+import * as s22 from '../vendor/twinleaf/src/sets/03-ex-ruby-and-sapphire/set-ex-delta-species';
+import * as s23 from '../vendor/twinleaf/src/sets/03-ex-ruby-and-sapphire/set-ex-dragon';
+import * as s24 from '../vendor/twinleaf/src/sets/03-ex-ruby-and-sapphire/set-ex-team-magma-vs-team-aqua';
+import * as s25 from '../vendor/twinleaf/src/sets/03-ex-ruby-and-sapphire/set-ex-dragon-frontiers';
+import * as s26 from '../vendor/twinleaf/src/sets/03-ex-ruby-and-sapphire/set-ex-unseen-forces';
+import * as s27 from '../vendor/twinleaf/src/sets/03-ex-ruby-and-sapphire/set-ex-deoxys';
+import * as s28 from '../vendor/twinleaf/src/sets/03-ex-ruby-and-sapphire/set-ex-emerald';
+import * as s29 from '../vendor/twinleaf/src/sets/03-ex-ruby-and-sapphire/set-ex-team-rocket-returns';
+import * as s30 from '../vendor/twinleaf/src/sets/03-ex-ruby-and-sapphire/set-ex-crystal-guardians';
+import * as s31 from '../vendor/twinleaf/src/sets/03-ex-ruby-and-sapphire/set-ex-power-keepers';
+import * as s32 from '../vendor/twinleaf/src/sets/03-ex-ruby-and-sapphire/set-ex-firered-leafgreen';
+import * as s33 from '../vendor/twinleaf/src/sets/03-ex-ruby-and-sapphire/set-ex-legend-maker';
+import * as s34 from '../vendor/twinleaf/src/sets/set-nintendo-promos';
+import * as s35 from '../vendor/twinleaf/src/sets/set-unnumbered-promos';
+import * as s36 from '../vendor/twinleaf/src/sets/set-pop-series-2';
+import * as s37 from '../vendor/twinleaf/src/sets/set-pop-series-3';
+import * as s38 from '../vendor/twinleaf/src/sets/set-pop-series-4';
+import * as s39 from '../vendor/twinleaf/src/sets/set-pop-series-5';
+import * as s40 from '../vendor/twinleaf/src/sets/set-pop-series-8';
+import * as s41 from '../vendor/twinleaf/src/sets/set-pcg-l-promotional-cards';
+import * as s42 from '../vendor/twinleaf/src/sets/set-pcg-p-promotional-cards';
+import * as s43 from '../vendor/twinleaf/src/sets/set-pokepark-premium-files';
+import * as s44 from '../vendor/twinleaf/src/sets/set-gift-box-mew-lucario';
+import * as s45 from '../vendor/twinleaf/src/sets/set-vs-pack-auras-lucario';
+import * as s46 from '../vendor/twinleaf/src/sets/04-diamond-pearl-platinum/set-diamond-and-pearl';
+import * as s47 from '../vendor/twinleaf/src/sets/04-diamond-pearl-platinum/set-mysterious-treasures';
+import * as s48 from '../vendor/twinleaf/src/sets/04-diamond-pearl-platinum/set-supreme-victors';
+import * as s49 from '../vendor/twinleaf/src/sets/04-diamond-pearl-platinum/set-secret-wonders';
+import * as s50 from '../vendor/twinleaf/src/sets/04-diamond-pearl-platinum/set-great-encounters';
+import * as s51 from '../vendor/twinleaf/src/sets/set-op9';
+import * as s52 from '../vendor/twinleaf/src/sets/04-diamond-pearl-platinum/set-platinum';
+import * as s53 from '../vendor/twinleaf/src/sets/04-diamond-pearl-platinum/set-rising-rivals';
+import * as s54 from '../vendor/twinleaf/src/sets/04-diamond-pearl-platinum/set-diamond-and-pearl-promos';
+import * as s55 from '../vendor/twinleaf/src/sets/set-battle-road-promos';
+import * as s56 from '../vendor/twinleaf/src/sets/05-heartgold-and-soulsilver/set-call-of-legends';
+import * as s57 from '../vendor/twinleaf/src/sets/05-heartgold-and-soulsilver/set-heartgold-and-soulsilver';
+import * as s58 from '../vendor/twinleaf/src/sets/05-heartgold-and-soulsilver/set-heartgold-and-soulsilver-promos';
+import * as s59 from '../vendor/twinleaf/src/sets/set-l-p-promos';
+import * as s60 from '../vendor/twinleaf/src/sets/05-heartgold-and-soulsilver/set-triumphant';
+import * as s61 from '../vendor/twinleaf/src/sets/05-heartgold-and-soulsilver/set-undaunted';
+import * as s62 from '../vendor/twinleaf/src/sets/05-heartgold-and-soulsilver/set-unleashed';
+import * as s63 from '../vendor/twinleaf/src/sets/06-black-and-white/set-black-and-white-promos';
+import * as s64 from '../vendor/twinleaf/src/sets/06-black-and-white/set-black-and-white';
+import * as s65 from '../vendor/twinleaf/src/sets/06-black-and-white/set-boundaries-crossed';
+import * as s66 from '../vendor/twinleaf/src/sets/06-black-and-white/set-dark-explorers';
+import * as s67 from '../vendor/twinleaf/src/sets/06-black-and-white/set-dragon-vault';
+import * as s68 from '../vendor/twinleaf/src/sets/06-black-and-white/set-dragons-exalted';
+import * as s69 from '../vendor/twinleaf/src/sets/06-black-and-white/set-emerging-powers';
+import * as s70 from '../vendor/twinleaf/src/sets/06-black-and-white/set-legendary-treasures';
+import * as s71 from '../vendor/twinleaf/src/sets/06-black-and-white/set-next-destinies';
+import * as s72 from '../vendor/twinleaf/src/sets/06-black-and-white/set-noble-victories';
+import * as s73 from '../vendor/twinleaf/src/sets/06-black-and-white/set-plasma-blast';
+import * as s74 from '../vendor/twinleaf/src/sets/06-black-and-white/set-plasma-freeze';
+import * as s75 from '../vendor/twinleaf/src/sets/06-black-and-white/set-plasma-storm';
+import * as s76 from '../vendor/twinleaf/src/sets/07-x-and-y/set-flashfire';
+import * as s77 from '../vendor/twinleaf/src/sets/07-x-and-y/set-furious-fists';
+import * as s78 from '../vendor/twinleaf/src/sets/07-x-and-y/set-phantom-forces';
+import * as s79 from '../vendor/twinleaf/src/sets/07-x-and-y/set-primal-clash';
+import * as s80 from '../vendor/twinleaf/src/sets/07-x-and-y/set-x-and-y';
+import * as s81 from '../vendor/twinleaf/src/sets/07-x-and-y/set-double-crisis';
+import * as s82 from '../vendor/twinleaf/src/sets/07-x-and-y/set-ancient-origins';
+import * as s83 from '../vendor/twinleaf/src/sets/07-x-and-y/set-breakpoint';
+import * as s84 from '../vendor/twinleaf/src/sets/07-x-and-y/set-breakthrough';
+import * as s85 from '../vendor/twinleaf/src/sets/07-x-and-y/set-evolutions';
+import * as s86 from '../vendor/twinleaf/src/sets/07-x-and-y/set-fates-collide';
+import * as s87 from '../vendor/twinleaf/src/sets/07-x-and-y/set-generations';
+import * as s88 from '../vendor/twinleaf/src/sets/07-x-and-y/set-roaring-skies';
+import * as s89 from '../vendor/twinleaf/src/sets/07-x-and-y/set-steam-siege';
+import * as s90 from '../vendor/twinleaf/src/sets/07-x-and-y/set-x-and-y-promos';
+import * as s91 from '../vendor/twinleaf/src/sets/09-sword-and-shield/set-champions-path';
+import * as s92 from '../vendor/twinleaf/src/sets/08-sun-and-moon/set-burning-shadows';
+import * as s93 from '../vendor/twinleaf/src/sets/08-sun-and-moon/set-celestial-storm';
+import * as s94 from '../vendor/twinleaf/src/sets/08-sun-and-moon/set-cosmic-eclipse';
+import * as s95 from '../vendor/twinleaf/src/sets/08-sun-and-moon/set-crimson-invasion';
+import * as s96 from '../vendor/twinleaf/src/sets/set-dragons-majesty';
+import * as s97 from '../vendor/twinleaf/src/sets/08-sun-and-moon/set-forbidden-light';
+import * as s98 from '../vendor/twinleaf/src/sets/08-sun-and-moon/set-guardians-rising';
+import * as s99 from '../vendor/twinleaf/src/sets/set-hidden-fates';
+import * as s100 from '../vendor/twinleaf/src/sets/08-sun-and-moon/set-lost-thunder';
+import * as s101 from '../vendor/twinleaf/src/sets/set-shining-legends';
+import * as s102 from '../vendor/twinleaf/src/sets/08-sun-and-moon/set-sun-and-moon';
+import * as s103 from '../vendor/twinleaf/src/sets/08-sun-and-moon/set-sun-and-moon-promos';
+import * as s104 from '../vendor/twinleaf/src/sets/08-sun-and-moon/set-team-up';
+import * as s105 from '../vendor/twinleaf/src/sets/08-sun-and-moon/set-ultra-prism';
+import * as s106 from '../vendor/twinleaf/src/sets/08-sun-and-moon/set-unbroken-bonds';
+import * as s107 from '../vendor/twinleaf/src/sets/08-sun-and-moon/set-unified-minds';
+import * as s108 from '../vendor/twinleaf/src/sets/set-detective-pikachu';
+import * as s109 from '../vendor/twinleaf/src/sets/09-sword-and-shield/set-astral-radiance';
+import * as s110 from '../vendor/twinleaf/src/sets/09-sword-and-shield/set-battle-styles';
+import * as s111 from '../vendor/twinleaf/src/sets/09-sword-and-shield/set-brilliant-stars';
+import * as s112 from '../vendor/twinleaf/src/sets/09-sword-and-shield/set-celebrations';
+import * as s113 from '../vendor/twinleaf/src/sets/09-sword-and-shield/set-chilling-reign';
+import * as s114 from '../vendor/twinleaf/src/sets/09-sword-and-shield/set-crown-zenith';
+import * as s115 from '../vendor/twinleaf/src/sets/09-sword-and-shield/set-darkness-ablaze';
+import * as s116 from '../vendor/twinleaf/src/sets/09-sword-and-shield/set-evolving-skies';
+import * as s117 from '../vendor/twinleaf/src/sets/09-sword-and-shield/set-fusion-strike';
+import * as s118 from '../vendor/twinleaf/src/sets/09-sword-and-shield/set-lost-origin';
+import * as s119 from '../vendor/twinleaf/src/sets/09-sword-and-shield/set-pokemon-go';
+import * as s120 from '../vendor/twinleaf/src/sets/09-sword-and-shield/set-rebel-clash';
+import * as s121 from '../vendor/twinleaf/src/sets/set-shining-fates';
+import * as s122 from '../vendor/twinleaf/src/sets/09-sword-and-shield/set-silver-tempest';
+import * as s123 from '../vendor/twinleaf/src/sets/09-sword-and-shield/set-sword-and-shield';
+import * as s124 from '../vendor/twinleaf/src/sets/09-sword-and-shield/set-sword-and-shield-promos';
+import * as s125 from '../vendor/twinleaf/src/sets/09-sword-and-shield/set-vivid-voltage';
+import * as s126 from '../vendor/twinleaf/src/sets/10-scarlet-and-violet/set-scarlet-and-violet';
+import * as s127 from '../vendor/twinleaf/src/sets/10-scarlet-and-violet/set-scarlet-and-violet-energy';
+import * as s128 from '../vendor/twinleaf/src/sets/10-scarlet-and-violet/set-scarlet-and-violet-promos';
+import * as s129 from '../vendor/twinleaf/src/sets/10-scarlet-and-violet/set-paldea-evolved';
+import * as s130 from '../vendor/twinleaf/src/sets/10-scarlet-and-violet/set-obsidian-flames';
+import * as s131 from '../vendor/twinleaf/src/sets/10-scarlet-and-violet/set-pokemon-151';
+import * as s132 from '../vendor/twinleaf/src/sets/10-scarlet-and-violet/set-paradox-rift';
+import * as s133 from '../vendor/twinleaf/src/sets/10-scarlet-and-violet/set-paldean-fates';
+import * as s134 from '../vendor/twinleaf/src/sets/10-scarlet-and-violet/set-temporal-forces';
+import * as s135 from '../vendor/twinleaf/src/sets/10-scarlet-and-violet/set-twilight-masquerade';
+import * as s136 from '../vendor/twinleaf/src/sets/10-scarlet-and-violet/set-shrouded-fable';
+import * as s137 from '../vendor/twinleaf/src/sets/10-scarlet-and-violet/set-stellar-crown';
+import * as s138 from '../vendor/twinleaf/src/sets/10-scarlet-and-violet/set-surging-sparks';
+import * as s139 from '../vendor/twinleaf/src/sets/10-scarlet-and-violet/set-prismatic-evolution';
+import * as s140 from '../vendor/twinleaf/src/sets/10-scarlet-and-violet/set-journey-together';
+import * as s141 from '../vendor/twinleaf/src/sets/10-scarlet-and-violet/set-destined-rivals';
+import * as s142 from '../vendor/twinleaf/src/sets/10-scarlet-and-violet/set-black-bolt-white-flare';
+import * as s143 from '../vendor/twinleaf/src/sets/11-mega-evolution/set-mega-evolution-promos';
+import * as s144 from '../vendor/twinleaf/src/sets/11-mega-evolution/set-mega-evolution';
+import * as s145 from '../vendor/twinleaf/src/sets/11-mega-evolution/set-mega-evolution-energy';
+import * as s146 from '../vendor/twinleaf/src/sets/11-mega-evolution/set-mega-starter-deck';
+import * as s147 from '../vendor/twinleaf/src/sets/11-mega-evolution/set-phantasmal-flames';
+import * as s148 from '../vendor/twinleaf/src/sets/11-mega-evolution/set-ascended-heroes';
+import * as s149 from '../vendor/twinleaf/src/sets/11-mega-evolution/set-perfect-order';
+import * as s150 from '../vendor/twinleaf/src/sets/11-mega-evolution/set-chaos-rising';
+import * as s151 from '../vendor/twinleaf/src/sets/11-mega-evolution/set-delta-reign';
+import * as s152 from '../vendor/twinleaf/src/sets/11-mega-evolution/set-pitch-black';
+import * as s153 from '../vendor/twinleaf/src/sets/11-mega-evolution/set-30th-celebration';
+import * as s154 from '../vendor/twinleaf/src/sets/11-mega-evolution/set-mega-x-mega-parade';
+import * as s155 from '../vendor/twinleaf/src/sets/11-mega-evolution/set-aura-seeker';
+import * as s156 from '../vendor/twinleaf/src/sets/04-diamond-pearl-platinum/set-legends-awakened';
+import * as s157 from '../vendor/twinleaf/src/sets/04-diamond-pearl-platinum/set-stormfront';
+import * as s158 from '../vendor/twinleaf/src/sets/04-diamond-pearl-platinum/set-majestic-dawn';
+import * as s159 from '../vendor/twinleaf/src/sets/04-diamond-pearl-platinum/set-arceus';
+export const expansionSets = [
+  { module: "set-base-set", cards: Object.values(s0).filter(Array.isArray).flat() },
+  { module: "set-fossil", cards: Object.values(s1).filter(Array.isArray).flat() },
+  { module: "set-jungle", cards: Object.values(s2).filter(Array.isArray).flat() },
+  { module: "set-team-rocket", cards: Object.values(s3).filter(Array.isArray).flat() },
+  { module: "set-vending-series", cards: Object.values(s4).filter(Array.isArray).flat() },
+  { module: "set-wotc-promos", cards: Object.values(s5).filter(Array.isArray).flat() },
+  { module: "set-gym-heros", cards: Object.values(s6).filter(Array.isArray).flat() },
+  { module: "set-gym-challenge", cards: Object.values(s7).filter(Array.isArray).flat() },
+  { module: "set-base-set-energy", cards: Object.values(s8).filter(Array.isArray).flat() },
+  { module: "set-neo-genesis", cards: Object.values(s9).filter(Array.isArray).flat() },
+  { module: "set-neo-discovery", cards: Object.values(s10).filter(Array.isArray).flat() },
+  { module: "set-neo-revelation", cards: Object.values(s11).filter(Array.isArray).flat() },
+  { module: "set-neo-destiny", cards: Object.values(s12).filter(Array.isArray).flat() },
+  { module: "set-southern-islands", cards: Object.values(s13).filter(Array.isArray).flat() },
+  { module: "set-expedition", cards: Object.values(s14).filter(Array.isArray).flat() },
+  { module: "set-aquapolis", cards: Object.values(s15).filter(Array.isArray).flat() },
+  { module: "set-skyridge", cards: Object.values(s16).filter(Array.isArray).flat() },
+  { module: "set-best-of-game", cards: Object.values(s17).filter(Array.isArray).flat() },
+  { module: "03-ex-ruby-and-sapphire/set-ex-ruby-and-sapphire", cards: Object.values(s18).filter(Array.isArray).flat() },
+  { module: "03-ex-ruby-and-sapphire/set-ex-sandstorm", cards: Object.values(s19).filter(Array.isArray).flat() },
+  { module: "03-ex-ruby-and-sapphire/set-ex-holon-phantoms", cards: Object.values(s20).filter(Array.isArray).flat() },
+  { module: "03-ex-ruby-and-sapphire/set-ex-hidden-legends", cards: Object.values(s21).filter(Array.isArray).flat() },
+  { module: "03-ex-ruby-and-sapphire/set-ex-delta-species", cards: Object.values(s22).filter(Array.isArray).flat() },
+  { module: "03-ex-ruby-and-sapphire/set-ex-dragon", cards: Object.values(s23).filter(Array.isArray).flat() },
+  { module: "03-ex-ruby-and-sapphire/set-ex-team-magma-vs-team-aqua", cards: Object.values(s24).filter(Array.isArray).flat() },
+  { module: "03-ex-ruby-and-sapphire/set-ex-dragon-frontiers", cards: Object.values(s25).filter(Array.isArray).flat() },
+  { module: "03-ex-ruby-and-sapphire/set-ex-unseen-forces", cards: Object.values(s26).filter(Array.isArray).flat() },
+  { module: "03-ex-ruby-and-sapphire/set-ex-deoxys", cards: Object.values(s27).filter(Array.isArray).flat() },
+  { module: "03-ex-ruby-and-sapphire/set-ex-emerald", cards: Object.values(s28).filter(Array.isArray).flat() },
+  { module: "03-ex-ruby-and-sapphire/set-ex-team-rocket-returns", cards: Object.values(s29).filter(Array.isArray).flat() },
+  { module: "03-ex-ruby-and-sapphire/set-ex-crystal-guardians", cards: Object.values(s30).filter(Array.isArray).flat() },
+  { module: "03-ex-ruby-and-sapphire/set-ex-power-keepers", cards: Object.values(s31).filter(Array.isArray).flat() },
+  { module: "03-ex-ruby-and-sapphire/set-ex-firered-leafgreen", cards: Object.values(s32).filter(Array.isArray).flat() },
+  { module: "03-ex-ruby-and-sapphire/set-ex-legend-maker", cards: Object.values(s33).filter(Array.isArray).flat() },
+  { module: "set-nintendo-promos", cards: Object.values(s34).filter(Array.isArray).flat() },
+  { module: "set-unnumbered-promos", cards: Object.values(s35).filter(Array.isArray).flat() },
+  { module: "set-pop-series-2", cards: Object.values(s36).filter(Array.isArray).flat() },
+  { module: "set-pop-series-3", cards: Object.values(s37).filter(Array.isArray).flat() },
+  { module: "set-pop-series-4", cards: Object.values(s38).filter(Array.isArray).flat() },
+  { module: "set-pop-series-5", cards: Object.values(s39).filter(Array.isArray).flat() },
+  { module: "set-pop-series-8", cards: Object.values(s40).filter(Array.isArray).flat() },
+  { module: "set-pcg-l-promotional-cards", cards: Object.values(s41).filter(Array.isArray).flat() },
+  { module: "set-pcg-p-promotional-cards", cards: Object.values(s42).filter(Array.isArray).flat() },
+  { module: "set-pokepark-premium-files", cards: Object.values(s43).filter(Array.isArray).flat() },
+  { module: "set-gift-box-mew-lucario", cards: Object.values(s44).filter(Array.isArray).flat() },
+  { module: "set-vs-pack-auras-lucario", cards: Object.values(s45).filter(Array.isArray).flat() },
+  { module: "04-diamond-pearl-platinum/set-diamond-and-pearl", cards: Object.values(s46).filter(Array.isArray).flat() },
+  { module: "04-diamond-pearl-platinum/set-mysterious-treasures", cards: Object.values(s47).filter(Array.isArray).flat() },
+  { module: "04-diamond-pearl-platinum/set-supreme-victors", cards: Object.values(s48).filter(Array.isArray).flat() },
+  { module: "04-diamond-pearl-platinum/set-secret-wonders", cards: Object.values(s49).filter(Array.isArray).flat() },
+  { module: "04-diamond-pearl-platinum/set-great-encounters", cards: Object.values(s50).filter(Array.isArray).flat() },
+  { module: "set-op9", cards: Object.values(s51).filter(Array.isArray).flat() },
+  { module: "04-diamond-pearl-platinum/set-platinum", cards: Object.values(s52).filter(Array.isArray).flat() },
+  { module: "04-diamond-pearl-platinum/set-rising-rivals", cards: Object.values(s53).filter(Array.isArray).flat() },
+  { module: "04-diamond-pearl-platinum/set-diamond-and-pearl-promos", cards: Object.values(s54).filter(Array.isArray).flat() },
+  { module: "set-battle-road-promos", cards: Object.values(s55).filter(Array.isArray).flat() },
+  { module: "05-heartgold-and-soulsilver/set-call-of-legends", cards: Object.values(s56).filter(Array.isArray).flat() },
+  { module: "05-heartgold-and-soulsilver/set-heartgold-and-soulsilver", cards: Object.values(s57).filter(Array.isArray).flat() },
+  { module: "05-heartgold-and-soulsilver/set-heartgold-and-soulsilver-promos", cards: Object.values(s58).filter(Array.isArray).flat() },
+  { module: "set-l-p-promos", cards: Object.values(s59).filter(Array.isArray).flat() },
+  { module: "05-heartgold-and-soulsilver/set-triumphant", cards: Object.values(s60).filter(Array.isArray).flat() },
+  { module: "05-heartgold-and-soulsilver/set-undaunted", cards: Object.values(s61).filter(Array.isArray).flat() },
+  { module: "05-heartgold-and-soulsilver/set-unleashed", cards: Object.values(s62).filter(Array.isArray).flat() },
+  { module: "06-black-and-white/set-black-and-white-promos", cards: Object.values(s63).filter(Array.isArray).flat() },
+  { module: "06-black-and-white/set-black-and-white", cards: Object.values(s64).filter(Array.isArray).flat() },
+  { module: "06-black-and-white/set-boundaries-crossed", cards: Object.values(s65).filter(Array.isArray).flat() },
+  { module: "06-black-and-white/set-dark-explorers", cards: Object.values(s66).filter(Array.isArray).flat() },
+  { module: "06-black-and-white/set-dragon-vault", cards: Object.values(s67).filter(Array.isArray).flat() },
+  { module: "06-black-and-white/set-dragons-exalted", cards: Object.values(s68).filter(Array.isArray).flat() },
+  { module: "06-black-and-white/set-emerging-powers", cards: Object.values(s69).filter(Array.isArray).flat() },
+  { module: "06-black-and-white/set-legendary-treasures", cards: Object.values(s70).filter(Array.isArray).flat() },
+  { module: "06-black-and-white/set-next-destinies", cards: Object.values(s71).filter(Array.isArray).flat() },
+  { module: "06-black-and-white/set-noble-victories", cards: Object.values(s72).filter(Array.isArray).flat() },
+  { module: "06-black-and-white/set-plasma-blast", cards: Object.values(s73).filter(Array.isArray).flat() },
+  { module: "06-black-and-white/set-plasma-freeze", cards: Object.values(s74).filter(Array.isArray).flat() },
+  { module: "06-black-and-white/set-plasma-storm", cards: Object.values(s75).filter(Array.isArray).flat() },
+  { module: "07-x-and-y/set-flashfire", cards: Object.values(s76).filter(Array.isArray).flat() },
+  { module: "07-x-and-y/set-furious-fists", cards: Object.values(s77).filter(Array.isArray).flat() },
+  { module: "07-x-and-y/set-phantom-forces", cards: Object.values(s78).filter(Array.isArray).flat() },
+  { module: "07-x-and-y/set-primal-clash", cards: Object.values(s79).filter(Array.isArray).flat() },
+  { module: "07-x-and-y/set-x-and-y", cards: Object.values(s80).filter(Array.isArray).flat() },
+  { module: "07-x-and-y/set-double-crisis", cards: Object.values(s81).filter(Array.isArray).flat() },
+  { module: "07-x-and-y/set-ancient-origins", cards: Object.values(s82).filter(Array.isArray).flat() },
+  { module: "07-x-and-y/set-breakpoint", cards: Object.values(s83).filter(Array.isArray).flat() },
+  { module: "07-x-and-y/set-breakthrough", cards: Object.values(s84).filter(Array.isArray).flat() },
+  { module: "07-x-and-y/set-evolutions", cards: Object.values(s85).filter(Array.isArray).flat() },
+  { module: "07-x-and-y/set-fates-collide", cards: Object.values(s86).filter(Array.isArray).flat() },
+  { module: "07-x-and-y/set-generations", cards: Object.values(s87).filter(Array.isArray).flat() },
+  { module: "07-x-and-y/set-roaring-skies", cards: Object.values(s88).filter(Array.isArray).flat() },
+  { module: "07-x-and-y/set-steam-siege", cards: Object.values(s89).filter(Array.isArray).flat() },
+  { module: "07-x-and-y/set-x-and-y-promos", cards: Object.values(s90).filter(Array.isArray).flat() },
+  { module: "09-sword-and-shield/set-champions-path", cards: Object.values(s91).filter(Array.isArray).flat() },
+  { module: "08-sun-and-moon/set-burning-shadows", cards: Object.values(s92).filter(Array.isArray).flat() },
+  { module: "08-sun-and-moon/set-celestial-storm", cards: Object.values(s93).filter(Array.isArray).flat() },
+  { module: "08-sun-and-moon/set-cosmic-eclipse", cards: Object.values(s94).filter(Array.isArray).flat() },
+  { module: "08-sun-and-moon/set-crimson-invasion", cards: Object.values(s95).filter(Array.isArray).flat() },
+  { module: "set-dragons-majesty", cards: Object.values(s96).filter(Array.isArray).flat() },
+  { module: "08-sun-and-moon/set-forbidden-light", cards: Object.values(s97).filter(Array.isArray).flat() },
+  { module: "08-sun-and-moon/set-guardians-rising", cards: Object.values(s98).filter(Array.isArray).flat() },
+  { module: "set-hidden-fates", cards: Object.values(s99).filter(Array.isArray).flat() },
+  { module: "08-sun-and-moon/set-lost-thunder", cards: Object.values(s100).filter(Array.isArray).flat() },
+  { module: "set-shining-legends", cards: Object.values(s101).filter(Array.isArray).flat() },
+  { module: "08-sun-and-moon/set-sun-and-moon", cards: Object.values(s102).filter(Array.isArray).flat() },
+  { module: "08-sun-and-moon/set-sun-and-moon-promos", cards: Object.values(s103).filter(Array.isArray).flat() },
+  { module: "08-sun-and-moon/set-team-up", cards: Object.values(s104).filter(Array.isArray).flat() },
+  { module: "08-sun-and-moon/set-ultra-prism", cards: Object.values(s105).filter(Array.isArray).flat() },
+  { module: "08-sun-and-moon/set-unbroken-bonds", cards: Object.values(s106).filter(Array.isArray).flat() },
+  { module: "08-sun-and-moon/set-unified-minds", cards: Object.values(s107).filter(Array.isArray).flat() },
+  { module: "set-detective-pikachu", cards: Object.values(s108).filter(Array.isArray).flat() },
+  { module: "09-sword-and-shield/set-astral-radiance", cards: Object.values(s109).filter(Array.isArray).flat() },
+  { module: "09-sword-and-shield/set-battle-styles", cards: Object.values(s110).filter(Array.isArray).flat() },
+  { module: "09-sword-and-shield/set-brilliant-stars", cards: Object.values(s111).filter(Array.isArray).flat() },
+  { module: "09-sword-and-shield/set-celebrations", cards: Object.values(s112).filter(Array.isArray).flat() },
+  { module: "09-sword-and-shield/set-chilling-reign", cards: Object.values(s113).filter(Array.isArray).flat() },
+  { module: "09-sword-and-shield/set-crown-zenith", cards: Object.values(s114).filter(Array.isArray).flat() },
+  { module: "09-sword-and-shield/set-darkness-ablaze", cards: Object.values(s115).filter(Array.isArray).flat() },
+  { module: "09-sword-and-shield/set-evolving-skies", cards: Object.values(s116).filter(Array.isArray).flat() },
+  { module: "09-sword-and-shield/set-fusion-strike", cards: Object.values(s117).filter(Array.isArray).flat() },
+  { module: "09-sword-and-shield/set-lost-origin", cards: Object.values(s118).filter(Array.isArray).flat() },
+  { module: "09-sword-and-shield/set-pokemon-go", cards: Object.values(s119).filter(Array.isArray).flat() },
+  { module: "09-sword-and-shield/set-rebel-clash", cards: Object.values(s120).filter(Array.isArray).flat() },
+  { module: "set-shining-fates", cards: Object.values(s121).filter(Array.isArray).flat() },
+  { module: "09-sword-and-shield/set-silver-tempest", cards: Object.values(s122).filter(Array.isArray).flat() },
+  { module: "09-sword-and-shield/set-sword-and-shield", cards: Object.values(s123).filter(Array.isArray).flat() },
+  { module: "09-sword-and-shield/set-sword-and-shield-promos", cards: Object.values(s124).filter(Array.isArray).flat() },
+  { module: "09-sword-and-shield/set-vivid-voltage", cards: Object.values(s125).filter(Array.isArray).flat() },
+  { module: "10-scarlet-and-violet/set-scarlet-and-violet", cards: Object.values(s126).filter(Array.isArray).flat() },
+  { module: "10-scarlet-and-violet/set-scarlet-and-violet-energy", cards: Object.values(s127).filter(Array.isArray).flat() },
+  { module: "10-scarlet-and-violet/set-scarlet-and-violet-promos", cards: Object.values(s128).filter(Array.isArray).flat() },
+  { module: "10-scarlet-and-violet/set-paldea-evolved", cards: Object.values(s129).filter(Array.isArray).flat() },
+  { module: "10-scarlet-and-violet/set-obsidian-flames", cards: Object.values(s130).filter(Array.isArray).flat() },
+  { module: "10-scarlet-and-violet/set-pokemon-151", cards: Object.values(s131).filter(Array.isArray).flat() },
+  { module: "10-scarlet-and-violet/set-paradox-rift", cards: Object.values(s132).filter(Array.isArray).flat() },
+  { module: "10-scarlet-and-violet/set-paldean-fates", cards: Object.values(s133).filter(Array.isArray).flat() },
+  { module: "10-scarlet-and-violet/set-temporal-forces", cards: Object.values(s134).filter(Array.isArray).flat() },
+  { module: "10-scarlet-and-violet/set-twilight-masquerade", cards: Object.values(s135).filter(Array.isArray).flat() },
+  { module: "10-scarlet-and-violet/set-shrouded-fable", cards: Object.values(s136).filter(Array.isArray).flat() },
+  { module: "10-scarlet-and-violet/set-stellar-crown", cards: Object.values(s137).filter(Array.isArray).flat() },
+  { module: "10-scarlet-and-violet/set-surging-sparks", cards: Object.values(s138).filter(Array.isArray).flat() },
+  { module: "10-scarlet-and-violet/set-prismatic-evolution", cards: Object.values(s139).filter(Array.isArray).flat() },
+  { module: "10-scarlet-and-violet/set-journey-together", cards: Object.values(s140).filter(Array.isArray).flat() },
+  { module: "10-scarlet-and-violet/set-destined-rivals", cards: Object.values(s141).filter(Array.isArray).flat() },
+  { module: "10-scarlet-and-violet/set-black-bolt-white-flare", cards: Object.values(s142).filter(Array.isArray).flat() },
+  { module: "11-mega-evolution/set-mega-evolution-promos", cards: Object.values(s143).filter(Array.isArray).flat() },
+  { module: "11-mega-evolution/set-mega-evolution", cards: Object.values(s144).filter(Array.isArray).flat() },
+  { module: "11-mega-evolution/set-mega-evolution-energy", cards: Object.values(s145).filter(Array.isArray).flat() },
+  { module: "11-mega-evolution/set-mega-starter-deck", cards: Object.values(s146).filter(Array.isArray).flat() },
+  { module: "11-mega-evolution/set-phantasmal-flames", cards: Object.values(s147).filter(Array.isArray).flat() },
+  { module: "11-mega-evolution/set-ascended-heroes", cards: Object.values(s148).filter(Array.isArray).flat() },
+  { module: "11-mega-evolution/set-perfect-order", cards: Object.values(s149).filter(Array.isArray).flat() },
+  { module: "11-mega-evolution/set-chaos-rising", cards: Object.values(s150).filter(Array.isArray).flat() },
+  { module: "11-mega-evolution/set-delta-reign", cards: Object.values(s151).filter(Array.isArray).flat() },
+  { module: "11-mega-evolution/set-pitch-black", cards: Object.values(s152).filter(Array.isArray).flat() },
+  { module: "11-mega-evolution/set-30th-celebration", cards: Object.values(s153).filter(Array.isArray).flat() },
+  { module: "11-mega-evolution/set-mega-x-mega-parade", cards: Object.values(s154).filter(Array.isArray).flat() },
+  { module: "11-mega-evolution/set-aura-seeker", cards: Object.values(s155).filter(Array.isArray).flat() },
+  { module: "04-diamond-pearl-platinum/set-legends-awakened", cards: Object.values(s156).filter(Array.isArray).flat() },
+  { module: "04-diamond-pearl-platinum/set-stormfront", cards: Object.values(s157).filter(Array.isArray).flat() },
+  { module: "04-diamond-pearl-platinum/set-majestic-dawn", cards: Object.values(s158).filter(Array.isArray).flat() },
+  { module: "04-diamond-pearl-platinum/set-arceus", cards: Object.values(s159).filter(Array.isArray).flat() },
+];

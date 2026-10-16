@@ -104,14 +104,17 @@ export function playCardReducer(store: StoreLike, state: State, action: Action):
       }
 
       if (handCard instanceof TrainerCard) {
+        if (state.turn === 1 && !state.rules.firstTurnUseTrainer && !handCard.firstTurn) {
+          throw new GameError(GameMessage.CANNOT_PLAY_THIS_CARD);
+        }
         const target = findPokemonTarget(state, player, action.target);
         let effect: Effect;
         switch (handCard.trainerType) {
           case TrainerType.SUPPORTER:
-            if (state.turn === 1 && handCard.firstTurn !== true) {
+            if (state.turn === 1 && !state.rules.firstTurnUseSupporter && handCard.firstTurn !== true) {
               throw new GameError(GameMessage.CANNOT_PLAY_THIS_CARD);
             }
-            if (player.supporter.cards.length > 0) {
+            if (player.supporter.cards.length > 0 || player.supporterTurn > 0) {
               throw new GameError(GameMessage.SUPPORTER_ALREADY_PLAYED);
             }
             effect = new PlaySupporterEffect(player, handCard, target);
@@ -122,10 +125,10 @@ export function playCardReducer(store: StoreLike, state: State, action: Action):
             }
             const stadium = StateUtils.getStadiumCard(state);
             const isHyperrogueOverPrismTower = handCard.name === 'Hyperrogue Ange Floette' && stadium?.name === 'Prism Tower';
-            if (player.stadiumPlayedTurn === state.turn && !isHyperrogueOverPrismTower) {
+            if (player.stadiumPlayedTurn === state.turn && !state.rules.unlimitedStadium && !isHyperrogueOverPrismTower) {
               throw new GameError(GameMessage.STADIUM_ALREADY_PLAYED);
             }
-            if (stadium && stadium.name === handCard.name) {
+            if (stadium && stadium.name === handCard.name && !state.rules.replaceSameNameStadium) {
               throw new GameError(GameMessage.SAME_STADIUM_ALREADY_IN_PLAY);
             }
             player.stadiumPlayedTurn = state.turn;

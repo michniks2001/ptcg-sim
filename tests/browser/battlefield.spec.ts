@@ -12,7 +12,8 @@ const feedback=(page:Page)=>page.getByRole('status',{name:'Gameplay feedback'});
 const screenshot=async(page:Page,name:string)=>{await page.evaluate(()=>window.scrollTo(0,0));await page.screenshot({path:`docs/screenshots/m4-${name}.png`,fullPage:true});};
 const noOverflow=async(page:Page)=>expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
 const handInView=async(page:Page)=>{
- const bounds=await page.getByRole('region',{name:'Your hand'}).boundingBox();
+ const hand=page.getByRole('region',{name:'Your hand'});await expect(hand).toBeVisible();
+ const bounds=await hand.boundingBox();
  expect(bounds!.y).toBeGreaterThanOrEqual(0);expect(bounds!.y+bounds!.height).toBeLessThanOrEqual(page.viewportSize()!.height);
  expect(await page.evaluate(()=>document.documentElement.scrollHeight<=innerHeight)).toBe(true);
 };
@@ -43,7 +44,7 @@ test('Gust is mandatory opponent targeting, survives reload, and cannot be cance
 });
 
 test('Energy Trans preserves Energy source choice then selects destination on the field',async({page})=>{
- const state=await start(page,'energy-trans');await active(page).click();await page.getByRole('button',{name:'Use Ability: Energy Trans'}).click();await expect(page.getByRole('dialog')).toHaveAccessibleName('Choose attached or hand Energy');await expect(page.locator('.selection-option')).toHaveCount(2);await page.locator('.selection-option').first().click();await expect(page.getByRole('dialog')).toHaveCount(0);await expect(page.locator('.legal-target')).toHaveCount(1);await page.locator('.legal-target .card').click();await expect.poll(()=>state().players[0].bench[0].energy.length).toBe(1);await expect(own(page).locator('.active-area .attachment')).toHaveCount(1);await expect(own(page).locator('.bench .attachment')).toHaveCount(1);
+ const state=await start(page,'energy-trans');await active(page).click();await page.getByRole('button',{name:'Use Ability: Energy Trans'}).click();await expect(page.getByRole('dialog')).toHaveCount(0);await expect(page.locator('.attachment.legal-source')).toHaveCount(2);await page.locator('.attachment.legal-source').first().click();await expect(page.getByRole('dialog')).toHaveCount(0);await expect(page.locator('.legal-target')).toHaveCount(1);await page.locator('.legal-target .card').click();await expect.poll(()=>state().players[0].bench[0].energy.length).toBe(1);await expect(own(page).locator('.active-area .attachment')).toHaveCount(1);await expect(own(page).locator('.bench .attachment')).toHaveCount(1);
 });
 
 test('Damage Swap selects source and destination on the battlefield',async({page})=>{

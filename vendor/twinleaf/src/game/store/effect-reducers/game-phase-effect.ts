@@ -171,6 +171,13 @@ function handleSpecialConditions(store: StoreLike, state: State, effect: Between
         player.active.damage += effect.poisonDamage;
         break;
       case SpecialCondition.BURNED:
+        if (state.rules.legacyBurn) {
+          if (effect.burnFlipResult === false) player.active.damage += effect.burnDamage;
+          else if (effect.burnFlipResult === undefined) COIN_FLIP_PROMPT(store,state,player,result=>{
+            if (!result) player.active.damage += effect.burnDamage;
+          });
+          break;
+        }
         player.active.damage += effect.burnDamage;
 
         if (effect.burnFlipResult === true) {

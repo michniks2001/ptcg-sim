@@ -1,5 +1,18 @@
 # Local integration patches
 
+## Milestone 5 additions
+
+The revision remains pinned. The full compatible set dependency closure was added without replacing existing patched files. `scripts/card-sets.ts` is the generated registration manifest. Source test/Game Boy modules are excluded. Competing official-printing definitions remain registered for audit but are quarantined by catalog/deck validation; no effect is chosen silently.
+
+- `setup-reducer.ts`: bind the second player in `decideStartingPlayer`; the modern coin-loser choice path otherwise referenced an undefined `opponent`.
+- `rules.ts`, `play-card-reducer.ts`, `trainer-prefabs.ts`: honor `firstTurnUseSupporter`; enforce the once-per-turn Supporter counter after cleanup; add default-safe `firstTurnUseTrainer`, `unlimitedStadium`, `replaceSameNameStadium` switches. The original Wizards profile enables the historical Stadium behavior.
+- `rules.ts`, `game-phase-effect.ts`: optional `legacyBurn` behavior flips for damage and retains Burn rather than applying automatic modern damage/recovery. Modern defaults remain unchanged.
+- Sword & Shield Frosmoth: expose the same dynamic Water-type Bench restrictions in the AttachEnergy prompt that its callback already enforces; one attachment per activation for persistent sessions.
+- Phantasmal Flames Oricorio ex: search the top Pokémon in every in-play slot for the Fire Mega Evolution Pokémon ex prerequisite, instead of only the Active stack.
+- `pre2002PowerConditions` optionally preserves the printed Sleep/Confusion/Paralysis restrictions for Base Alakazam, Blastoise and Venusaur instead of applying the later 2002 Poison/Burn erratum. Other helper callers retain upstream behavior; broader historical Power auditing remains incomplete.
+
+Behavioral coverage is in `tests/historical-profiles.test.ts`, `tests/repeatable.test.ts` and the card/format/browser suites. Historical profiles outside enabled snapshots are representative tests, not full-format certification. All earlier patches and their documented limitations below are preserved.
+
 Upstream revision remains `a8b6fe9075f982f7722e3c9ee2ce5e39cea1f1ca`. Milestones 1–2 did not change gameplay source. Milestone 3 expands the dependency closure by 189 source files from that exact checkout and makes the isolated corrections below. The exact unified source diff is [milestone-3.patch](milestone-3.patch).
 
 ## Registry and card corrections

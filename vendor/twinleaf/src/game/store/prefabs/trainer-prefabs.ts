@@ -213,7 +213,7 @@ export function CAN_PLAY_TRAINER_CARD(
     switch (trainerCard.trainerType) {
       case TrainerType.SUPPORTER:
         // Can't play supporter on turn 1 unless card allows it
-        if (state.turn === 1 && !trainerCard.firstTurn) {
+        if (state.turn === 1 && !state.rules.firstTurnUseSupporter && !trainerCard.firstTurn) {
           return false;
         }
         // Can't play supporter if one already played this turn
@@ -230,11 +230,11 @@ export function CAN_PLAY_TRAINER_CARD(
         const isHyperrogueOverPrismTower =
           trainerCard.name === 'Hyperrogue Ange Floette' && stadium?.name === 'Prism Tower';
         // Can't play stadium if one already played this turn (unless Hyperrogue Ange Floette over Prism Tower)
-        if (player.stadiumPlayedTurn === state.turn && !isHyperrogueOverPrismTower) {
+        if (player.stadiumPlayedTurn === state.turn && !state.rules.unlimitedStadium && !isHyperrogueOverPrismTower) {
           return false;
         }
         // Can't play same stadium already in play
-        if (stadium && stadium.name === trainerCard.name) {
+        if (stadium && stadium.name === trainerCard.name && !state.rules.replaceSameNameStadium) {
           return false;
         }
         break;

@@ -1,0 +1,1306 @@
+[
+  {
+    "module": "set-base-set",
+    "expansion": "Base Set",
+    "codes": [
+      "BS"
+    ],
+    "registeredInstances": 95
+  },
+  {
+    "module": "set-fossil",
+    "expansion": "Fossil",
+    "codes": [
+      "FO"
+    ],
+    "registeredInstances": 62
+  },
+  {
+    "module": "set-jungle",
+    "expansion": "Jungle",
+    "codes": [
+      "JU"
+    ],
+    "registeredInstances": 64
+  },
+  {
+    "module": "set-team-rocket",
+    "expansion": "Team Rocket",
+    "codes": [
+      "TR"
+    ],
+    "registeredInstances": 33
+  },
+  {
+    "module": "set-vending-series",
+    "expansion": "Vending Series",
+    "codes": [
+      "VS2",
+      "VS1"
+    ],
+    "registeredInstances": 2
+  },
+  {
+    "module": "set-wotc-promos",
+    "expansion": "Wotc Promos",
+    "codes": [
+      "PR"
+    ],
+    "registeredInstances": 9
+  },
+  {
+    "module": "set-gym-heros",
+    "expansion": "Gym Heros",
+    "codes": [
+      "G1"
+    ],
+    "registeredInstances": 22
+  },
+  {
+    "module": "set-gym-challenge",
+    "expansion": "Gym Challenge",
+    "codes": [
+      "G2"
+    ],
+    "registeredInstances": 11
+  },
+  {
+    "module": "set-base-set-energy",
+    "expansion": "Base Set Energy",
+    "codes": [
+      "BS"
+    ],
+    "registeredInstances": 6
+  },
+  {
+    "module": "set-neo-genesis",
+    "expansion": "Neo Genesis",
+    "codes": [
+      "N1"
+    ],
+    "registeredInstances": 18
+  },
+  {
+    "module": "set-neo-discovery",
+    "expansion": "Neo Discovery",
+    "codes": [
+      "N2"
+    ],
+    "registeredInstances": 7
+  },
+  {
+    "module": "set-neo-revelation",
+    "expansion": "Neo Revelation",
+    "codes": [
+      "N3"
+    ],
+    "registeredInstances": 5
+  },
+  {
+    "module": "set-neo-destiny",
+    "expansion": "Neo Destiny",
+    "codes": [
+      "N4"
+    ],
+    "registeredInstances": 5
+  },
+  {
+    "module": "set-southern-islands",
+    "expansion": "Southern Islands",
+    "codes": [
+      "SI"
+    ],
+    "registeredInstances": 1
+  },
+  {
+    "module": "set-expedition",
+    "expansion": "Expedition",
+    "codes": [
+      "EX"
+    ],
+    "registeredInstances": 36
+  },
+  {
+    "module": "set-aquapolis",
+    "expansion": "Aquapolis",
+    "codes": [
+      "AQ"
+    ],
+    "registeredInstances": 26
+  },
+  {
+    "module": "set-skyridge",
+    "expansion": "Skyridge",
+    "codes": [
+      "SK"
+    ],
+    "registeredInstances": 22
+  },
+  {
+    "module": "set-best-of-game",
+    "expansion": "Best Of Game",
+    "codes": [
+      "BP"
+    ],
+    "registeredInstances": 1
+  },
+  {
+    "module": "03-ex-ruby-and-sapphire/set-ex-ruby-and-sapphire",
+    "expansion": "Ex Ruby And Sapphire",
+    "codes": [
+      "RS"
+    ],
+    "registeredInstances": 35
+  },
+  {
+    "module": "03-ex-ruby-and-sapphire/set-ex-sandstorm",
+    "expansion": "Ex Sandstorm",
+    "codes": [
+      "SS"
+    ],
+    "registeredInstances": 34
+  },
+  {
+    "module": "03-ex-ruby-and-sapphire/set-ex-holon-phantoms",
+    "expansion": "Ex Holon Phantoms",
+    "codes": [
+      "HP"
+    ],
+    "registeredInstances": 33
+  },
+  {
+    "module": "03-ex-ruby-and-sapphire/set-ex-hidden-legends",
+    "expansion": "Ex Hidden Legends",
+    "codes": [
+      "HL"
+    ],
+    "registeredInstances": 41
+  },
+  {
+    "module": "03-ex-ruby-and-sapphire/set-ex-delta-species",
+    "expansion": "Ex Delta Species",
+    "codes": [
+      "DS"
+    ],
+    "registeredInstances": 53
+  },
+  {
+    "module": "03-ex-ruby-and-sapphire/set-ex-dragon",
+    "expansion": "Ex Dragon",
+    "codes": [
+      "DR"
+    ],
+    "registeredInstances": 26
+  },
+  {
+    "module": "03-ex-ruby-and-sapphire/set-ex-team-magma-vs-team-aqua",
+    "expansion": "Ex Team Magma Vs Team Aqua",
+    "codes": [
+      "MA"
+    ],
+    "registeredInstances": 37
+  },
+  {
+    "module": "03-ex-ruby-and-sapphire/set-ex-dragon-frontiers",
+    "expansion": "Ex Dragon Frontiers",
+    "codes": [
+      "DF"
+    ],
+    "registeredInstances": 49
+  },
+  {
+    "module": "03-ex-ruby-and-sapphire/set-ex-unseen-forces",
+    "expansion": "Ex Unseen Forces",
+    "codes": [
+      "UF"
+    ],
+    "registeredInstances": 51
+  },
+  {
+    "module": "03-ex-ruby-and-sapphire/set-ex-deoxys",
+    "expansion": "Ex Deoxys",
+    "codes": [
+      "DX"
+    ],
+    "registeredInstances": 35
+  },
+  {
+    "module": "03-ex-ruby-and-sapphire/set-ex-emerald",
+    "expansion": "Ex Emerald",
+    "codes": [
+      "EM"
+    ],
+    "registeredInstances": 21
+  },
+  {
+    "module": "03-ex-ruby-and-sapphire/set-ex-team-rocket-returns",
+    "expansion": "Ex Team Rocket Returns",
+    "codes": [
+      "TRR"
+    ],
+    "registeredInstances": 39
+  },
+  {
+    "module": "03-ex-ruby-and-sapphire/set-ex-crystal-guardians",
+    "expansion": "Ex Crystal Guardians",
+    "codes": [
+      "CG"
+    ],
+    "registeredInstances": 40
+  },
+  {
+    "module": "03-ex-ruby-and-sapphire/set-ex-power-keepers",
+    "expansion": "Ex Power Keepers",
+    "codes": [
+      "PK"
+    ],
+    "registeredInstances": 31
+  },
+  {
+    "module": "03-ex-ruby-and-sapphire/set-ex-firered-leafgreen",
+    "expansion": "Ex Firered Leafgreen",
+    "codes": [
+      "RG"
+    ],
+    "registeredInstances": 33
+  },
+  {
+    "module": "03-ex-ruby-and-sapphire/set-ex-legend-maker",
+    "expansion": "Ex Legend Maker",
+    "codes": [
+      "LM"
+    ],
+    "registeredInstances": 43
+  },
+  {
+    "module": "set-nintendo-promos",
+    "expansion": "Nintendo Promos",
+    "codes": [
+      "NP"
+    ],
+    "registeredInstances": 5
+  },
+  {
+    "module": "set-unnumbered-promos",
+    "expansion": "Unnumbered Promos",
+    "codes": [
+      "UP"
+    ],
+    "registeredInstances": 4
+  },
+  {
+    "module": "set-pop-series-2",
+    "expansion": "Pop Series 2",
+    "codes": [
+      "P2"
+    ],
+    "registeredInstances": 2
+  },
+  {
+    "module": "set-pop-series-3",
+    "expansion": "Pop Series 3",
+    "codes": [
+      "P3"
+    ],
+    "registeredInstances": 1
+  },
+  {
+    "module": "set-pop-series-4",
+    "expansion": "Pop Series 4",
+    "codes": [
+      "P4"
+    ],
+    "registeredInstances": 3
+  },
+  {
+    "module": "set-pop-series-5",
+    "expansion": "Pop Series 5",
+    "codes": [
+      "P5"
+    ],
+    "registeredInstances": 3
+  },
+  {
+    "module": "set-pop-series-8",
+    "expansion": "Pop Series 8",
+    "codes": [
+      "P8"
+    ],
+    "registeredInstances": 1
+  },
+  {
+    "module": "set-pcg-l-promotional-cards",
+    "expansion": "Pcg L Promotional Cards",
+    "codes": [
+      "PCGL"
+    ],
+    "registeredInstances": 1
+  },
+  {
+    "module": "set-pcg-p-promotional-cards",
+    "expansion": "Pcg P Promotional Cards",
+    "codes": [
+      "PCGP"
+    ],
+    "registeredInstances": 29
+  },
+  {
+    "module": "set-pokepark-premium-files",
+    "expansion": "Pokepark Premium Files",
+    "codes": [
+      "PPF"
+    ],
+    "registeredInstances": 1
+  },
+  {
+    "module": "set-gift-box-mew-lucario",
+    "expansion": "Gift Box Mew Lucario",
+    "codes": [
+      "GBM"
+    ],
+    "registeredInstances": 1
+  },
+  {
+    "module": "set-vs-pack-auras-lucario",
+    "expansion": "Vs Pack Auras Lucario",
+    "codes": [
+      "MAL"
+    ],
+    "registeredInstances": 1
+  },
+  {
+    "module": "04-diamond-pearl-platinum/set-diamond-and-pearl",
+    "expansion": "Diamond And Pearl",
+    "codes": [
+      "DP"
+    ],
+    "registeredInstances": 28
+  },
+  {
+    "module": "04-diamond-pearl-platinum/set-mysterious-treasures",
+    "expansion": "Mysterious Treasures",
+    "codes": [
+      "MT"
+    ],
+    "registeredInstances": 20
+  },
+  {
+    "module": "04-diamond-pearl-platinum/set-supreme-victors",
+    "expansion": "Supreme Victors",
+    "codes": [
+      "SV"
+    ],
+    "registeredInstances": 14
+  },
+  {
+    "module": "04-diamond-pearl-platinum/set-secret-wonders",
+    "expansion": "Secret Wonders",
+    "codes": [
+      "SW"
+    ],
+    "registeredInstances": 29
+  },
+  {
+    "module": "04-diamond-pearl-platinum/set-great-encounters",
+    "expansion": "Great Encounters",
+    "codes": [
+      "GE"
+    ],
+    "registeredInstances": 17
+  },
+  {
+    "module": "set-op9",
+    "expansion": "Op9",
+    "codes": [
+      "OP9"
+    ],
+    "registeredInstances": 15
+  },
+  {
+    "module": "04-diamond-pearl-platinum/set-platinum",
+    "expansion": "Platinum",
+    "codes": [
+      "PL"
+    ],
+    "registeredInstances": 30
+  },
+  {
+    "module": "04-diamond-pearl-platinum/set-rising-rivals",
+    "expansion": "Rising Rivals",
+    "codes": [
+      "RR"
+    ],
+    "registeredInstances": 19
+  },
+  {
+    "module": "04-diamond-pearl-platinum/set-diamond-and-pearl-promos",
+    "expansion": "Diamond And Pearl Promos",
+    "codes": [
+      "DPP"
+    ],
+    "registeredInstances": 9
+  },
+  {
+    "module": "set-battle-road-promos",
+    "expansion": "Battle Road Promos",
+    "codes": [
+      "BRP"
+    ],
+    "registeredInstances": 2
+  },
+  {
+    "module": "05-heartgold-and-soulsilver/set-call-of-legends",
+    "expansion": "Call Of Legends",
+    "codes": [
+      "CL"
+    ],
+    "registeredInstances": 28
+  },
+  {
+    "module": "05-heartgold-and-soulsilver/set-heartgold-and-soulsilver",
+    "expansion": "Heartgold And Soulsilver",
+    "codes": [
+      "HS"
+    ],
+    "registeredInstances": 49
+  },
+  {
+    "module": "05-heartgold-and-soulsilver/set-heartgold-and-soulsilver-promos",
+    "expansion": "Heartgold And Soulsilver Promos",
+    "codes": [
+      "HSP"
+    ],
+    "registeredInstances": 6
+  },
+  {
+    "module": "set-l-p-promos",
+    "expansion": "L P Promos",
+    "codes": [
+      "DPt-P"
+    ],
+    "registeredInstances": 1
+  },
+  {
+    "module": "05-heartgold-and-soulsilver/set-triumphant",
+    "expansion": "Triumphant",
+    "codes": [
+      "TM"
+    ],
+    "registeredInstances": 32
+  },
+  {
+    "module": "05-heartgold-and-soulsilver/set-undaunted",
+    "expansion": "Undaunted",
+    "codes": [
+      "UD"
+    ],
+    "registeredInstances": 31
+  },
+  {
+    "module": "05-heartgold-and-soulsilver/set-unleashed",
+    "expansion": "Unleashed",
+    "codes": [
+      "UL"
+    ],
+    "registeredInstances": 28
+  },
+  {
+    "module": "06-black-and-white/set-black-and-white-promos",
+    "expansion": "Black And White Promos",
+    "codes": [
+      "BWP",
+      "TK5E",
+      "TK5Z"
+    ],
+    "registeredInstances": 42
+  },
+  {
+    "module": "06-black-and-white/set-black-and-white",
+    "expansion": "Black And White",
+    "codes": [
+      "BLW"
+    ],
+    "registeredInstances": 115
+  },
+  {
+    "module": "06-black-and-white/set-boundaries-crossed",
+    "expansion": "Boundaries Crossed",
+    "codes": [
+      "BCR"
+    ],
+    "registeredInstances": 153
+  },
+  {
+    "module": "06-black-and-white/set-dark-explorers",
+    "expansion": "Dark Explorers",
+    "codes": [
+      "DEX"
+    ],
+    "registeredInstances": 111
+  },
+  {
+    "module": "06-black-and-white/set-dragon-vault",
+    "expansion": "Dragon Vault",
+    "codes": [
+      "DRV"
+    ],
+    "registeredInstances": 21
+  },
+  {
+    "module": "06-black-and-white/set-dragons-exalted",
+    "expansion": "Dragons Exalted",
+    "codes": [
+      "DRX"
+    ],
+    "registeredInstances": 128
+  },
+  {
+    "module": "06-black-and-white/set-emerging-powers",
+    "expansion": "Emerging Powers",
+    "codes": [
+      "EPO"
+    ],
+    "registeredInstances": 98
+  },
+  {
+    "module": "06-black-and-white/set-legendary-treasures",
+    "expansion": "Legendary Treasures",
+    "codes": [
+      "LTR"
+    ],
+    "registeredInstances": 140
+  },
+  {
+    "module": "06-black-and-white/set-next-destinies",
+    "expansion": "Next Destinies",
+    "codes": [
+      "NXD"
+    ],
+    "registeredInstances": 104
+  },
+  {
+    "module": "06-black-and-white/set-noble-victories",
+    "expansion": "Noble Victories",
+    "codes": [
+      "NVI"
+    ],
+    "registeredInstances": 102
+  },
+  {
+    "module": "06-black-and-white/set-plasma-blast",
+    "expansion": "Plasma Blast",
+    "codes": [
+      "PLB"
+    ],
+    "registeredInstances": 105
+  },
+  {
+    "module": "06-black-and-white/set-plasma-freeze",
+    "expansion": "Plasma Freeze",
+    "codes": [
+      "PLF"
+    ],
+    "registeredInstances": 122
+  },
+  {
+    "module": "06-black-and-white/set-plasma-storm",
+    "expansion": "Plasma Storm",
+    "codes": [
+      "PLS"
+    ],
+    "registeredInstances": 138
+  },
+  {
+    "module": "07-x-and-y/set-flashfire",
+    "expansion": "Flashfire",
+    "codes": [
+      "FLF"
+    ],
+    "registeredInstances": 110
+  },
+  {
+    "module": "07-x-and-y/set-furious-fists",
+    "expansion": "Furious Fists",
+    "codes": [
+      "FFI"
+    ],
+    "registeredInstances": 114
+  },
+  {
+    "module": "07-x-and-y/set-phantom-forces",
+    "expansion": "Phantom Forces",
+    "codes": [
+      "PHF"
+    ],
+    "registeredInstances": 124
+  },
+  {
+    "module": "07-x-and-y/set-primal-clash",
+    "expansion": "Primal Clash",
+    "codes": [
+      "PRC"
+    ],
+    "registeredInstances": 163
+  },
+  {
+    "module": "07-x-and-y/set-x-and-y",
+    "expansion": "X And Y",
+    "codes": [
+      "XY"
+    ],
+    "registeredInstances": 146
+  },
+  {
+    "module": "07-x-and-y/set-double-crisis",
+    "expansion": "Double Crisis",
+    "codes": [
+      "DCR"
+    ],
+    "registeredInstances": 6
+  },
+  {
+    "module": "07-x-and-y/set-ancient-origins",
+    "expansion": "Ancient Origins",
+    "codes": [
+      "AOR"
+    ],
+    "registeredInstances": 103
+  },
+  {
+    "module": "07-x-and-y/set-breakpoint",
+    "expansion": "Breakpoint",
+    "codes": [
+      "BKP"
+    ],
+    "registeredInstances": 126
+  },
+  {
+    "module": "07-x-and-y/set-breakthrough",
+    "expansion": "Breakthrough",
+    "codes": [
+      "BKT"
+    ],
+    "registeredInstances": 165
+  },
+  {
+    "module": "07-x-and-y/set-evolutions",
+    "expansion": "Evolutions",
+    "codes": [
+      "EVO"
+    ],
+    "registeredInstances": 113
+  },
+  {
+    "module": "07-x-and-y/set-fates-collide",
+    "expansion": "Fates Collide",
+    "codes": [
+      "FCO"
+    ],
+    "registeredInstances": 129
+  },
+  {
+    "module": "07-x-and-y/set-generations",
+    "expansion": "Generations",
+    "codes": [
+      "GEN"
+    ],
+    "registeredInstances": 45
+  },
+  {
+    "module": "07-x-and-y/set-roaring-skies",
+    "expansion": "Roaring Skies",
+    "codes": [
+      "ROS"
+    ],
+    "registeredInstances": 113
+  },
+  {
+    "module": "07-x-and-y/set-steam-siege",
+    "expansion": "Steam Siege",
+    "codes": [
+      "STS",
+      "PRC"
+    ],
+    "registeredInstances": 116
+  },
+  {
+    "module": "07-x-and-y/set-x-and-y-promos",
+    "expansion": "X And Y Promos",
+    "codes": [
+      "XYP",
+      "TK8a",
+      "TK8O",
+      "TK9P",
+      "TK9S",
+      "TK6N",
+      "TK6S",
+      "TK7B"
+    ],
+    "registeredInstances": 36
+  },
+  {
+    "module": "09-sword-and-shield/set-champions-path",
+    "expansion": "Champions Path",
+    "codes": [
+      "CPA"
+    ],
+    "registeredInstances": 80
+  },
+  {
+    "module": "08-sun-and-moon/set-burning-shadows",
+    "expansion": "Burning Shadows",
+    "codes": [
+      "BUS"
+    ],
+    "registeredInstances": 177
+  },
+  {
+    "module": "08-sun-and-moon/set-celestial-storm",
+    "expansion": "Celestial Storm",
+    "codes": [
+      "CES"
+    ],
+    "registeredInstances": 187
+  },
+  {
+    "module": "08-sun-and-moon/set-cosmic-eclipse",
+    "expansion": "Cosmic Eclipse",
+    "codes": [
+      "CEC"
+    ],
+    "registeredInstances": 272
+  },
+  {
+    "module": "08-sun-and-moon/set-crimson-invasion",
+    "expansion": "Crimson Invasion",
+    "codes": [
+      "CIN"
+    ],
+    "registeredInstances": 126
+  },
+  {
+    "module": "set-dragons-majesty",
+    "expansion": "Dragons Majesty",
+    "codes": [
+      "DRM"
+    ],
+    "registeredInstances": 79
+  },
+  {
+    "module": "08-sun-and-moon/set-forbidden-light",
+    "expansion": "Forbidden Light",
+    "codes": [
+      "FLI"
+    ],
+    "registeredInstances": 150
+  },
+  {
+    "module": "08-sun-and-moon/set-guardians-rising",
+    "expansion": "Guardians Rising",
+    "codes": [
+      "GRI"
+    ],
+    "registeredInstances": 180
+  },
+  {
+    "module": "set-hidden-fates",
+    "expansion": "Hidden Fates",
+    "codes": [
+      "HIF"
+    ],
+    "registeredInstances": 162
+  },
+  {
+    "module": "08-sun-and-moon/set-lost-thunder",
+    "expansion": "Lost Thunder",
+    "codes": [
+      "LOT"
+    ],
+    "registeredInstances": 243
+  },
+  {
+    "module": "set-shining-legends",
+    "expansion": "Shining Legends",
+    "codes": [
+      "SLG"
+    ],
+    "registeredInstances": 80
+  },
+  {
+    "module": "08-sun-and-moon/set-sun-and-moon",
+    "expansion": "Sun And Moon",
+    "codes": [
+      "SUM"
+    ],
+    "registeredInstances": 171
+  },
+  {
+    "module": "08-sun-and-moon/set-sun-and-moon-promos",
+    "expansion": "Sun And Moon Promos",
+    "codes": [
+      "TK10A",
+      "SMP",
+      "TK10L"
+    ],
+    "registeredInstances": 85
+  },
+  {
+    "module": "08-sun-and-moon/set-team-up",
+    "expansion": "Team Up",
+    "codes": [
+      "TEU"
+    ],
+    "registeredInstances": 208
+  },
+  {
+    "module": "08-sun-and-moon/set-ultra-prism",
+    "expansion": "Ultra Prism",
+    "codes": [
+      "UPR"
+    ],
+    "registeredInstances": 178
+  },
+  {
+    "module": "08-sun-and-moon/set-unbroken-bonds",
+    "expansion": "Unbroken Bonds",
+    "codes": [
+      "UNB"
+    ],
+    "registeredInstances": 236
+  },
+  {
+    "module": "08-sun-and-moon/set-unified-minds",
+    "expansion": "Unified Minds",
+    "codes": [
+      "UNM"
+    ],
+    "registeredInstances": 260
+  },
+  {
+    "module": "set-detective-pikachu",
+    "expansion": "Detective Pikachu",
+    "codes": [
+      "DET"
+    ],
+    "registeredInstances": 3
+  },
+  {
+    "module": "09-sword-and-shield/set-astral-radiance",
+    "expansion": "Astral Radiance",
+    "codes": [
+      "ASR"
+    ],
+    "registeredInstances": 236
+  },
+  {
+    "module": "09-sword-and-shield/set-battle-styles",
+    "expansion": "Battle Styles",
+    "codes": [
+      "BST"
+    ],
+    "registeredInstances": 183
+  },
+  {
+    "module": "09-sword-and-shield/set-brilliant-stars",
+    "expansion": "Brilliant Stars",
+    "codes": [
+      "BRS"
+    ],
+    "registeredInstances": 214
+  },
+  {
+    "module": "09-sword-and-shield/set-celebrations",
+    "expansion": "Celebrations",
+    "codes": [
+      "CEL"
+    ],
+    "registeredInstances": 48
+  },
+  {
+    "module": "09-sword-and-shield/set-chilling-reign",
+    "expansion": "Chilling Reign",
+    "codes": [
+      "CRE"
+    ],
+    "registeredInstances": 233
+  },
+  {
+    "module": "09-sword-and-shield/set-crown-zenith",
+    "expansion": "Crown Zenith",
+    "codes": [
+      "CRZ"
+    ],
+    "registeredInstances": 214
+  },
+  {
+    "module": "09-sword-and-shield/set-darkness-ablaze",
+    "expansion": "Darkness Ablaze",
+    "codes": [
+      "DAA"
+    ],
+    "registeredInstances": 201
+  },
+  {
+    "module": "09-sword-and-shield/set-evolving-skies",
+    "expansion": "Evolving Skies",
+    "codes": [
+      "EVS"
+    ],
+    "registeredInstances": 234
+  },
+  {
+    "module": "09-sword-and-shield/set-fusion-strike",
+    "expansion": "Fusion Strike",
+    "codes": [
+      "FST"
+    ],
+    "registeredInstances": 281
+  },
+  {
+    "module": "09-sword-and-shield/set-lost-origin",
+    "expansion": "Lost Origin",
+    "codes": [
+      "LOR"
+    ],
+    "registeredInstances": 231
+  },
+  {
+    "module": "09-sword-and-shield/set-pokemon-go",
+    "expansion": "Pokemon Go",
+    "codes": [
+      "PGO"
+    ],
+    "registeredInstances": 33
+  },
+  {
+    "module": "09-sword-and-shield/set-rebel-clash",
+    "expansion": "Rebel Clash",
+    "codes": [
+      "RCL"
+    ],
+    "registeredInstances": 209
+  },
+  {
+    "module": "set-shining-fates",
+    "expansion": "Shining Fates",
+    "codes": [
+      "SHF"
+    ],
+    "registeredInstances": 195
+  },
+  {
+    "module": "09-sword-and-shield/set-silver-tempest",
+    "expansion": "Silver Tempest",
+    "codes": [
+      "SIT"
+    ],
+    "registeredInstances": 230
+  },
+  {
+    "module": "09-sword-and-shield/set-sword-and-shield",
+    "expansion": "Sword And Shield",
+    "codes": [
+      "SSH",
+      "UNM",
+      "UNB"
+    ],
+    "registeredInstances": 220
+  },
+  {
+    "module": "09-sword-and-shield/set-sword-and-shield-promos",
+    "expansion": "Sword And Shield Promos",
+    "codes": [
+      "SWSH"
+    ],
+    "registeredInstances": 46
+  },
+  {
+    "module": "09-sword-and-shield/set-vivid-voltage",
+    "expansion": "Vivid Voltage",
+    "codes": [
+      "VIV"
+    ],
+    "registeredInstances": 204
+  },
+  {
+    "module": "10-scarlet-and-violet/set-scarlet-and-violet",
+    "expansion": "Scarlet And Violet",
+    "codes": [
+      "SVI"
+    ],
+    "registeredInstances": 123
+  },
+  {
+    "module": "10-scarlet-and-violet/set-scarlet-and-violet-energy",
+    "expansion": "Scarlet And Violet Energy",
+    "codes": [
+      "SVE"
+    ],
+    "registeredInstances": 24
+  },
+  {
+    "module": "10-scarlet-and-violet/set-scarlet-and-violet-promos",
+    "expansion": "Scarlet And Violet Promos",
+    "codes": [
+      "SVP",
+      "SV-P"
+    ],
+    "registeredInstances": 123
+  },
+  {
+    "module": "10-scarlet-and-violet/set-paldea-evolved",
+    "expansion": "Paldea Evolved",
+    "codes": [
+      "PAL"
+    ],
+    "registeredInstances": 123
+  },
+  {
+    "module": "10-scarlet-and-violet/set-obsidian-flames",
+    "expansion": "Obsidian Flames",
+    "codes": [
+      "OBF"
+    ],
+    "registeredInstances": 78
+  },
+  {
+    "module": "10-scarlet-and-violet/set-pokemon-151",
+    "expansion": "Pokemon 151",
+    "codes": [
+      "MEW"
+    ],
+    "registeredInstances": 102
+  },
+  {
+    "module": "10-scarlet-and-violet/set-paradox-rift",
+    "expansion": "Paradox Rift",
+    "codes": [
+      "PAR"
+    ],
+    "registeredInstances": 147
+  },
+  {
+    "module": "10-scarlet-and-violet/set-paldean-fates",
+    "expansion": "Paldean Fates",
+    "codes": [
+      "PAF",
+      "PAL"
+    ],
+    "registeredInstances": 125
+  },
+  {
+    "module": "10-scarlet-and-violet/set-temporal-forces",
+    "expansion": "Temporal Forces",
+    "codes": [
+      "TEF"
+    ],
+    "registeredInstances": 133
+  },
+  {
+    "module": "10-scarlet-and-violet/set-twilight-masquerade",
+    "expansion": "Twilight Masquerade",
+    "codes": [
+      "TWM"
+    ],
+    "registeredInstances": 153
+  },
+  {
+    "module": "10-scarlet-and-violet/set-shrouded-fable",
+    "expansion": "Shrouded Fable",
+    "codes": [
+      "SFA"
+    ],
+    "registeredInstances": 84
+  },
+  {
+    "module": "10-scarlet-and-violet/set-stellar-crown",
+    "expansion": "Stellar Crown",
+    "codes": [
+      "SCR"
+    ],
+    "registeredInstances": 91
+  },
+  {
+    "module": "10-scarlet-and-violet/set-surging-sparks",
+    "expansion": "Surging Sparks",
+    "codes": [
+      "SSP"
+    ],
+    "registeredInstances": 144
+  },
+  {
+    "module": "10-scarlet-and-violet/set-prismatic-evolution",
+    "expansion": "Prismatic Evolution",
+    "codes": [
+      "PRE"
+    ],
+    "registeredInstances": 132
+  },
+  {
+    "module": "10-scarlet-and-violet/set-journey-together",
+    "expansion": "Journey Together",
+    "codes": [
+      "JTG"
+    ],
+    "registeredInstances": 116
+  },
+  {
+    "module": "10-scarlet-and-violet/set-destined-rivals",
+    "expansion": "Destined Rivals",
+    "codes": [
+      "DRI"
+    ],
+    "registeredInstances": 199
+  },
+  {
+    "module": "10-scarlet-and-violet/set-black-bolt-white-flare",
+    "expansion": "Black Bolt White Flare",
+    "codes": [
+      "WHT",
+      "BLK",
+      "SVP"
+    ],
+    "registeredInstances": 164
+  },
+  {
+    "module": "11-mega-evolution/set-mega-evolution-promos",
+    "expansion": "Mega Evolution Promos",
+    "codes": [
+      "MEP",
+      "M-P"
+    ],
+    "registeredInstances": 47
+  },
+  {
+    "module": "11-mega-evolution/set-mega-evolution",
+    "expansion": "Mega Evolution",
+    "codes": [
+      "MEG"
+    ],
+    "registeredInstances": 129
+  },
+  {
+    "module": "11-mega-evolution/set-mega-evolution-energy",
+    "expansion": "Mega Evolution Energy",
+    "codes": [
+      "MEE"
+    ],
+    "registeredInstances": 8
+  },
+  {
+    "module": "11-mega-evolution/set-mega-starter-deck",
+    "expansion": "Mega Starter Deck",
+    "codes": [
+      "J-MEE",
+      "J-MEM",
+      "J-MEZ"
+    ],
+    "registeredInstances": 27
+  },
+  {
+    "module": "11-mega-evolution/set-phantasmal-flames",
+    "expansion": "Phantasmal Flames",
+    "codes": [
+      "PFL"
+    ],
+    "registeredInstances": 80
+  },
+  {
+    "module": "11-mega-evolution/set-ascended-heroes",
+    "expansion": "Ascended Heroes",
+    "codes": [
+      "ASC"
+    ],
+    "registeredInstances": 250
+  },
+  {
+    "module": "11-mega-evolution/set-perfect-order",
+    "expansion": "Perfect Order",
+    "codes": [
+      "POR",
+      "MEP"
+    ],
+    "registeredInstances": 125
+  },
+  {
+    "module": "11-mega-evolution/set-chaos-rising",
+    "expansion": "Chaos Rising",
+    "codes": [
+      "CRI"
+    ],
+    "registeredInstances": 122
+  },
+  {
+    "module": "11-mega-evolution/set-delta-reign",
+    "expansion": "Delta Reign",
+    "codes": [
+      "M6"
+    ],
+    "registeredInstances": 76
+  },
+  {
+    "module": "11-mega-evolution/set-pitch-black",
+    "expansion": "Pitch Black",
+    "codes": [
+      "PBL"
+    ],
+    "registeredInstances": 119
+  },
+  {
+    "module": "11-mega-evolution/set-30th-celebration",
+    "expansion": "30th Celebration",
+    "codes": [
+      "30C",
+      "M6a"
+    ],
+    "registeredInstances": 133
+  },
+  {
+    "module": "11-mega-evolution/set-mega-x-mega-parade",
+    "expansion": "Mega X Mega Parade",
+    "codes": [
+      "M7a"
+    ],
+    "registeredInstances": 4
+  },
+  {
+    "module": "11-mega-evolution/set-aura-seeker",
+    "expansion": "Aura Seeker",
+    "codes": [
+      "FLO"
+    ],
+    "registeredInstances": 3
+  },
+  {
+    "module": "04-diamond-pearl-platinum/set-legends-awakened",
+    "expansion": "Legends Awakened",
+    "codes": [
+      "LA"
+    ],
+    "registeredInstances": 20
+  },
+  {
+    "module": "04-diamond-pearl-platinum/set-stormfront",
+    "expansion": "Stormfront",
+    "codes": [
+      "SF"
+    ],
+    "registeredInstances": 29
+  },
+  {
+    "module": "04-diamond-pearl-platinum/set-majestic-dawn",
+    "expansion": "Majestic Dawn",
+    "codes": [
+      "MD"
+    ],
+    "registeredInstances": 24
+  },
+  {
+    "module": "04-diamond-pearl-platinum/set-arceus",
+    "expansion": "Arceus",
+    "codes": [
+      "AR"
+    ],
+    "registeredInstances": 21
+  }
+]

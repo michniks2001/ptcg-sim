@@ -2,7 +2,7 @@ import { mulliganDraw } from './mulligans';
 import { E } from './engine';
 import { cardView, words } from './views';
 import type { PromptView, BoardTarget } from '../shared/protocol';
-type Choice = { key: string; label: string; value: any; card?: ReturnType<typeof cardView>; boardTarget?: BoardTarget; fromTarget?: BoardTarget };
+type Choice = { key: string; label: string; value: any; card?: ReturnType<typeof cardView>; boardTarget?: BoardTarget; fromTarget?: BoardTarget; damageAmount?:number };
 export function promptSpec(p: any, state: any): { view: PromptView; choices: Choice[]; scalar: boolean } {
   const choices: Choice[] = [];
   const options = p.options || {};
@@ -17,6 +17,7 @@ export function promptSpec(p: any, state: any): { view: PromptView; choices: Cho
   let paymentInOrder: boolean | undefined;
   let ordered = false;
   let sourceZone: PromptView['sourceZone'];
+  let damageTotal:number|undefined;
   if (p instanceof E.ChooseCardsPrompt) {
     // Presentation metadata only; selection decoding/validation remains unchanged.
     if (p.cards === player.deck) { context = 'deck'; sourceZone='deck'; }
@@ -74,6 +75,36 @@ export function promptSpec(p: any, state: any): { view: PromptView; choices: Cho
         if(p.validate([value],state)) { add(value, `Move 10 damage: ${from.label} → ${to.label}`,to.list.getPokemonCard()); Object.assign(choices.at(-1)!, {boardTarget:address(to.target),fromTarget:address(from.target)}); }
       }
     }
+  } else if (p instanceof E.DiscardEnergyPrompt || p instanceof E.PutDamagePrompt) {
+    const same=(a:any,b:any)=>a.player===b.player&&a.slot===b.slot&&a.index===b.index;
+    let locations=0;
+    if(p instanceof E.PutDamagePrompt)damageTotal=p.damage;
+    for(const who of [E.PlayerType.BOTTOM_PLAYER,E.PlayerType.TOP_PLAYER]) {
+      if(p.playerType!==E.PlayerType.ANY&&p.playerType!==who)continue;
+      const owner=state.players.find((x:any)=>who===E.PlayerType.BOTTOM_PLAYER?x.id===player.id:x.id!==player.id);
+      for(const slot of p.slots)for(let index=0;index<(slot===E.SlotType.ACTIVE?1:owner.bench.length);index++){
+        const target={player:who,slot,index},list=slot===E.SlotType.ACTIVE?owner.active:owner.bench[index];
+        if(!list.getPokemonCard())continue;
+        const label=`${owner.name} · ${slot===E.SlotType.ACTIVE?'Active':`Bench ${index+1}`} · ${list.getPokemonCard().name}`;
+        if(p instanceof E.DiscardEnergyPrompt){
+          if(options.blockedFrom?.some((t:any)=>same(t,target)))continue;
+          list.cards.forEach((c:any,i:number)=>{
+            if(!(c instanceof E.EnergyCard)||!E.matchesPromptFilter(c,p.filter)||options.blockedMap?.some((b:any)=>same(b.source,target)&&b.blocked.includes(i)))return;
+            add({from:target,index:i},`${c.name} from ${label}`,c);choices.at(-1)!.fromTarget=address(target);
+          });
+        }else{
+          if(options.blocked?.some((t:any)=>same(t,target)))continue;
+          locations++;
+          const cap=p.maxAllowedDamage.find((m:any)=>same(m.target,target));
+          const increment=options.damageMultiple||10;
+          for(let damage=increment;damage<=Math.min(p.damage,cap?Math.max(0,cap.damage-list.damage):p.damage);damage+=increment){
+            add({target,damage},`Place ${damage} damage on ${label}`,list.getPokemonCard());Object.assign(choices.at(-1)!,{boardTarget:address(target),damageAmount:damage});
+          }
+        }
+      }
+    }
+    min=p instanceof E.PutDamagePrompt?options.allowPlacePartialDamage?0:1:options.min||0;
+    max=p instanceof E.PutDamagePrompt?locations:options.max??choices.length;
   } else if (p instanceof E.OrderCardsPrompt) {
     ordered = true; min = max = p.cards.cards.length;
     p.cards.cards.forEach((c: any,i: number)=>add(i,c.name,c));
@@ -107,7 +138,7 @@ export function promptSpec(p: any, state: any): { view: PromptView; choices: Cho
   } else if (p instanceof E.ShowCardsPrompt || p instanceof E.ShowMulliganPrompt || p instanceof E.AlertPrompt) {
     scalar = true; add(true, 'Continue'); displayCards = (p.hands ? p.hands.flat() : p.cards || []).map(cardView);
   } else { throw Error(`Unsupported mandatory prompt: ${p.type}`); }
-  return { view: { mulliganDraw: mulliganDraw(p, state, choices), battlefield, id: p.id, type: p.type, message: p.message === 'CHOOSE_STARTING_POKEMONS' ? 'Choose starting Pokémon' : words(p.message || p.type), min, max, cancel: !!options.allowCancel, choices: choices.map(({ value: _, ...c }) => c), displayCards, context, payment, paymentInOrder, ordered, sourceZone }, choices, scalar };
+  return { view: { damageTotal, mulliganDraw: mulliganDraw(p, state, choices), battlefield, id: p.id, type: p.type, message: p.message === 'CHOOSE_STARTING_POKEMONS' ? 'Choose starting Pokémon' : words(p.message || p.type), min, max, cancel: !!options.allowCancel, choices: choices.map(({ value: _, ...c }) => c), displayCards, context, payment, paymentInOrder, ordered, sourceZone }, choices, scalar };
 }
 export function decodeSelection(p: any, state: any, keys: unknown): any {
   const spec = promptSpec(p, state);
@@ -115,6 +146,10 @@ export function decodeSelection(p: any, state: any, keys: unknown): any {
   if (!Array.isArray(keys) || keys.some(k => typeof k !== 'string') || new Set(keys).size !== keys.length || keys.length < spec.view.min || keys.length > spec.view.max) throw Error('Select the required number of distinct choices.');
   const values = keys.map(k => { const c = spec.choices.find(c => c.key === k); if (!c) throw Error('Invalid choice.'); return c.value; });
   const decoded = p.decode(spec.scalar ? values[0] : values, state);
+  if(p instanceof E.PutDamagePrompt){
+    if(new Set(decoded.map((r:any)=>JSON.stringify(r.target))).size!==decoded.length)throw Error('Choose one damage amount per target.');
+    if(decoded.reduce((n:number,r:any)=>n+r.damage,0)>p.damage)throw Error('Too much damage selected.');
+  }
   if (p instanceof E.AttachEnergyPrompt || p instanceof E.MoveEnergyPrompt) {
     if (new Set(decoded.map((t: any)=>t.card)).size !== decoded.length) throw Error('Each Energy card can only be moved once.');
   }

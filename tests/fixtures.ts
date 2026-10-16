@@ -39,6 +39,19 @@ export function fixture(name: string, options: MatchOptions = {}) {
     p.active.damage = 40; q.active.cards.push(card('Fighting Energy')); m.state.activePlayer = 1;
   }
   if (name === 'rain-dance') { p.active.cards = [card('Blastoise')]; p.hand.cards = [card('Water Energy'),card('Water Energy'),card('Water Energy'),card('Fire Energy')]; }
+  if (['ice-dance','super-cold','excited-turbo'].includes(name)) {
+    const other=(fullName:string)=>{const c=E.CardManager.getInstance().getCardByName(fullName);if(!c)throw Error(fullName);c.id=id++;return c;};
+    p.active.cards=[other(name==='ice-dance'?'Frosmoth SSH':name==='super-cold'?'Baxcalibur PAL':'Oricorio ex M2')];
+    p.bench[0].cards=[card(name==='excited-turbo'?'Charmander':'Squirtle')];
+    p.bench[1].cards=[card(name==='excited-turbo'?'Squirtle':'Charmander')];
+    p.hand.cards=[card(name==='excited-turbo'?'Fire Energy':'Water Energy'),card(name==='excited-turbo'?'Fire Energy':'Water Energy'),card('Double Colorless Energy')];
+    if(name==='excited-turbo') {
+      const mega=E.CardManager.getInstance().getAllCards().find((c:any)=>c.tags.includes(E.CardTag.POKEMON_SV_MEGA)&&c.tags.includes(E.CardTag.POKEMON_ex)&&c.cardType?.includes(E.CardType.FIRE));
+      if(!mega)throw Error('No Fire Mega Evolution Pokémon ex implementation.');
+      p.bench[2].cards=[other(mega.fullName)];
+    }
+    m.state.rules=new E.Rules({firstTurnUseSupporter:false});
+  }
   if (name === 'gust') p.hand.cards = [card('Gust of Wind')];
   if (name === 'energy-trans') { p.active.cards=[card('Venusaur'),card('Grass Energy'),card('Grass Energy')]; p.hand.cards=[]; }
   if (name === 'damage-swap') { p.active.cards=[card('Alakazam')]; p.active.damage=20; p.hand.cards=[]; }

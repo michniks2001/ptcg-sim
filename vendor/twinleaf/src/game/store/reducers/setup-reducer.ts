@@ -368,6 +368,7 @@ function* alternativeSetupSinglePlayer(player: Player, chooseCardsOptions: any, 
 
 function* decideStartingPlayer(next: Function, store: StoreLike, state: State): IterableIterator<State> {
   const player = state.players[0];
+  const opponent = state.players[1];
   // 1. Decide who goes first
   const whoBeginsEffect = new WhoBeginsEffect();
   store.reduceEffect(state, whoBeginsEffect);

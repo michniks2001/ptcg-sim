@@ -79,7 +79,7 @@ export class Alakazam extends PokemonCard {
   public reduceEffect(store: StoreLike, state: State, effect: Effect): State {
 
     if (WAS_POWER_USED(effect, 0, this)) {
-      BLOCK_IF_ASLEEP_CONFUSED_PARALYZED(effect.player, this);
+      BLOCK_IF_ASLEEP_CONFUSED_PARALYZED(effect.player, this, state);
       const generator = useDamageSwap(() => generator.next(), store, state, effect);
       return generator.next().value;
     }

@@ -1,0 +1,20 @@
+{
+  "engineRevision": "a8b6fe9075f982f7722e3c9ee2ce5e39cea1f1ca",
+  "comparedRevision": "e7a1c390ae077f01cdc251c98b1d83e576c4c228",
+  "discoveredModules": 162,
+  "importedModules": 160,
+  "registeredExecutableIdentities": 13791,
+  "distinctEffectFunctions": 8981,
+  "catalogEntries": 13792,
+  "selectableEntries": 13711,
+  "quarantinedEntries": 80,
+  "conflictingOfficialPrintings": 40,
+  "missingKnownImplementation": [
+    "Gastly BS #50"
+  ],
+  "officialPrintingDatasetSize": 20635,
+  "matchedOfficialPrintings": 12854,
+  "unmatchedExecutableMetadata": 898,
+  "representativeTestedIdentities": 23,
+  "metadataRevision": "39a26a144c8b6ef6c2fb17b2c29d0bb7121e3a11"
+}

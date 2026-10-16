@@ -12,6 +12,12 @@ function publicAttachments(state:any) {
 // Observes the live adapter Store only. Speculative action/effect probes never use
 // this wrapper. Failed dispatches publish nothing; all randomness stays in Arbiter.
 export class GameplayEvents {
+  private quietAbility = false;
+  private quietAbilityNames = new Set<string>();
+  repeatAbility(player:number, label?:string) {
+    for(const key of this.quietAbilityNames)if(key.startsWith(`${player}:`))this.quietAbilityNames.delete(key);
+    if(label)this.quietAbilityNames.add(`${player}:${label}`);
+  }
   private sequence=0;
   private playedTrainers = new Map<number,CardView>();
   private recent:GameplayEvent[]=[];
@@ -28,13 +34,17 @@ export class GameplayEvents {
       }else if(message==='LOG_PLAYER_USES_ATTACK'){
         const card=actor?.active.getPokemonCard();
         this.pending.push({kind:'attack',text:`${card?.name||params.name} used ${params.attack}!`,card:card?cardView(card):undefined,target:actor?{playerId:actor.id,slot:'active',index:0}:undefined});
-      }else if(message==='LOG_PLAYER_PLAYS_ITEM'){
+      }else if(message==='LOG_PLAYER_USES_ABILITY' && !this.quietAbility && !this.quietAbilityNames.has(`${actor?.id}:${params.ability}`)){
+        const card=[actor?.active,...(actor?.bench||[])].map(l=>l?.getPokemonCard()).find(c=>c?.powers.some((p:any)=>p.name===params.ability));
+        this.pending.push({kind:'ability',text:`${card?.name||params.name} used ${params.ability}!`,card:card?cardView(card):undefined});
+      }else if(message==='LOG_PLAYER_PLAYS_ITEM'||message==='LOG_PLAYER_PLAYS_SUPPORTER'||message==='LOG_PLAYER_PLAYS_STADIUM'){
         const card=this.playedTrainers.get(actor?.id);
         this.pending.push({kind:'trainer',text:`${params.card} — Trainer played`,card:card?.name===params.card?card:undefined});
       }
     };
   }
-  dispatch(action:any) {
+  dispatch(action:any, quietAbility = false) {
+    this.quietAbility=quietAbility;
     const before=publicAttachments(this.store.state);this.pending=[];
     const previousTrainer=this.playedTrainers.get(action.id);
     if(action.type==='PLAY_CARD_ACTION'){
@@ -53,7 +63,7 @@ export class GameplayEvents {
     } catch(error){
       if(action.type==='PLAY_CARD_ACTION'){if(previousTrainer)this.playedTrainers.set(action.id,previousTrainer);else this.playedTrainers.delete(action.id);}
       throw error;
-    } finally {this.pending=[];}
+    } finally {this.pending=[];this.quietAbility=false;}
   }
   view(){return this.recent;}
 }

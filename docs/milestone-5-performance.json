@@ -1,0 +1,24 @@
+{
+  "importAndRegistryMs": 1173.498032,
+  "catalogEntries": 13792,
+  "search": {
+    "medianMs": 0.9084600000001046,
+    "p95Ms": 1.5477500000001783
+  },
+  "validation": {
+    "medianMs": 0.010550999999850319,
+    "p95Ms": 0.020886000000018612
+  },
+  "initialMatch": {
+    "medianMs": 1.6724219999998695,
+    "p95Ms": 2.554606000000149
+  },
+  "legalActionRefresh": {
+    "medianMs": 31.50528099999974,
+    "p95Ms": 39.79292299999997
+  },
+  "repeatedCounter": {
+    "medianMs": 19.345084999999926,
+    "p95Ms": 33.460865999999896
+  }
+}

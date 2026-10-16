@@ -13,7 +13,7 @@ function EnergySymbol({card}:{card:CardView}) {
   const printing=energyArt[card.provides?.[0] || ''];
   return printing ? <svg className="energy-symbol" viewBox="64 170 114 114" aria-hidden="true"><image href={`/cards/base1/${printing}.png`} width="240" height="330"/></svg> : <img src={card.image} alt=""/>;
 }
-export type BoardInteraction = { active:boolean; eligible:string[]; selectedTargets:string[]; click:(t:BoardTarget)=>void; disabled:boolean };
+export type BoardInteraction = { active:boolean; eligible:string[]; selectedTargets:string[]; click:(t:BoardTarget)=>void; disabled:boolean; sourceCardIds?:number[]; selectSourceCard?:(id:number)=>void };
 export function Pokemon({ pokemon, onClick, inspect, effects, target, interaction, label }: { pokemon: PokemonView; onClick: () => void; inspect:(c:CardView)=>void; effects:(title:string,e:EffectView[])=>void; target:BoardTarget; interaction:BoardInteraction; label: string }) {
   const eligible=interaction.eligible.includes(targetKey(target));
   const selected=interaction.selectedTargets.includes(targetKey(target));
@@ -25,7 +25,7 @@ export function Pokemon({ pokemon, onClick, inspect, effects, target, interactio
     {pokemon.damage>0 && <span className="damage" aria-label={`${pokemon.damage} damage`}>{pokemon.damage}</span>}
     <div className="pokemon-details"><div className="pokemon-markers">{pokemon.conditions.map(condition=><button key={condition} disabled={interaction.active} className={`status-counter ${condition.toLowerCase()}`} aria-label={`Inspect ${condition.toLowerCase()} condition on ${pokemon.card!.name}`} title={condition} onClick={()=>effects(pokemon.card!.name+' · Conditions',pokemon.conditionDetails||[])}>{condition==='POISONED'?'☠':condition==='BURNED'?'🔥':condition==='ASLEEP'?'Zz':condition==='PARALYZED'?'ϟ':'↻'}</button>)}
     {!!pokemon.effects?.length && <button className="effect-badge" disabled={interaction.active} aria-label={`Inspect effects on ${pokemon.card.name}`} onClick={()=>effects(pokemon.card!.name+' · Effects',pokemon.effects!)}>!</button>}</div>
-    <div className="attachments" aria-label={`Cards attached to ${pokemon.card.name}`}>{attachments.map(({card,kind})=><button key={card.id} className={`attachment ${kind} energy-${card.provides?.[0]?.toLowerCase()}`} disabled={interaction.active} title={card.name} aria-label={`Inspect attached ${card.name}${kind==='tool'?' · Pokémon Tool':kind==='attachment'?' · attached card':''}`} onClick={()=>inspect(card)}>{(kind==='basic-energy'||kind==='special-energy')?<EnergySymbol card={card}/>:<><img src={card.image} alt="" onError={e=>{e.currentTarget.hidden=true;}}/><span>{kind==='tool'?'Tool':card.name}</span></>}</button>)}</div></div>
+    <div className="attachments" aria-label={`Cards attached to ${pokemon.card.name}`}>{attachments.map(({card,kind})=><button key={card.id} className={`attachment ${interaction.sourceCardIds?.includes(card.id)?'legal-source':''} ${kind} energy-${card.provides?.[0]?.toLowerCase()}`} disabled={interaction.disabled || (interaction.active && !interaction.sourceCardIds?.includes(card.id))} title={card.name} aria-label={`Inspect attached ${card.name}${kind==='tool'?' · Pokémon Tool':kind==='attachment'?' · attached card':''}`} onClick={()=>interaction.sourceCardIds?.includes(card.id)?interaction.selectSourceCard?.(card.id):inspect(card)}>{(kind==='basic-energy'||kind==='special-energy')?<EnergySymbol card={card}/>:<><img src={card.image} alt="" onError={e=>{e.currentTarget.hidden=true;}}/><span>{kind==='tool'?'Tool':card.name}</span></>}</button>)}</div></div>
     </> : <div className="pokemon-art"><div className={`empty-slot ${pokemon.hidden?'card-back':''}`}>{pokemon.hidden?'★':label}</div></div>}
   </div>;
 }
@@ -35,6 +35,7 @@ export function Side({ player, opponent, select, openPile, effects, interaction 
   const topDiscard=player.discard.at(-1);
   return <section className={`side ${opponent?'opponent':'human'}`} aria-label={opponent?'Opponent battlefield':'Your battlefield'}>
     <div className="seat-label"><span>{opponent?'OPPONENT':'YOU'}</span><strong>{player.name}</strong>{opponent&&<span>{player.handCount} in hand</span>}</div>
+    {!!(player.stadium?.length||player.lostZone?.length||player.usedGX||player.usedVSTAR)&&<details className="public-zones"><summary>Public zones{player.usedGX?' · GX used':''}{player.usedVSTAR?' · VSTAR used':''}</summary>{player.stadium?.map(c=><button key={c.id} disabled={interaction.active} onClick={()=>select(c,'stadium')}>Stadium · {c.name}</button>)}{!!player.lostZone?.length&&<div>Lost Zone · {player.lostZone.length}{player.lostZone.map(c=><button key={c.id} disabled={interaction.active} onClick={()=>select(c,'lost-zone')}>{c.name}</button>)}</div>}</details>}
     <div className="active-area"><span className="zone-label">ACTIVE</span>{pokemon(player.active,0,'active')}</div>
     <div className="bench-area"><span className="zone-label">BENCH</span><div className="bench">{player.bench.map((p,i)=>pokemon(p,i,'bench'))}</div></div>
     <div className="prize-area" role="group" aria-label={`${opponent?'Opponent':'Your'} Prizes: ${player.prizes} remaining`}>

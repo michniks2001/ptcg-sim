@@ -6,7 +6,7 @@ import { Effect } from '../../game/store/effects/effect';
 import { State } from '../../game/store/state/state';
 import { StoreLike } from '../../game/store/store-like';
 import { CardTarget, Card, GameError, GameMessage, PlayerType, SlotType, StateUtils } from '../..';
-import {BLOCK_IF_HAS_SPECIAL_CONDITION, IS_POKEMON_POWER_BLOCKED, WAS_POWER_USED, MOVE_CARDS } from '../../game/store/prefabs/prefabs';
+import {BLOCK_IF_ASLEEP_CONFUSED_PARALYZED, IS_POKEMON_POWER_BLOCKED, WAS_POWER_USED, MOVE_CARDS } from '../../game/store/prefabs/prefabs';
 import { CheckProvidedEnergyEffect } from '../../game/store/effects/check-effects';
 
 export class Venusaur extends PokemonCard {
@@ -47,7 +47,7 @@ export class Venusaur extends PokemonCard {
         throw new GameError(GameMessage.BLOCKED_BY_EFFECT);
       }
 
-      BLOCK_IF_HAS_SPECIAL_CONDITION(player, this);
+      BLOCK_IF_ASLEEP_CONFUSED_PARALYZED(player, this, state);
 
       const blockedMap: { source: CardTarget, blocked: number[] }[] = [];
       player.forEachPokemon(PlayerType.BOTTOM_PLAYER, (cardList, card, target) => {

@@ -14,6 +14,11 @@ export class Rules {
   public firstTurnDrawCard = true;
 
   public firstTurnUseSupporter = true;
+  public firstTurnUseTrainer = true;
+  public unlimitedStadium = false;
+  public replaceSameNameStadium = false;
+  public legacyBurn = false;
+  public pre2002PowerConditions = false;
 
   public attackFirstTurn = false;
 

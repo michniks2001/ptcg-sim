@@ -1,0 +1,69 @@
+{
+  "legacyAndLaboratory": [
+    {
+      "formatId": "base-fossil-1999",
+      "opponent": "haymaker",
+      "turn": 61,
+      "decisions": 174,
+      "winner": 0
+    },
+    {
+      "formatId": "engine-sandbox",
+      "opponent": "haymaker",
+      "turn": 37,
+      "decisions": 144,
+      "winner": 0
+    },
+    {
+      "formatId": "base-fossil-1999",
+      "opponent": "rain-dance",
+      "turn": 43,
+      "decisions": 174,
+      "winner": 0
+    },
+    {
+      "formatId": "engine-sandbox",
+      "opponent": "rain-dance",
+      "turn": 33,
+      "decisions": 107,
+      "winner": 1
+    },
+    {
+      "formatId": "base-fossil-1999",
+      "opponent": "wigglytuff",
+      "turn": 25,
+      "decisions": 78,
+      "winner": 1
+    },
+    {
+      "formatId": "engine-sandbox",
+      "opponent": "wigglytuff",
+      "turn": 17,
+      "decisions": 70,
+      "winner": 0
+    }
+  ],
+  "worlds2024": [
+    {
+      "opponent": "iron-thorns-2024",
+      "turns": 27,
+      "decisions": 125,
+      "attacks": 6,
+      "winner": 1
+    },
+    {
+      "opponent": "roaring-moon-2024",
+      "turns": 13,
+      "decisions": 57,
+      "attacks": 1,
+      "winner": 1
+    },
+    {
+      "opponent": "miraidon-2024",
+      "turns": 9,
+      "decisions": 46,
+      "attacks": 3,
+      "winner": 1
+    }
+  ]
+}

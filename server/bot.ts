@@ -96,6 +96,11 @@ export function chooseAdvancedAction(actions:ActionView[],me:PlayerView,opponent
   return [...actions].sort((a,b)=>score(b)-score(a))[0];
 }
 export function chooseAdvancedPrompt(p:PromptView,me:PlayerView,opponent:PlayerView):string[] {
+  if(p.damageTotal!==undefined){
+    let remaining=p.damageTotal;const result:string[]=[],targets=new Set<string>();
+    for(const c of [...p.choices].sort((a,b)=>(b.damageAmount||0)-(a.damageAmount||0))){const target=JSON.stringify(c.boardTarget);if(!targets.has(target)&&c.damageAmount&&c.damageAmount<=remaining){result.push(c.key);remaining-=c.damageAmount;targets.add(target);}}
+    return result;
+  }
   if(p.ordered)return p.choices.map(c=>c.key);
   const own=[me.active,...me.bench], enemy=[opponent.active,...opponent.bench];
   const value=(choice:PromptView['choices'][number])=>{

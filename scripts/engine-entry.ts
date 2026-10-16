@@ -1,4 +1,5 @@
 export * from '../vendor/twinleaf/src/game';
+export { expansionSets } from './card-sets';
 export { Arbiter } from '../vendor/twinleaf/src/game/core/arbiter';
 export { deepClone } from '../vendor/twinleaf/src/utils/utils';
 export { Charmander } from '../vendor/twinleaf/src/sets/set-base-set/charmander';
